@@ -32,9 +32,9 @@ extension InlineSVG.Test.Unit {
                         cy: 50,
                         r: 40
                     )
-                        .fill("red")
-                        .stroke("black")
-                        .strokeWidth(3)
+                    .fill("red")
+                    .stroke("black")
+                    .strokeWidth(3)
                 }
             }
         }
