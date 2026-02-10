@@ -15,6 +15,11 @@ extension DarkModeColor {
     #TestSuites
 }
 
+extension DarkModeColor.Test {
+    @Suite(.snapshots(record: .failed))
+    public struct Snapshot {}
+}
+
 // MARK: - Unit Tests
 
 extension DarkModeColor.Test.Unit {

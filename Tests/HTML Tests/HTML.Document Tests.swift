@@ -9,11 +9,17 @@ import CSS
 import CSS_Standard
 import HTML
 import HTML_Rendering_TestSupport
+import Layout
 import StandardsTestSupport
 import Testing
 
 enum HTMLDocumentTests {
     #TestSuites
+}
+
+extension HTMLDocumentTests.Test {
+    @Suite(.snapshots(record: .failed))
+    public struct Snapshot {}
 }
 
 // MARK: - Unit Tests
@@ -90,7 +96,7 @@ extension HTMLDocumentTests.Test.Unit {
     func darkModeSupport() throws {
         let adaptiveContent = p { "Adaptive text" }
             .css.color(.gray900)
-            .css.backgroundColor(HTMLColor(light: .white, dark: .gray900))
+            .css.backgroundColor(DarkModeColor(light: .white, dark: .gray900))
 
         let string = try String(adaptiveContent)
 
@@ -137,7 +143,7 @@ private struct _CustomButton: HTML.View {
                 div {
                     h1 { "Welcome to swift-html" }
                         .css
-                        .color(HTMLColor(light: .red, dark: .red))
+                        .color(DarkModeColor(light: .red, dark: .red))
                         .fontSize(.rem(2.5))
 
                     p { "Build beautiful, type-safe web pages with Swift" }
@@ -150,7 +156,7 @@ private struct _CustomButton: HTML.View {
                     }
                     .css
                     .padding(.rem(1))
-                    .css.backgroundColor(HTMLColor(light: .yellow, dark: .yellow))
+                    .css.backgroundColor(DarkModeColor(light: .yellow, dark: .yellow))
                     .color(.white)
                     .borderRadius(.px(8))
                     .textDecoration(TextDecoration.none)
