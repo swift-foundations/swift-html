@@ -7,6 +7,7 @@
 
 import Foundation
 import HTML
+import HTML_Rendering_TestSupport
 import SVG
 import SVG_Standard
 import StandardsTestSupport
@@ -26,7 +27,11 @@ extension InlineSVG.Test.Unit {
 
             InlineSVG {
                 svg(width: 100, height: 100) {
-                    circle(cx: 50, cy: 50, r: 40)
+                    circle(
+                        cx: 50,
+                        cy: 50,
+                        r: 40
+                    )
                         .fill("red")
                         .stroke("black")
                         .strokeWidth(3)
@@ -58,7 +63,14 @@ extension InlineSVG.Test.Unit {
             p { "Before SVG" }
 
             InlineSVG {
-                svg(viewBox: .init(minX: 0, minY: 0, width: 100, height: 100)) {
+                svg(
+                    viewBox: .init(
+                        minX: 0,
+                        minY: 0,
+                        width: 100,
+                        height: 100
+                    )
+                ) {
                     rect(x: 10, y: 10, width: 80, height: 80)
                         .fill("green")
                 }
