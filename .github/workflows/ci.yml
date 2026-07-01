@@ -9,122 +9,18 @@ on:
       - main
   workflow_dispatch:
 
-env:
-  PRIVATE_REPO_TOKEN: ${{ secrets.PRIVATE_REPO_TOKEN }}
-
 concurrency:
   group: ci-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
-  # Primary development workflow: Latest Swift on macOS with debug build
-  macos-latest:
-    name: macOS (Swift 6.2, debug)
-    runs-on: macos-26
-    steps:
-      - uses: actions/checkout@v5
+  # Build + test matrix — see swift-foundations/.github/.github/workflows/swift-ci.yml (layer wrapper)
+  ci:
+    uses: swift-foundations/.github/.github/workflows/swift-ci.yml@main
+    secrets: inherit
 
-      - name: Configure private repo access
-        run: git config --global url."https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/".insteadOf "https://github.com/"
-
-      - name: Select Xcode 26.0
-        run: sudo xcode-select -s /Applications/Xcode_26.0.app
-
-      - name: Print Swift version
-        run: swift --version
-
-      - name: Cache Swift packages
-        uses: actions/cache@v4
-        with:
-          path: .build
-          key: ${{ runner.os }}-spm-${{ hashFiles('Package.swift') }}
-          restore-keys: |
-            ${{ runner.os }}-spm-
-
-      # Note: swift test builds automatically, no separate build step needed
-      - name: Test
-        run: swift test -c debug
-
-      - name: Validate Package.swift
-        run: swift package dump-package
-
-      - name: Run README verification tests
-        run: swift test --filter ReadmeVerificationTests
-
-      - name: Check for API breaking changes
-        run: |
-          swift package diagnose-api-breaking-changes \
-            --breakage-allowlist-path .swift-api-breakage-allowlist || true
-        continue-on-error: true
-
-  # Production validation: Latest Swift on Linux with release build
-  linux-latest:
-    name: Ubuntu (Swift 6.2, release)
-    runs-on: ubuntu-latest
-    container: swift:6.2
-    steps:
-      - uses: actions/checkout@v5
-
-      - name: Configure private repo access
-        run: git config --global url."https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/".insteadOf "https://github.com/"
-
-      - name: Cache Swift packages
-        uses: actions/cache@v4
-        with:
-          path: .build
-          key: ${{ runner.os }}-spm-${{ hashFiles('Package.swift') }}
-          restore-keys: ${{ runner.os }}-spm-
-
-      # Note: swift test builds automatically in release mode
-      - name: Test (release)
-        run: swift test -c release
-
-  # Compatibility check: Minimum supported Swift version (6.2)
-  linux-compat:
-    name: Ubuntu (Swift 6.2, compatibility)
-    runs-on: ubuntu-latest
-    container: swift:6.2
-    steps:
-      - uses: actions/checkout@v5
-
-      - name: Configure private repo access
-        run: git config --global url."https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/".insteadOf "https://github.com/"
-
-      - name: Cache Swift packages
-        uses: actions/cache@v4
-        with:
-          path: .build
-          key: ${{ runner.os }}-swift62-compat-spm-${{ hashFiles('Package.swift') }}
-          restore-keys: ${{ runner.os }}-swift62-compat-spm-
-
-      # Note: swift test builds automatically
-      - name: Test (Swift 6.2)
-        run: swift test -c release
-
-  # Windows validation
-  windows-latest:
-    name: Windows (Swift 6.2)
-    runs-on: windows-latest
-    steps:
-      - uses: actions/checkout@v6
-
-      - name: Configure private repo access
-        run: git config --global url."https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/".insteadOf "https://github.com/"
-
-      - name: Install Swift
-        uses: SwiftyLab/setup-swift@latest
-        with:
-          swift-version: "6.2"
-
-      - name: Print Swift version
-        run: swift --version
-
-      - name: Cache Swift packages
-        uses: actions/cache@v5
-        with:
-          path: .build
-          key: windows-swift62-spm-v3-${{ hashFiles('Package.swift', 'Package@*.swift') }}
-          restore-keys: windows-swift62-spm-
-
-      - name: Build
-        run: swift build -c release -Xswiftc -gnone
+  # DocC umbrella-catalog pipeline per [DOC-019a] — see
+  # swift-foundations/.github/.github/workflows/swift-docs.yml
+  docs:
+    uses: swift-foundations/.github/.github/workflows/swift-docs.yml@main
+    secrets: inherit

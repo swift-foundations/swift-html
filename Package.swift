@@ -1,4 +1,4 @@
-// swift-tools-version:6.2
+// swift-tools-version: 6.3.1
 
 import PackageDescription
 
@@ -11,19 +11,16 @@ extension Target.Dependency {
 }
 
 extension Target.Dependency {
-    static var htmlRendering: Self { .product(name: "HTML Rendering", package: "swift-html-rendering") }
-    static var htmlRenderableTestSupport: Self { .product(name: "HTML Rendering TestSupport", package: "swift-html-rendering") }
-    static var markdownHtmlRendering: Self { .product(name: "Markdown HTML Rendering", package: "swift-markdown-html-rendering") }
+    static var htmlRendering: Self { .product(name: "HTML Rendering", package: "swift-html-render") }
+    static var htmlRenderingCoreTestSupport: Self { .product(name: "HTML Rendering Core Test Support", package: "swift-html-render") }
+    static var markdownHtmlRendering: Self { .product(name: "Markdown HTML Rendering", package: "swift-markdown-html-render") }
     static var css: Self { .product(name: "CSS", package: "swift-css") }
     static var cssTheming: Self { .product(name: "CSS Theming", package: "swift-css") }
-    static var translating: Self { .product(name: "Translating", package: "swift-translating") }
-    static var standards: Self { .product(name: "Standards", package: "swift-standards") }
-    static var layout: Self { .product(name: "Layout", package: "swift-standards") }
-    static var colorStandard: Self { .product(name: "Color Standard", package: "swift-color-standard") }
-    static var cssStandard: Self { .product(name: "CSS Standard", package: "swift-css-standard") }
+    static var color: Self { .product(name: "Color", package: "swift-color") }
     static var rfc4648: Self { .product(name: "RFC 4648", package: "swift-rfc-4648") }
     static var whatwgFormURLEncoded: Self { .product(name: "WHATWG Form URL Encoded", package: "swift-whatwg-url") }
-    static var standardsTestSupport: Self { .product(name: "StandardsTestSupport", package: "swift-standards") }
+    static var bytePrimitives: Self { .product(name: "Byte Primitives", package: "swift-byte-primitives") }
+    static var bytePrimitivesStandardLibraryIntegration: Self { .product(name: "Byte Primitives Standard Library Integration", package: "swift-byte-primitives") }
 }
 
 let package = Package(
@@ -38,23 +35,15 @@ let package = Package(
     products: [
         .library(name: .html, targets: [.html]),
     ],
-    traits: [
-        .trait(
-            name: "Translating",
-            description: "Include TranslatedString integration for internationalization support"
-        )
-    ],
     dependencies: [
-        .package(url: "https://github.com/coenttb/swift-html-rendering", from: "0.1.15"),
-        .package(url: "https://github.com/coenttb/swift-markdown-html-rendering", from: "0.1.3"),
-        .package(url: "https://github.com/coenttb/swift-css", from: "0.6.1"),
-        .package(url: "https://github.com/coenttb/swift-svg", from: "0.3.0"),
-        .package(url: "https://github.com/coenttb/swift-translating", from: "0.3.0"),
-        .package(url: "https://github.com/swift-standards/swift-standards", from: "0.20.0"),
-        .package(url: "https://github.com/swift-standards/swift-rfc-4648", from: "0.6.0"),
-        .package(url: "https://github.com/swift-standards/swift-whatwg-url", from: "0.2.5"),
-        .package(url: "https://github.com/swift-standards/swift-color-standard", from: "0.1.0"),
-        .package(url: "https://github.com/swift-standards/swift-css-standard", from: "0.1.7")
+        .package(url: "https://github.com/swift-foundations/swift-html-render.git", branch: "main"),
+        .package(url: "https://github.com/swift-foundations/swift-markdown-html-render.git", branch: "main"),
+        .package(url: "https://github.com/swift-foundations/swift-css.git", branch: "main"),
+        .package(url: "https://github.com/swift-foundations/swift-svg.git", branch: "main"),
+        .package(url: "https://github.com/swift-ietf/swift-rfc-4648.git", branch: "main"),
+        .package(url: "https://github.com/swift-whatwg/swift-whatwg-url.git", branch: "main"),
+        .package(url: "https://github.com/swift-foundations/swift-color.git", branch: "main"),
+        .package(url: "https://github.com/swift-primitives/swift-byte-primitives.git", branch: "main"),
     ],
     targets: [
         .target(
@@ -63,39 +52,22 @@ let package = Package(
                 .htmlRendering,
                 .css,
                 .cssTheming,
-                .cssStandard,
                 .markdownHtmlRendering,
-                .standards,
-                .colorStandard,
+                .color,
                 .rfc4648,
                 .whatwgFormURLEncoded,
+                .bytePrimitives,
+                .bytePrimitivesStandardLibraryIntegration,
                 .product(name: "SVG", package: "swift-svg"),
-                .product(
-                    name: "Translating",
-                    package: "swift-translating",
-                    condition: .when(traits: ["Translating"])
-                )
-            ],
-            swiftSettings: [
-                .define("TRANSLATING", .when(traits: ["Translating"]))
             ]
         ),
         .testTarget(
             name: .html.tests,
             dependencies: [
                 .html,
-                .htmlRenderableTestSupport,
-                .standardsTestSupport,
-                .layout,
-                .product(
-                    name: "Translating",
-                    package: "swift-translating",
-                    condition: .when(traits: ["Translating"])
-                )
+                .htmlRenderingCoreTestSupport,
             ],
-            swiftSettings: [
-                .define("TRANSLATING", .when(traits: ["Translating"]))
-            ]
+            path: "Tests/HTML Tests"
         )
     ],
     swiftLanguageModes: [.v6]
@@ -106,11 +78,21 @@ extension String {
     var foundation: Self { self + " Foundation" }
 }
 
-for target in package.targets where ![.system, .binary, .plugin].contains(target.type) {
-    let existing = target.swiftSettings ?? []
-    target.swiftSettings = existing + [
+for target in package.targets where ![.system, .binary, .plugin, .macro].contains(target.type) {
+    let ecosystem: [SwiftSetting] = [
+        .strictMemorySafety(),
         .enableUpcomingFeature("ExistentialAny"),
         .enableUpcomingFeature("InternalImportsByDefault"),
-        .enableUpcomingFeature("MemberImportVisibility")
+        .enableUpcomingFeature("MemberImportVisibility"),
+        .enableUpcomingFeature("NonisolatedNonsendingByDefault"),
+        .enableExperimentalFeature("LifetimeDependence"),
+        .enableExperimentalFeature("Lifetimes"),
+        .enableExperimentalFeature("SuppressedAssociatedTypes"),
+        .enableUpcomingFeature("InferIsolatedConformances"),
+        .enableUpcomingFeature("LifetimeDependence"),
     ]
+
+    let package: [SwiftSetting] = []
+
+    target.swiftSettings = (target.swiftSettings ?? []) + ecosystem + package
 }

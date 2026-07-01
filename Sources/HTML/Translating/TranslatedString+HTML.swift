@@ -8,17 +8,22 @@
 import HTML_Rendering
 
 #if TRANSLATING
-    import Translating
+public import Translating
 
-    extension TranslatedString: @retroactive HTML {
-        public var body: some HTML.View {
-            HTML.Text("\(self)")
-        }
-    }
+extension TranslatedString: @retroactive Renderable {
+    public typealias Context = HTML.Context
+    public typealias RenderOutput = UInt8
+}
 
-    extension HTML.Text {
-        public init(_ translatedString: TranslatedString) {
-            self = .init("\(translatedString)")
-        }
+extension TranslatedString: @retroactive HTML.View {
+    public var body: some HTML.View {
+        HTML.Text("\(self)")
     }
+}
+
+extension HTML.Text {
+    public init(_ translatedString: TranslatedString) {
+        self = .init("\(translatedString)")
+    }
+}
 #endif

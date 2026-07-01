@@ -7,34 +7,39 @@
 
 import Foundation
 import HTML
-import HTML_Rendering_TestSupport
+import HTML_Rendering_Core_Test_Support
 import SVG
 import SVG_Standard
-import StandardsTestSupport
 import Testing
 
 extension InlineSVG {
-    #TestSuites
+    @Suite enum Test {
+        @Suite struct Unit {}
+        @Suite struct EdgeCase {}
+    }
 }
 
 // MARK: - Unit Tests
 
 extension InlineSVG.Test.Unit {
-    @Test("InlineSVG renders correctly in HTML")
-    func inlineSVGRendering() throws {
+    @Test
+    func `InlineSVG renders correctly in HTML`() throws {
         let html = div {
             h1 { "SVG Test" }
 
             InlineSVG {
-                svg(width: 100, height: 100) {
+                svg(
+                    width: 100,
+                    height: 100
+                ) {
                     circle(
-                        cx: 50,
-                        cy: 50,
-                        r: 40
+                        cx: .init(50),
+                        cy: .init(50),
+                        r: .init(40)
                     )
-                    .fill("red")
-                    .stroke("black")
-                    .strokeWidth(3)
+                        .fill("red")
+                        .stroke("black")
+                        .strokeWidth(3)
                 }
             }
         }
@@ -57,21 +62,21 @@ extension InlineSVG.Test.Unit {
         #expect(renderedString.contains(#"</div>"#))
     }
 
-    @Test("Mixed HTML and SVG content")
-    func mixedContent() throws {
+    @Test
+    func `Mixed HTML and SVG content`() throws {
         let html = div {
             p { "Before SVG" }
 
             InlineSVG {
                 svg(
                     viewBox: .init(
-                        minX: 0,
-                        minY: 0,
-                        width: 100,
-                        height: 100
+                        minX: .init(0),
+                        minY: .init(0),
+                        width: .init(100),
+                        height: .init(100)
                     )
                 ) {
-                    rect(x: 10, y: 10, width: 80, height: 80)
+                    rect(x: .init(10), y: .init(10), width: .init(80), height: .init(80))
                         .fill("green")
                 }
             }
@@ -88,8 +93,8 @@ extension InlineSVG.Test.Unit {
         #expect(renderedString.contains("<p>After SVG</p>"))
     }
 
-    @Test("svgRaw function works")
-    func svgRawFunction() throws {
+    @Test
+    func `svgRaw function works`() throws {
         let html = div {
             p { "Using raw SVG" }
             svg(
@@ -108,10 +113,10 @@ extension InlineSVG.Test.Unit {
         #expect(renderedString.contains("<circle cx=\"25\" cy=\"25\" r=\"20\" fill=\"blue\"/>"))
     }
 
-    @Test("img with SVG content as data URI")
-    func imgWithSVGDataURI() throws {
+    @Test
+    func `img with SVG content as data URI`() throws {
         let svgContent = svg(width: 20, height: 20) {
-            circle(cx: 10, cy: 10, r: 8)
+            circle(cx: .init(10), cy: .init(10), r: .init(8))
                 .fill("orange")
         }
 
@@ -128,10 +133,10 @@ extension InlineSVG.Test.Unit {
         #expect(renderedString.contains("%3Ccircle"))
     }
 
-    @Test("img with SVG content as base64")
-    func imgWithSVGBase64() throws {
+    @Test
+    func `img with SVG content as base64`() throws {
         let svgContent = svg(width: 20, height: 20) {
-            circle(cx: 10, cy: 10, r: 8)
+            circle(cx: .init(10), cy: .init(10), r: .init(8))
                 .fill("purple")
         }
 
@@ -148,8 +153,8 @@ extension InlineSVG.Test.Unit {
         #expect(!renderedString.contains("<circle"))
     }
 
-    @Test("img with raw SVG string as data URI")
-    func imgWithSVGStringDataURI() throws {
+    @Test
+    func `img with raw SVG string as data URI`() throws {
         let svgString = """
             <svg width="30" height="30">
                 <rect x="5" y="5" width="20" height="20" fill="green"/>
@@ -169,8 +174,8 @@ extension InlineSVG.Test.Unit {
         #expect(renderedString.contains("%3Crect"))
     }
 
-    @Test("img with raw SVG string as base64")
-    func imgWithSVGStringBase64() throws {
+    @Test
+    func `img with raw SVG string as base64`() throws {
         let svgString = """
             <svg width="30" height="30">
                 <rect x="5" y="5" width="20" height="20" fill="blue"/>
@@ -203,3 +208,112 @@ extension InlineSVG.Test.Unit {
         }
     }
 }
+
+// MARK: - Integration Tests
+
+extension InlineSVG.Test {
+    @Suite struct Integration {}
+}
+
+extension InlineSVG.Test.Integration {
+    @Test
+    func `InlineSVG within styled HTML document renders complete output`() throws {
+        let document = HTML.Document {
+            div {
+                h1 { "SVG Integration" }
+                    .css
+                    .fontSize(.px(24))
+                    .color(DarkModeColor(light: .hex("333333"), dark: .hex("cccccc")))
+
+                InlineSVG {
+                    svg(width: 200, height: 200) {
+                        circle(
+                            cx: .init(100),
+                            cy: .init(100),
+                            r: .init(80)
+                        )
+                            .fill("blue")
+                            .stroke("navy")
+                            .strokeWidth(2)
+                    }
+                }
+
+                p { "Caption below SVG" }
+                    .css
+                    .textAlign(.center)
+                    .marginTop(.px(8))
+            }
+            .css
+            .padding(.rem(2))
+            .maxWidth(.px(600))
+            .margin(.auto)
+        } head: {
+            title { "SVG Integration Test" }
+            meta(charset: .utf8)
+        }
+
+        let rendered = try String(document)
+
+        // Verify document structure
+        #expect(rendered.contains("<!doctype html>"))
+        #expect(rendered.contains("<html>"))
+        #expect(rendered.contains("<head>"))
+        #expect(rendered.contains("<body>"))
+
+        // Verify CSS was collected into <style>
+        #expect(rendered.contains("<style>"))
+        #expect(rendered.contains("font-size"))
+        #expect(rendered.contains("text-align"))
+
+        // Verify SVG content is embedded inline
+        #expect(rendered.contains("<svg"))
+        #expect(rendered.contains("<circle"))
+        #expect(rendered.contains("</svg>"))
+
+        // Verify surrounding HTML elements
+        #expect(rendered.contains("<h1"))
+        #expect(rendered.contains("SVG Integration"))
+        #expect(rendered.contains("Caption below SVG"))
+    }
+
+    @Test
+    func `multiple SVG elements coexist in a single document`() throws {
+        let document = HTML.Document {
+            div {
+                InlineSVG {
+                    svg(width: 50, height: 50) {
+                        circle(cx: .init(25), cy: .init(25), r: .init(20))
+                            .fill("red")
+                    }
+                }
+
+                InlineSVG {
+                    svg(width: 50, height: 50) {
+                        rect(x: .init(5), y: .init(5), width: .init(40), height: .init(40))
+                            .fill("green")
+                    }
+                }
+
+                img(
+                    svg: svg(width: 30, height: 30) {
+                        circle(cx: .init(15), cy: .init(15), r: .init(10))
+                            .fill("blue")
+                    },
+                    alt: "Blue dot",
+                    base64: true
+                )
+            }
+        }
+
+        let rendered = try String(document)
+
+        // Both inline SVGs should appear
+        #expect(rendered.contains("fill=\"red\""))
+        #expect(rendered.contains("fill=\"green\""))
+
+        // The img-based SVG should be base64-encoded, not inline
+        #expect(rendered.contains("data:image/svg+xml;base64,"))
+        #expect(rendered.contains("alt=\"Blue dot\""))
+    }
+}
+

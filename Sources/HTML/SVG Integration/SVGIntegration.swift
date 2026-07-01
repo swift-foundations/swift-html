@@ -5,6 +5,8 @@
 //  Bridge to integrate swift-svg with swift-html
 //
 
+import Byte_Primitives
+import Byte_Primitives_Standard_Library_Integration
 import RFC_4648
 // Import SVG module but we need to be careful about naming
 import SVG
@@ -107,7 +109,7 @@ extension WHATWG_HTML_Elements.Image {
     ) {
         var src: WHATWG_HTML_MediaAttributes.Src {
             if base64 {
-                return "data:image/svg+xml;base64,\([UInt8](svg).base64.encoded())"
+                return "data:image/svg+xml;base64,\([Byte]([UInt8](svg)).base64.encoded())"
             } else {
                 // Percent-encode for data URI using WHATWG standard
                 // This properly encodes < > and other special characters
