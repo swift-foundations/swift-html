@@ -17,7 +17,7 @@ The Swift HTML library built on [swift-standards](https://github.com/swift-stand
 
 ## Overview
 
-swift-html is a unified import for type-safe HTML generation. It re-exports [swift-html-rendering](https://github.com/coenttb/swift-html-rendering), [swift-css](https://github.com/coenttb/swift-css), [swift-svg](https://github.com/coenttb/swift-svg), and related packages—all grounded in [swift-standards](https://github.com/swift-standards) for domain-accurate representations of WHATWG and W3C specifications.
+swift-html is a unified import for type-safe HTML generation. It re-exports [swift-html-render](https://github.com/swift-foundations/swift-html-render), [swift-css](https://github.com/swift-foundations/swift-css), [swift-svg](https://github.com/swift-foundations/swift-svg), and related packages—all grounded in [swift-standards](https://github.com/swift-standards) for domain-accurate representations of WHATWG and W3C specifications.
 
 ## Installation
 
@@ -25,7 +25,7 @@ Add swift-html to your Package.swift:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/coenttb/swift-html", from: "0.1.0")
+    .package(url: "https://github.com/swift-foundations/swift-html", from: "0.1.0")
 ]
 ```
 
@@ -199,7 +199,7 @@ let bytes = [UInt8](document)
 │                        swift-html                            │
 │                    (unified re-export)                       │
 ├─────────────────────────────────────────────────────────────┤
-│  swift-html-rendering  │  swift-css  │  swift-svg  │  ...   │
+│  swift-html-render     │  swift-css  │  swift-svg  │  ...   │
 │  (HTML.View, Document) │  (.css API) │  (SVG DSL)  │        │
 ├─────────────────────────────────────────────────────────────┤
 │         swift-standards (CSS Standard, Color, etc.)          │
@@ -238,7 +238,7 @@ Enable internationalization support:
 ```swift
 // Package.swift
 dependencies: [
-    .package(url: "https://github.com/coenttb/swift-html", from: "0.1.0",
+    .package(url: "https://github.com/swift-foundations/swift-html", from: "0.1.0",
              traits: ["Translating"])
 ]
 ```
