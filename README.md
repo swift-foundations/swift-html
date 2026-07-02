@@ -1,6 +1,6 @@
 # swift-html
 
-![Development Status](https://img.shields.io/badge/status-active--development-blue.svg)
+![CI](https://github.com/swift-foundations/swift-html/actions/workflows/ci.yml/badge.svg) ![Development Status](https://img.shields.io/badge/status-active--development-blue.svg)
 
 The Swift HTML library built on [swift-standards](https://github.com/swift-standards).
 
@@ -25,7 +25,7 @@ Add swift-html to your Package.swift:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/swift-foundations/swift-html", from: "0.1.0")
+    .package(url: "https://github.com/swift-foundations/swift-html", from: "0.17.2")
 ]
 ```
 
@@ -42,7 +42,7 @@ Add to your target:
 
 ### Requirements
 
-- Swift 6.2+
+- Swift 6.3.1+
 - macOS 26.0+, iOS 26.0+
 - Xcode 26.0+ (for Apple platforms)
 
@@ -238,7 +238,7 @@ Enable internationalization support:
 ```swift
 // Package.swift
 dependencies: [
-    .package(url: "https://github.com/swift-foundations/swift-html", from: "0.1.0",
+    .package(url: "https://github.com/swift-foundations/swift-html", from: "0.17.2",
              traits: ["Translating"])
 ]
 ```
@@ -259,9 +259,15 @@ h1 { greeting }
 
 ## Requirements
 
-- Swift 6.2+
+- Swift 6.3.1+
 - macOS 26.0+, iOS 26.0+, tvOS 26.0+, watchOS 26.0+
 - Xcode 26.0+ (for Apple platforms)
+
+## Status & maintainer
+
+This package is public alpha (pre-1.0): interfaces are stabilizing and APIs may change between minor versions.
+
+Maintained by [Coen ten Thije Boonkkamp](https://github.com/coenttb) — available for Swift infrastructure and document-systems consulting: coen@coenttb.com.
 
 ## License
 
