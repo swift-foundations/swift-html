@@ -1,6 +1,6 @@
 # .github/metadata.yaml
 # Triaged by AI-assisted bulk pass (2026-04-29).
-description: "HTML for Swift."
+description: "Type-safe HTML generation grounded in WHATWG and W3C specifications for Swift."
 topics:
   - foundations
   - html
