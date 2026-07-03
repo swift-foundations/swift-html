@@ -37,9 +37,9 @@ extension InlineSVG.Test.Unit {
                         cy: .init(50),
                         r: .init(40)
                     )
-                        .fill("red")
-                        .stroke("black")
-                        .strokeWidth(3)
+                    .fill("red")
+                    .stroke("black")
+                    .strokeWidth(3)
                 }
             }
         }
@@ -232,9 +232,9 @@ extension InlineSVG.Test.Integration {
                             cy: .init(100),
                             r: .init(80)
                         )
-                            .fill("blue")
-                            .stroke("navy")
-                            .strokeWidth(2)
+                        .fill("blue")
+                        .stroke("navy")
+                        .strokeWidth(2)
                     }
                 }
 
@@ -316,4 +316,3 @@ extension InlineSVG.Test.Integration {
         #expect(rendered.contains("alt=\"Blue dot\""))
     }
 }
-

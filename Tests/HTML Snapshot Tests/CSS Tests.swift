@@ -25,7 +25,7 @@ struct CSSSnapshotTests {
                 .padding(.px(16))
                 .margin(.px(8))
             }
-        }  matches: {
+        } matches: {
             """
             <!doctype html>
             <html>

@@ -18,7 +18,7 @@ struct HStackSnapshotTests {
                 div { "First item" }
                 div { "Second item" }
             }
-        }  matches: {
+        } matches: {
             """
             <div class="column-gap-0 size-1 flex-direction-2 display-3 vertical-align-4 align-items-5">
               <div>First item

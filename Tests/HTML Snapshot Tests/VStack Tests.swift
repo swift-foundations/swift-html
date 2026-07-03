@@ -18,7 +18,7 @@ struct VStackSnapshotTests {
                 div { "First item" }
                 div { "Second item" }
             }
-        }  matches: {
+        } matches: {
             """
             <div class="row-gap-0 max-width-1 flex-direction-2 display-3 align-items-4">
               <div>First item

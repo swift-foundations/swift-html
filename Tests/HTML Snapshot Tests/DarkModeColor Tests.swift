@@ -19,7 +19,7 @@ struct DarkModeColorSnapshotTests {
                 div { "Auto-darkened" }
                     .css.color(DarkModeColor(light: .hex("ff0000")))
             }
-        }  matches: {
+        } matches: {
             """
             <!doctype html>
             <html>

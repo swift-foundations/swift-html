@@ -6,8 +6,8 @@
 //
 
 import HTML
-import Layout_Primitives
 import HTML_Rendering_Core_Test_Support
+import Layout_Primitives
 import Testing
 
 @Suite(.snapshots(record: .missing))
@@ -20,7 +20,7 @@ struct LazyVGridSnapshotTests {
                 div { "Item 2" }
                 div { "Item 3" }
             }
-        }  matches: {
+        } matches: {
             """
             <div class="grid-template-columns-0 display-1 width-2">
               <div>Item 1

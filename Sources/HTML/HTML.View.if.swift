@@ -28,7 +28,7 @@ extension HTML.View {
         `let` value: X?,
         @HTML.Builder _ then: (Self, X) -> some HTML.View
     ) -> some HTML.View {
-        if let value = value {
+        if let value {
             then(self, value)
         } else {
             self
