@@ -38,8 +38,11 @@ import WHATWG_HTML_MediaAttributes
 /// }
 /// ```
 public struct InlineSVG: HTML.View {
+    // `any SVG.View` stores type-erased SVG content (existential-by-design).
+    // swiftlint:disable no_any_protocol_existential
     /// The SVG content to embed
     private let content: any SVG.View
+    // swiftlint:enable no_any_protocol_existential
 
     /// Creates a new inline SVG element from SVG content.
     ///
