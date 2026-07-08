@@ -57,7 +57,9 @@ public struct InlineSVG: HTML.View {
     public init<Content: SVG.View>(_ content: Content) {
         self.content = content
     }
+}
 
+extension InlineSVG {
     /// Renders the SVG content as HTML.
     public var body: some HTML.View {
         HTML.Raw([UInt8](content))
