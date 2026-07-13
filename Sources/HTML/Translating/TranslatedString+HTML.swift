@@ -9,6 +9,7 @@ import HTML_Rendering
 
 #if TRANSLATING
     public import Translating
+    import Translating_Dependencies
 
     extension TranslatedString: @retroactive Renderable {
         public typealias Context = HTML.Context

@@ -21,6 +21,8 @@ extension Target.Dependency {
     static var whatwgFormURLEncoded: Self { .product(name: "WHATWG Form URL Encoded", package: "swift-whatwg-url") }
     static var bytePrimitives: Self { .product(name: "Byte Primitives", package: "swift-byte-primitives") }
     static var bytePrimitivesStandardLibraryIntegration: Self { .product(name: "Byte Primitives Standard Library Integration", package: "swift-byte-primitives") }
+    static var translating: Self { .product(name: "Translating", package: "swift-translating", condition: .when(traits: ["Translating"])) }
+    static var translatingDependencies: Self { .product(name: "Translating Dependencies", package: "swift-translating-dependencies", condition: .when(traits: ["Translating"])) }
 }
 
 let package = Package(
@@ -35,6 +37,12 @@ let package = Package(
     products: [
         .library(name: .html, targets: [.html]),
     ],
+    traits: [
+        .trait(
+            name: "Translating",
+            description: "Include TranslatedString integration for internationalization support"
+        )
+    ],
     dependencies: [
         .package(url: "https://github.com/swift-foundations/swift-html-render.git", branch: "main"),
         .package(url: "https://github.com/swift-foundations/swift-markdown-html-render.git", branch: "main"),
@@ -44,6 +52,8 @@ let package = Package(
         .package(url: "https://github.com/swift-whatwg/swift-whatwg-url.git", branch: "main"),
         .package(url: "https://github.com/swift-foundations/swift-color.git", branch: "main"),
         .package(url: "https://github.com/swift-primitives/swift-byte-primitives.git", branch: "main"),
+        .package(url: "https://github.com/swift-foundations/swift-translating.git", branch: "main"),
+        .package(url: "https://github.com/swift-foundations/swift-translating-dependencies.git", branch: "main"),
     ],
     targets: [
         .target(
@@ -59,6 +69,11 @@ let package = Package(
                 .bytePrimitives,
                 .bytePrimitivesStandardLibraryIntegration,
                 .product(name: "SVG", package: "swift-svg"),
+                .translating,
+                .translatingDependencies,
+            ],
+            swiftSettings: [
+                .define("TRANSLATING", .when(traits: ["Translating"]))
             ]
         ),
         .testTarget(
