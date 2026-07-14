@@ -11,13 +11,16 @@ import HTML_Rendering
     public import Translating
     import Translating_Dependencies
 
-    extension TranslatedString: @retroactive Renderable {
-        public typealias Context = HTML.Context
-        public typealias RenderOutput = UInt8
-    }
-
-    extension TranslatedString: @retroactive HTML.View {
-        public var body: some HTML.View {
+    /// Makes `TranslatedString` (`Translated<String>`) usable directly inside HTML builders.
+    ///
+    /// This mirrors the `String: HTML.View` leaf conformance: the view renders as escaped
+    /// text, resolved for the current `@Dependency(\.language)` via the `CustomStringConvertible`
+    /// conformance vended by `Translating Dependencies`.
+    ///
+    /// `Render.View` must be restated here: `HTML.View` refines it, and a *conditional*
+    /// conformance does not imply conformance to inherited protocols.
+    extension Translated: @retroactive Render.View, @retroactive HTML.View where A == String {
+        public var body: HTML.Text {
             HTML.Text("\(self)")
         }
     }
