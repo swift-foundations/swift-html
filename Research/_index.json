@@ -1,0 +1,21 @@
+{
+  "$schema": "https://swift-institute.org/schemas/research-index-v1.json",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-07-28",
+  "title": "Research Index",
+  "blurb": "",
+  "scope": "swift-html (swift-foundations)",
+  "documents": [
+    {
+      "file": "Embedded Swift and WebAssembly for Client-Side HTML Rendering.md",
+      "displayName": "Embedded Swift and WebAssembly for Client-Side HTML Rendering.md",
+      "topic": "Embedded Swift / WebAssembly feasibility for client-side HTML rendering",
+      "date": "2026-07-28",
+      "status": "ANALYSIS",
+      "statusDetail": "v1.1.0: runtime floor and non-embedded control measured (9,065 B vs 1,869,739 B gzip, 206x); five-blocker chain enumerated, two resolved; CMO compiler abort fixed on 6.5-dev; realistic-page size still unmeasured",
+      "statusRaw": "ANALYSIS",
+      "tier": null,
+      "scope": null
+    }
+  ]
+}
