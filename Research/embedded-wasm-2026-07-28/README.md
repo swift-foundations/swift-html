@@ -36,7 +36,13 @@ recipe below regenerates. Its identity is preserved instead:
 
 Regenerate the control by building `artifacts/ladder/rung1-hello` (sources are
 committed) against the non-embedded SDK `swift-6.3.3-RELEASE_wasm`, release
-configuration, and compare the digest above.
+configuration.
+
+The digest identifies the exact artifact that was measured; it is **not** a
+reproducibility claim. Swift builds are not guaranteed byte-reproducible across
+machines, so a regeneration that differs in digest has not necessarily refuted
+anything. The figure to check is the **size** — 7,085,523 B raw, 1,869,739 B
+gzip — since size is what the 206x ratio rests on.
 
 **Budget for comparison (gzip):** competitive ≤45 KB, viable ≤150 KB, failed >400 KB.
 
