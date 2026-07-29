@@ -1,0 +1,195 @@
+warning: 'html-nomd': found 1 file(s) which are unhandled; explicitly declare them as resources or exclude from the target
+    $SCRATCH/scratchpad/html-nomd/Sources/HTML/HTML.docc
+Building for production...
+[Computing dependencies]
+[Provisioning 3 / 680]
+[Using on-disk description]
+[10 / 2935] Sequence Primitive
+[19 / 2942] Time Primitive
+[20 / 2943] Sequence Primitive
+[40 / 2948] Property Primitive
+[53 / 2949] Storage Primitive
+[54 / 2949] Span Primitive
+[57 / 2953] Serializer Primitive
+[58 / 2953] Property Primitive
+[71 / 2964] Ordinal Primitive
+[74 / 2966] Order Primitive
+[74 / 2966] Parser Primitive
+[91 / 2968] Iterator Primitive
+[93 / 2969] Order Primitive
+[102 / 2970] Machine Primitive
+[105 / 2971] Memory Primitive
+[116 / 2973] Input Namespace Primitives
+[127 / 2975] IEC 61966 Shared
+[128 / 2975] Render Primitive
+[151 / 2979] Serializer Trace Primitives
+[151 / 2979] Hash Primitive
+[156 / 2979] Ownership Primitive
+[175 / 2980] Iterator Primitive
+[187 / 2983] Direction Primitive
+[189 / 2985] Serializer Witness Primitives
+[199 / 2991] Serializer Optional Primitives
+[202 / 2992] Direction Primitive
+[208 / 2994] Serializer Fail Primitives
+[223 / 2995] Finite Primitive
+[235 / 2997] Equation Primitive
+[242 / 2997] Serializer Optional Primitives
+[249 / 2997] Serializer Lazy Primitives
+[257 / 3004] Property Typed Primitives
+[266 / 3004] Property Consume Primitives
+[269 / 3005] W3C CSSOM-product
+[280 / 3005] Serializer Lazy Primitives
+[285 / 3005]
+[295 / 3029] Property Consume Primitives
+[306 / 3029] Parser EndOfInput Primitives
+[317 / 3031] Parser Lazy Primitives
+[330 / 3033] Ownership Slot Primitives
+[331 / 3033] Parser Always Primitives
+[343 / 3034] Ownership Unique Primitives
+[352 / 3036] Ownership Mutable Primitives
+[365 / 3038] Ownership Box Primitives
+[366 / 3038] Ownership Slot Primitives
+[376 / 3039] Ownership Latch Primitives
+[400 / 3040]
+[405 / 3044] Order Direction Primitives
+[413 / 3045] Ownership Immutable Primitives
+[428 / 3045] Render Primitives
+[434 / 3057] Parser Fail Primitives
+[441 / 3058] Ownership Mutable Primitives
+[451 / 3058] Ownership Box Primitives
+[455 / 3061] Parser Constraint Primitives
+[476 / 3062] Collection Namespace Primitives
+[478 / 3064] Order Direction Primitives
+[480 / 3064] Order Direction Primitives
+[492 / 3066] Ownership Transfer Primitives
+[519 / 3067] Parser Constraint Primitives
+[532 / 3069]
+[538 / 3073] Formatter Protocol
+[541 / 3075] Buffer Primitive
+[560 / 3075] Format Numeric Primitives
+[565 / 3075] Carrier Primitive
+[571 / 3075] Graph Primitive
+[576 / 3081] Formatter Protocol
+[591 / 3083] Iterator Witness Primitives-product
+[606 / 3086] Radix Formatter Primitives
+[610 / 3087]
+[619 / 3095] Format
+[619 / 3095] Async Primitive
+[627 / 3097] Byte Primitive
+[628 / 3097] Machine Value Primitives
+[639 / 3098] Format
+[649 / 3099] Formattable
+[663 / 3103] Dependency Primitives
+[664 / 3103] Byte Primitive
+[677 / 3107] Affine Primitive
+[679 / 3107] Bit Primitive
+[685 / 3107] Axis Primitive
+[695 / 3112] Machine Transform Primitives
+[707 / 3113] Cardinal Error Primitives
+[708 / 3113] Affine Primitive
+[717 / 3113] Machine Transform Primitives
+[725 / 3117] Dependency Primitives
+[734 / 3117] Machine Next Primitives
+[740 / 3117] Machine Finalize Primitives
+[751 / 3121] Byte Primitive-product
+[756 / 3127] Binary Endianness Primitives
+[770 / 3129] Equation Primitives Standard Library Integration
+[784 / 3131] Machine Frame Primitives
+[786 / 3131] Cardinal Error Primitives
+[794 / 3133] Async Mutex Primitives
+[805 / 3133] Async Continuation Primitives
+[810 / 3133]
+[810 / 3133] Machine Frame Primitives
+[816 / 3133] Carrier Primitives
+[835 / 3143] Cardinal Carrier Primitives
+[853 / 3145] Cardinal Carrier Primitives
+[858 / 3145] Tagged Primitives
+[864 / 3146]
+[875 / 3153] Ownership Borrow Primitives
+[883 / 3155] Radix Formatter Primitives-product
+[897 / 3159] Carrier Primitives Standard Library Integration
+[899 / 3159] Tagged Primitives Standard Library Integration
+[922 / 3161] Property Inout Primitives
+[927 / 3161] Equation Tagged Primitives
+[938 / 3165] Ownership Borrow Primitives
+[938 / 3165] Byte Protocol Primitives
+[954 / 3169] Binary LEB128 Decode Primitives
+[978 / 3175] Byte Tagged Primitives
+[983 / 3175] Property Primitives
+[1005 / 3183] Byte Borrowed Primitives
+[1005 / 3183] Cardinal Subtract Primitives
+[1025 / 3183] Equation Primitives-product
+[1043 / 3195]
+[1050 / 3198] Boundary Equation Primitives
+[1066 / 3201] Cardinal Tagged Primitives
+[1073 / 3203] Hash Protocol Primitives
+[1087 / 3205] Comparison Protocol Primitives
+[1091 / 3207] Hash Primitives Standard Library Integration
+[1099 / 3209]
+[1104 / 3209] Serializer Literal Primitives
+[1106 / 3211] Comparison Protocol Primitives
+[1112 / 3211] Hash Tagged Primitives
+[1122 / 3211] ISO 9899 Core
+[1130 / 3213] Comparison Tagged Primitives
+[1130 / 3213] Binary LEB128 Encode Primitives
+[1138 / 3215] Binary LEB128 Primitives
+[1138 / 3215] Comparison Property Primitives
+[1146 / 3217]
+[1146 / 3217] ISO 9899 Hosted
+[1159 / 3219] Binary LEB128 Primitives
+[1159 / 3219] Hash Primitives Standard Library Integration
+[1167 / 3221] Comparison Primitives Standard Library Integration
+[1175 / 3223] ISO 9899
+[1180 / 3223] Hash Primitives
+[1197 / 3231]
+[1197 / 3231] Comparison Primitives
+[1208 / 3235] Comparison Primitives
+[1211 / 3237] Ordinal Comparison Primitives
+[1224 / 3239]
+[1233 / 3242] Cardinal Comparison Primitives
+[1244 / 3247] Ordinal Comparison Primitives
+[1256 / 3247] Ordinal Hash Primitives
+[1265 / 3251] Pair Primitives
+[1285 / 3253] Cardinal Comparison Primitives
+[1293 / 3259] Order Comparator Primitives
+[1300 / 3259] Either Primitives-product
+[1305 / 3262] Axis Comparison Primitives
+[1320 / 3265] Boundary Primitives
+[1322 / 3267] Boundary Primitives
+[1322 / 3267] Product Primitives
+[1334 / 3268] Product Primitives
+[1337 / 3269] Serializer Sequence Primitives
+[1350 / 3273] Serializer Map Primitives
+[1360 / 3275] Ordinal Protocol Primitives
+[1366 / 3277] Boundary Primitives
+[1375 / 3281] Formatter Pair Primitives
+error: SwiftCompile normal wasm32 failed with a nonzero exit code. Command line:     cd $SCRATCH/scratchpad
+    
+$SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary Base Primitives/Property+Binary.Base.16.Encode.swift:29:41: [1;31merror: [1;39mcannot use key path in embedded Swift[0;0m [#]8;;https://docs.swift.org/compiler/documentation/diagnostics/embedded-restrictions\EmbeddedRestrictions]8;;\]
+[0;36m27 |[0;0m             out.append(alphabet[Int(raw & 0x0F)])
+[0;36m28 |[0;0m         }
+[0;36m29 |[0;0m         return String(decoding: out.map(\.underlying), as: UTF8.self)
+   [0;36m|[0;0m                                         `- [1;31merror: [1;39mcannot use key path in embedded Swift[0;0m [#]8;;https://docs.swift.org/compiler/documentation/diagnostics/embedded-restrictions\EmbeddedRestrictions]8;;\]
+[0;36m30 |[0;0m     }
+[0;36m31 |[0;0m }
+
+$SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary Base Primitives/Property+Binary.Base.32.Encode.swift:40:41: [1;31merror: [1;39mcannot use key path in embedded Swift[0;0m [#]8;;https://docs.swift.org/compiler/documentation/diagnostics/embedded-restrictions\EmbeddedRestrictions]8;;\]
+[0;36m38 |[0;0m             while !out.count.isMultiple(of: 8) { out.append(p) }
+[0;36m39 |[0;0m         }
+[0;36m40 |[0;0m         return String(decoding: out.map(\.underlying), as: UTF8.self)
+   [0;36m|[0;0m                                         `- [1;31merror: [1;39mcannot use key path in embedded Swift[0;0m [#]8;;https://docs.swift.org/compiler/documentation/diagnostics/embedded-restrictions\EmbeddedRestrictions]8;;\]
+[0;36m41 |[0;0m     }
+[0;36m42 |[0;0m }
+
+$SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary Base Primitives/Property+Binary.Base.64.Encode.swift:47:41: [1;31merror: [1;39mcannot use key path in embedded Swift[0;0m [#]8;;https://docs.swift.org/compiler/documentation/diagnostics/embedded-restrictions\EmbeddedRestrictions]8;;\]
+[0;36m45 |[0;0m             if let p = pad { out.append(p) }
+[0;36m46 |[0;0m         }
+[0;36m47 |[0;0m         return String(decoding: out.map(\.underlying), as: UTF8.self)
+   [0;36m|[0;0m                                         `- [1;31merror: [1;39mcannot use key path in embedded Swift[0;0m [#]8;;https://docs.swift.org/compiler/documentation/diagnostics/embedded-restrictions\EmbeddedRestrictions]8;;\]
+[0;36m48 |[0;0m     }
+[0;36m49 |[0;0m }
+
+[#EmbeddedRestrictions]: <https://docs.swift.org/compiler/documentation/diagnostics/embedded-restrictions>
+Failed frontend command:
+$TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/bin/swift-frontend -frontend -c $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Binary.Base.16+decode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Binary.Base.16+encode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Binary.Base.16.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Binary.Base.32+decode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Binary.Base.32+encode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Binary.Base.32.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Binary.Base.58+decode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Binary.Base.58+encode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Binary.Base.58.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Binary.Base.62+decode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Binary.Base.62+encode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Binary.Base.62.Alphabet.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Binary.Base.62.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Binary.Base.64+decode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Binary.Base.64+encode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Binary.Base.64.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Binary.Base.85+decode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Binary.Base.85+encode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Binary.Base.85.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Binary.Base.Decode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Binary.Base.Encode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Binary.Base.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Binary.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Property+Binary.Base.16.Decode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Property+Binary.Base.16.Encode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Property+Binary.Base.32.Decode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Property+Binary.Base.32.Encode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Property+Binary.Base.58.Decode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Property+Binary.Base.58.Encode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Property+Binary.Base.62.Decode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Property+Binary.Base.62.Encode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Property+Binary.Base.64.Decode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Property+Binary.Base.64.Encode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Property+Binary.Base.85.Decode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-binary-base-primitives/Sources/Binary\ Base\ Primitives/Property+Binary.Base.85.Encode.swift -supplementary-output-file-map $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/supplementaryOutputs-73 -target wasm32-unknown-wasip1 -disable-objc-interop -sdk $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/WASI.sdk -sysroot $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/WASI.sdk -I $SCRATCH/scratchpad/wbrel/out/Products/Release-webassembly-wasm32 -module-cache-path $SCRATCH/scratchpad/wbrel/out/ModuleCache.noindex -validate-clang-modules-once -clang-build-session-file $SCRATCH/scratchpad/wbrel/out/ModuleCache.noindex/Session.modulevalidation -color-diagnostics -Xcc -fcolor-diagnostics -g -debug-info-format\=dwarf -dwarf-version\=4 -suppress-warnings -swift-version 6 -O -D SWIFT_PACKAGE -D SWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE -D Xcode -serialize-debugging-options -enable-upcoming-feature ExistentialAny -enable-upcoming-feature InternalImportsByDefault -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature Lifetimes -enable-experimental-feature SuppressedAssociatedTypes -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature LifetimeDependence -enable-experimental-feature Embedded -enable-experimental-feature DebugDescriptionMacro -strict-memory-safety -empty-abi-descriptor -external-plugin-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/lib/swift/host/plugins/testing\#$TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/bin/swift-plugin-server -Xcc -working-directory -Xcc $SCRATCH/scratchpad -resource-dir $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/swift.xctoolchain/usr/lib/swift -use-static-resource-dir -file-compilation-dir $SCRATCH/scratchpad -Xcc -resource-dir -Xcc $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/swift.xctoolchain/usr/lib/swift/clang -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -Xcc -I$SCRATCH/scratchpad/wbrel/out/Products/Release-webassembly-wasm32/include -Xcc -I$SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/DerivedSources-normal/wasm32 -Xcc -I$SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/DerivedSources/wasm32 -Xcc -I$SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/DerivedSources -Xcc -DSWIFT_PACKAGE -no-auto-bridging-header-chaining -module-name Binary_Base_Primitives -package-name swift_binary_base_primitives -const-gather-protocols-file $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary\ Base\ Primitives_const_extract_protocols.json -in-process-plugin-server-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -plugin-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/lib/swift/host/plugins -plugin-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/local/lib/swift/host/plugins -enable-default-cmo -parse-as-library -num-threads 8 -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.16+decode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.16+encode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.16.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.32+decode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.32+encode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.32.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.58+decode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.58+encode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.58.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.62+decode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.62+encode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.62.Alphabet.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.62.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.64+decode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.64+encode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.64.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.85+decode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.85+encode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.85.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.Decode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.Encode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.16.Decode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.16.Encode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.32.Decode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.32.Encode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.58.Decode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.58.Encode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.62.Decode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.62.Encode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.64.Decode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.64.Encode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.85.Decode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.85.Encode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.16+decode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.16+encode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.16.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.32+decode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.32+encode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.32.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.58+decode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.58+encode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.58.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.62+decode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.62+encode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.62.Alphabet.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.62.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.64+decode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.64+encode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.64.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.85+decode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.85+encode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.85.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.Decode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.Encode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.Base.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Binary.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.16.Decode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.16.Encode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.32.Decode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.32.Encode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.58.Decode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.58.Encode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.62.Decode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.62.Encode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.64.Decode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.64.Encode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.85.Decode.o -index-unit-output-path /swift-binary-base-primitives.build/Release-webassembly-wasm32/Binary\ Base\ Primitives-t.build/Objects-normal/wasm32/Property+Binary.Base.85.Encode.o
+error: Build failed

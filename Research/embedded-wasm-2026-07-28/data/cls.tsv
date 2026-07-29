@@ -1,0 +1,30 @@
+swift-bit-primitives	error: cannot find 'Mutex' in scope
+swift-equation-primitives	error: cannot find 'Mutex' in scope
+swift-binary-serializer-primitives	error: cancelled
+swift-comparison-primitives	error: cancelled
+swift-ascii-serializer-primitives	error: cannot find 'Mutex' in scope
+swift-either-primitives	error: cancelled
+swift-hash-primitives	error: cannot find 'Mutex' in scope
+swift-property-primitives	error: cancelled
+swift-string-primitives	error: cancelled
+swift-span-primitives	error: cannot find 'Mutex' in scope
+swift-error-primitives	UNKNOWN
+swift-index-primitives	error: cannot find 'Mutex' in scope
+swift-cardinal-primitives	error: cannot find 'Mutex' in scope
+swift-serializer-primitives	error: cancelled
+swift-ordinal-primitives	error: cancelled
+swift-affine-primitives	error: cancelled
+swift-memory-allocation-primitives	error: cancelled
+swift-bit-vector-primitives	error: cannot find 'Mutex' in scope
+swift-bit-index-primitives	error: cannot find 'Mutex' in scope
+swift-iterator-primitives	error: cancelled
+swift-memory-primitives	error: cannot find 'Mutex' in scope
+swift-bit-pack-primitives	error: cannot find 'Mutex' in scope
+swift-memory-heap-primitives	error: cannot find 'Mutex' in scope
+swift-sequence-primitives	error: cancelled
+swift-text-primitives	error: cancelled
+swift-glob-primitives	error: cannot find 'Mutex' in scope
+swift-collection-primitives	error: cannot find 'Mutex' in scope
+swift-system-primitives	error: cancelled
+swift-parser-primitives	error: cannot find 'Mutex' in scope
+swift-path-primitives	error: cannot find 'Mutex' in scope

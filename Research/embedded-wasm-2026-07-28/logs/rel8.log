@@ -1,0 +1,95 @@
+warning: 'html-nomd': found 1 file(s) which are unhandled; explicitly declare them as resources or exclude from the target
+    $SCRATCH/scratchpad/html-nomd/Sources/HTML/HTML.docc
+Building for production...
+[Computing dependencies]
+[Provisioning 1 / 680]
+[Using on-disk description]
+[1 / 1632] Formatter Primitives
+[5 / 1333]
+[22 / 1353] Graph Adjacency Primitives
+[30 / 1353] Input Remove Primitives
+[34 / 1353] IEC 61966
+[42 / 1353] Collection Min Primitives
+[58 / 1356] Collection Slice Primitives
+[59 / 1356] Memory Region Primitives
+[72 / 1356] Memory Region Primitives
+[77 / 1356] Sequence Protocol Primitives
+[84 / 1356] Cyclic Group Primitives
+[92 / 1356] Buffer Protocol Primitives
+[98 / 1361] Collection Min Primitives
+[104 / 1362] Sequence Span Primitives
+[114 / 1371] Parser Skip Primitives
+[117 / 1373] Parser Pair Primitives
+[118 / 1373] Parser Map Primitives
+[131 / 1376] Parser Filter Primitives
+[131 / 1376] Cyclic Primitives
+[135 / 1378] Parser Conditional Primitives
+[135 / 1378] Parser Pair Primitives
+[161 / 1378] Vector Primitives Standard Library Integration
+[169 / 1378] RFC 1035-product
+[170 / 1378] Store Initialization Primitives-product
+[172 / 1378] Sequence Reduce Primitives
+[175 / 1378] Sequence Reduce Primitives
+[188 / 1378] Sequence Filter Primitives
+[203 / 1382] Storage Protocol Primitives-product
+[207 / 1382] Store Inline Primitives
+[213 / 1384] Input Remove Primitives
+[216 / 1384] Sequence Primitives Standard Library Integration
+[225 / 1389] Parser Conversion Primitives
+[234 / 1390] Input Buffer Primitives
+[241 / 1390] Parser Conversion Primitives
+[242 / 1390] Input Buffer Primitives
+[249 / 1390] Collection Min Primitives
+[253 / 1390]
+[259 / 1392] Collection Access Random Primitives
+[259 / 1392] Sequence Difference Primitives
+[267 / 1394] Cyclic Index Primitives
+[272 / 1394] Axis Enumerable Primitives
+[280 / 1396] Collection Primitives Standard Library Integration
+[288 / 1398] Sequence Primitives
+[299 / 1402] Axis Primitives
+[304 / 1402] Collection Primitives
+[310 / 1403]
+[318 / 1408]
+[331 / 1410] Vector Primitives-product
+[339 / 1414] Memory Alignment Primitives
+[347 / 1414] Memory Alignment Primitives
+[349 / 1416] RFC 1123
+error: SwiftCompile normal wasm32 failed with a nonzero exit code. Command line:     cd $SCRATCH/scratchpad
+    
+$SCRATCH/scratchpad/wbrel/checkouts/swift-dimension-primitives/Sources/Dimension Primitives/Tagged+Quantized.swift:32:16: [1;31merror: [1;39mcannot specialize generic function or default protocol method in this context[0;0m [#]8;;https://docs.swift.org/compiler/documentation/diagnostics/embedded-restrictions\EmbeddedRestrictions]8;;\]
+ [0;36m30 |[0;0m             return Self(_unchecked: value)
+ [0;36m31 |[0;0m         }
+ [0;36m32 |[0;0m         return _quantize(value, quantizedBy: quantized)
+    [0;36m|[0;0m                `- [1;31merror: [1;39mcannot specialize generic function or default protocol method in this context[0;0m [#]8;;https://docs.swift.org/compiler/documentation/diagnostics/embedded-restrictions\EmbeddedRestrictions]8;;\]
+ [0;36m33 |[0;0m     }
+ [0;36m34 |[0;0m 
+
+$SCRATCH/scratchpad/wbrel/checkouts/swift-time-primitives/Sources/Time Julian Primitives/Instant+Julian.swift:27:45: [1;39mnote: [1;39minstance of type created here[0;0m
+[0;36m25 |[0;0m             Double(instant.secondsSinceUnixEpoch) / secondsPerDay
+[0;36m26 |[0;0m             + Double(instant.nanosecondFraction) / (secondsPerDay * 1_000_000_000)
+[0;36m27 |[0;0m         return Self.unixEpoch + Time.Julian.Offset(days)
+   [0;36m|[0;0m                                             `- [1;39mnote: [1;39minstance of type created here[0;0m
+[0;36m28 |[0;0m     }
+[0;36m29 |[0;0m }
+
+$SCRATCH/scratchpad/wbrel/checkouts/swift-dimension-primitives/Sources/Dimension Primitives/Tagged+Quantized.swift:32:16: [1;31merror: [1;39mcannot specialize generic function or default protocol method in this context[0;0m [#]8;;https://docs.swift.org/compiler/documentation/diagnostics/embedded-restrictions\EmbeddedRestrictions]8;;\]
+ [0;36m30 |[0;0m             return Self(_unchecked: value)
+ [0;36m31 |[0;0m         }
+ [0;36m32 |[0;0m         return _quantize(value, quantizedBy: quantized)
+    [0;36m|[0;0m                `- [1;31merror: [1;39mcannot specialize generic function or default protocol method in this context[0;0m [#]8;;https://docs.swift.org/compiler/documentation/diagnostics/embedded-restrictions\EmbeddedRestrictions]8;;\]
+ [0;36m33 |[0;0m     }
+ [0;36m34 |[0;0m 
+
+$SCRATCH/scratchpad/wbrel/checkouts/swift-time-primitives/Sources/Time Julian Primitives/Time.Julian.Day+Time.swift:44:16: [1;39mnote: [1;39minstance of type created here[0;0m
+ [0;36m42 |[0;0m             + Double(time.totalNanoseconds) / 86_400_000_000_000.0
+ [0;36m43 |[0;0m 
+ [0;36m44 |[0;0m         return Self(Double(jdn) + dayFraction)
+    [0;36m|[0;0m                `- [1;39mnote: [1;39minstance of type created here[0;0m
+ [0;36m45 |[0;0m     }
+ [0;36m46 |[0;0m }
+
+[#EmbeddedRestrictions]: <https://docs.swift.org/compiler/documentation/diagnostics/embedded-restrictions>
+Failed frontend command:
+$TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/bin/swift-frontend -frontend -c $SCRATCH/scratchpad/wbrel/checkouts/swift-time-primitives/Sources/Time\ Julian\ Primitives/Instant+Julian.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-time-primitives/Sources/Time\ Julian\ Primitives/Time.Julian.Day+Constants.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-time-primitives/Sources/Time\ Julian\ Primitives/Time.Julian.Day+Properties.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-time-primitives/Sources/Time\ Julian\ Primitives/Time.Julian.Day+Time.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-time-primitives/Sources/Time\ Julian\ Primitives/Time.Julian.Day.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-time-primitives/Sources/Time\ Julian\ Primitives/Time.Julian.Offset+Constants.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-time-primitives/Sources/Time\ Julian\ Primitives/Time.Julian.Offset.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-time-primitives/Sources/Time\ Julian\ Primitives/Time.Julian.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-time-primitives/Sources/Time\ Julian\ Primitives/exports.swift -supplementary-output-file-map $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-time-primitives.build/Release-webassembly-wasm32/Time\ Julian\ Primitives-t.build/Objects-normal/wasm32/supplementaryOutputs-31 -target wasm32-unknown-wasip1 -disable-objc-interop -sdk $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/WASI.sdk -sysroot $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/WASI.sdk -I $SCRATCH/scratchpad/wbrel/out/Products/Release-webassembly-wasm32 -module-cache-path $SCRATCH/scratchpad/wbrel/out/ModuleCache.noindex -validate-clang-modules-once -clang-build-session-file $SCRATCH/scratchpad/wbrel/out/ModuleCache.noindex/Session.modulevalidation -color-diagnostics -Xcc -fcolor-diagnostics -g -debug-info-format\=dwarf -dwarf-version\=4 -suppress-warnings -swift-version 6 -O -D SWIFT_PACKAGE -D SWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE -D Xcode -serialize-debugging-options -enable-upcoming-feature ExistentialAny -enable-upcoming-feature InternalImportsByDefault -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature LifetimeDependence -enable-experimental-feature Lifetimes -enable-experimental-feature SuppressedAssociatedTypes -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature LifetimeDependence -enable-experimental-feature Embedded -enable-experimental-feature DebugDescriptionMacro -strict-memory-safety -empty-abi-descriptor -external-plugin-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/lib/swift/host/plugins/testing\#$TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/bin/swift-plugin-server -Xcc -working-directory -Xcc $SCRATCH/scratchpad -resource-dir $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/swift.xctoolchain/usr/lib/swift -use-static-resource-dir -file-compilation-dir $SCRATCH/scratchpad -Xcc -resource-dir -Xcc $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/swift.xctoolchain/usr/lib/swift/clang -Xcc -fmodule-map-file\=$SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/GeneratedModuleMaps-webassembly-wasm32/_Shims.modulemap -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -Xcc -I$SCRATCH/scratchpad/wbrel/checkouts/swift-numeric-primitives/Sources/_Shims/include -Xcc -I$SCRATCH/scratchpad/wbrel/out/Products/Release-webassembly-wasm32/include -Xcc -I$SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-time-primitives.build/Release-webassembly-wasm32/Time\ Julian\ Primitives-t.build/DerivedSources-normal/wasm32 -Xcc -I$SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-time-primitives.build/Release-webassembly-wasm32/Time\ Julian\ Primitives-t.build/DerivedSources/wasm32 -Xcc -I$SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-time-primitives.build/Release-webassembly-wasm32/Time\ Julian\ Primitives-t.build/DerivedSources -Xcc -DSWIFT_PACKAGE -no-auto-bridging-header-chaining -module-name Time_Julian_Primitives -package-name swift_time_primitives -const-gather-protocols-file $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-time-primitives.build/Release-webassembly-wasm32/Time\ Julian\ Primitives-t.build/Objects-normal/wasm32/Time\ Julian\ Primitives_const_extract_protocols.json -in-process-plugin-server-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -plugin-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/lib/swift/host/plugins -plugin-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/local/lib/swift/host/plugins -enable-default-cmo -parse-as-library -num-threads 8 -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-time-primitives.build/Release-webassembly-wasm32/Time\ Julian\ Primitives-t.build/Objects-normal/wasm32/Instant+Julian.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-time-primitives.build/Release-webassembly-wasm32/Time\ Julian\ Primitives-t.build/Objects-normal/wasm32/Time.Julian.Day+Constants.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-time-primitives.build/Release-webassembly-wasm32/Time\ Julian\ Primitives-t.build/Objects-normal/wasm32/Time.Julian.Day+Properties.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-time-primitives.build/Release-webassembly-wasm32/Time\ Julian\ Primitives-t.build/Objects-normal/wasm32/Time.Julian.Day+Time.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-time-primitives.build/Release-webassembly-wasm32/Time\ Julian\ Primitives-t.build/Objects-normal/wasm32/Time.Julian.Day.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-time-primitives.build/Release-webassembly-wasm32/Time\ Julian\ Primitives-t.build/Objects-normal/wasm32/Time.Julian.Offset+Constants.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-time-primitives.build/Release-webassembly-wasm32/Time\ Julian\ Primitives-t.build/Objects-normal/wasm32/Time.Julian.Offset.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-time-primitives.build/Release-webassembly-wasm32/Time\ Julian\ Primitives-t.build/Objects-normal/wasm32/Time.Julian.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-time-primitives.build/Release-webassembly-wasm32/Time\ Julian\ Primitives-t.build/Objects-normal/wasm32/exports.o -index-unit-output-path /swift-time-primitives.build/Release-webassembly-wasm32/Time\ Julian\ Primitives-t.build/Objects-normal/wasm32/Instant+Julian.o -index-unit-output-path /swift-time-primitives.build/Release-webassembly-wasm32/Time\ Julian\ Primitives-t.build/Objects-normal/wasm32/Time.Julian.Day+Constants.o -index-unit-output-path /swift-time-primitives.build/Release-webassembly-wasm32/Time\ Julian\ Primitives-t.build/Objects-normal/wasm32/Time.Julian.Day+Properties.o -index-unit-output-path /swift-time-primitives.build/Release-webassembly-wasm32/Time\ Julian\ Primitives-t.build/Objects-normal/wasm32/Time.Julian.Day+Time.o -index-unit-output-path /swift-time-primitives.build/Release-webassembly-wasm32/Time\ Julian\ Primitives-t.build/Objects-normal/wasm32/Time.Julian.Day.o -index-unit-output-path /swift-time-primitives.build/Release-webassembly-wasm32/Time\ Julian\ Primitives-t.build/Objects-normal/wasm32/Time.Julian.Offset+Constants.o -index-unit-output-path /swift-time-primitives.build/Release-webassembly-wasm32/Time\ Julian\ Primitives-t.build/Objects-normal/wasm32/Time.Julian.Offset.o -index-unit-output-path /swift-time-primitives.build/Release-webassembly-wasm32/Time\ Julian\ Primitives-t.build/Objects-normal/wasm32/Time.Julian.o -index-unit-output-path /swift-time-primitives.build/Release-webassembly-wasm32/Time\ Julian\ Primitives-t.build/Objects-normal/wasm32/exports.o
+error: Build failed

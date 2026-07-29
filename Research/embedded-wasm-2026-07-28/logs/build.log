@@ -1,0 +1,14 @@
+[0/1] Planning build
+Building for debugging...
+error: unable to create target: 'No available targets are compatible with triple "wasm32-unknown-wasip1"'
+1 error generated.
+[0/502] Compiling cmark-gfm-extensions strikethrough.c
+[0/502] Compiling cmark-gfm-extensions autolink.c
+[0/502] Compiling cmark-gfm-extensions core-extensions.c
+error: unable to create target: 'No available targets are compatible with triple "wasm32-unknown-wasip1"'
+1 error generated.
+[0/502] Compiling cmark-gfm-extensions tagfilter.c
+[0/502] Compiling cmark-gfm-extensions ext_scanners.c
+[0/502] Compiling cmark-gfm-extensions table.c
+[0/502] Compiling cmark-gfm-extensions tasklist.c
+[0/502] Write swift-version--58304C5D6DBC2206.txt

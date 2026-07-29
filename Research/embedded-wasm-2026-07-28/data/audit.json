@@ -1,0 +1,1850 @@
+{
+ "swift-html": [
+  "swift-foundations",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 2,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-translating-dependencies": [
+  "swift-foundations",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 2,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-dependencies": [
+  "swift-foundations",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-environment": [
+  "swift-foundations",
+  {
+   "Mutex/Synchronization": 4,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-strings": [
+  "swift-foundations",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-ascii-serializer-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-byte-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 2,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 3
+  }
+ ],
+ "swift-bit-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-hash-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-property-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 4,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-carrier-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-ownership-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 4,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-equation-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-comparison-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-binary-serializer-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-witness-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-standard-library-extensions": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 1,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-serializer-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-either-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 1
+  }
+ ],
+ "swift-binary-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-ascii-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-iso-9899": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-error-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-string-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-span-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-cardinal-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 1,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-index-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-affine-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 1,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-ordinal-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 2,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-memory-heap-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-memory-allocation-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-bit-vector-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-iterator-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-sequence-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-bit-pack-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-bit-index-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-memory-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-kernel": [
+  "swift-foundations",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 1,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-windows": [
+  "swift-foundations",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-clock-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 1,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-path-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 1,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-random-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-system-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-glob-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-parser-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-text-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-collection-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-order-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-pair-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-array-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 1,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-ownership-shared-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-storage-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 1,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-hash-table-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-storage-split-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-buffer-linear-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-memory-iterator-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-finite-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-buffer-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-buffer-slots-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-cyclic-index-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-cyclic-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-storage-generational-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-buffer-ring-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 1,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-memory-small-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-memory-inline-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-input-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-product-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-byte-parser-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 1,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-memory-cursor-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-cursor-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-column-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-windows-32": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 4,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-terminal-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-dimension-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 1,
+   "existential": 1,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-numeric-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-direction-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-axis-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-loader-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-time-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-formatter-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-format-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-memory-shared-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-memory-lock-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-memory-map-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-linux": [
+  "swift-foundations",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-posix": [
+  "swift-foundations",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 3,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-iso-9945": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-cpu-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 2,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-linux-standard": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-darwin": [
+  "swift-foundations",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-darwin-standard": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-cpu": [
+  "swift-foundations",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-arm-standard": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-x86-standard": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-dictionary-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-reference-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-queue-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-witnesses": [
+  "swift-foundations",
+  {
+   "Mutex/Synchronization": 13,
+   "Foundation": 0,
+   "existential-metatype": 2,
+   "existential": 8,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-dependency-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 1,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-optic-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-source-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-translating": [
+  "swift-foundations",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 5,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 4
+  }
+ ],
+ "swift-bcp-47": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-rfc-5646": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 2,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 1
+  }
+ ],
+ "swift-iso-15924": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 2
+  }
+ ],
+ "swift-iso-3166": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 2,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 4
+  }
+ ],
+ "swift-iso-639": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 3
+  }
+ ],
+ "swift-color": [
+  "swift-foundations",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-color-standard": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-ecma-48": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-iec-61966": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-whatwg-url": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 1,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-ascii-parser-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-binary-parser-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 1,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-vector-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-machine-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-graph-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-fixed-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 1,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-heap-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-set-ordered-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-set-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-stack-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-tagged-collection-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-binary-leb128-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-rfc-4648": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 1,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-domain-standard": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 2,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 1
+  }
+ ],
+ "swift-rfc-5890": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-rfc-3492": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-rfc-5321": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-rfc-1123": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 4,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 2
+  }
+ ],
+ "swift-rfc-1035": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 1,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-incits-4-1986": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 1,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-rfc-5952": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 3,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-rfc-4291": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-rfc-791": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-rfc-3987": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 1,
+   "existential-metatype": 0,
+   "existential": 4,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-svg": [
+  "swift-foundations",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-svg-render": [
+  "swift-foundations",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 4,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-dictionary-ordered-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-svg-standard": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-w3c-svg": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 1,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-geometry-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-boundary-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-affine-geometry-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-linear-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-render-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-css": [
+  "swift-foundations",
+  {
+   "Mutex/Synchronization": 4,
+   "Foundation": 1,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-css-standard": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-w3c-css": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 15,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-ieee-754": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 2,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 1,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-decimal-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-w3c-cssom": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-html-render": [
+  "swift-foundations",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 1,
+   "existential": 4,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-async-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 5,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-deque-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-html-standard": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-whatwg-html": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 14,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-radix-formatter-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-radix-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-iso-8601": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 11,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 5
+  }
+ ],
+ "swift-rfc-2045": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 1,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-rfc-5322": [
+  "swift-standards",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 1,
+   "existential-metatype": 0,
+   "existential": 9,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 3
+  }
+ ],
+ "swift-ascii": [
+  "swift-foundations",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-binary-base-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-css-html-layout-render": [
+  "swift-foundations",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-css-html-render": [
+  "swift-foundations",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 1,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-layout-primitives": [
+  "swift-primitives",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 0,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ],
+ "swift-markdown-html-render": [
+  "swift-foundations",
+  {
+   "Mutex/Synchronization": 0,
+   "Foundation": 0,
+   "existential-metatype": 0,
+   "existential": 2,
+   "Mirror/reflection": 0,
+   "Codable(ungated)": 0
+  }
+ ]
+}

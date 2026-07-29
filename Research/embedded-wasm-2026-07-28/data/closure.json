@@ -1,0 +1,1265 @@
+{
+ "swift-html": [
+  "swift-html-render",
+  "swift-markdown-html-render",
+  "swift-css",
+  "swift-svg",
+  "swift-rfc-4648",
+  "swift-whatwg-url",
+  "swift-color",
+  "swift-byte-primitives",
+  "swift-translating",
+  "swift-translating-dependencies"
+ ],
+ "swift-translating-dependencies": [
+  "swift-translating",
+  "swift-dependencies"
+ ],
+ "swift-dependencies": [
+  "swift-witnesses",
+  "swift-environment"
+ ],
+ "swift-environment": [
+  "swift-kernel",
+  "swift-strings"
+ ],
+ "swift-strings": [
+  "swift-string-primitives",
+  "swift-iso-9899",
+  "swift-ascii-serializer-primitives"
+ ],
+ "swift-ascii-serializer-primitives": [
+  "swift-ascii-primitives",
+  "swift-serializer-primitives",
+  "swift-binary-primitives",
+  "swift-binary-serializer-primitives",
+  "swift-byte-primitives"
+ ],
+ "swift-byte-primitives": [
+  "swift-carrier-primitives",
+  "swift-tagged-primitives",
+  "swift-ownership-primitives",
+  "swift-bit-primitives"
+ ],
+ "swift-bit-primitives": [
+  "swift-comparison-primitives",
+  "swift-equation-primitives",
+  "swift-hash-primitives"
+ ],
+ "swift-hash-primitives": [
+  "swift-equation-primitives",
+  "swift-property-primitives",
+  "swift-tagged-primitives"
+ ],
+ "swift-tagged-primitives": null,
+ "swift-property-primitives": [
+  "swift-ownership-primitives",
+  "swift-tagged-primitives",
+  "swift-carrier-primitives"
+ ],
+ "swift-carrier-primitives": [],
+ "swift-ownership-primitives": [
+  "swift-tagged-primitives"
+ ],
+ "swift-equation-primitives": [
+  "swift-property-primitives",
+  "swift-tagged-primitives"
+ ],
+ "swift-comparison-primitives": [
+  "swift-equation-primitives",
+  "swift-property-primitives",
+  "swift-tagged-primitives"
+ ],
+ "swift-binary-serializer-primitives": [
+  "swift-binary-primitives",
+  "swift-serializer-primitives",
+  "swift-byte-primitives",
+  "swift-witness-primitives",
+  "swift-tagged-primitives"
+ ],
+ "swift-witness-primitives": [
+  "swift-standard-library-extensions"
+ ],
+ "swift-standard-library-extensions": [],
+ "swift-serializer-primitives": [
+  "swift-either-primitives",
+  "swift-byte-primitives",
+  "swift-tagged-primitives"
+ ],
+ "swift-either-primitives": [
+  "swift-equation-primitives",
+  "swift-hash-primitives",
+  "swift-comparison-primitives",
+  "swift-standard-library-extensions"
+ ],
+ "swift-binary-primitives": [
+  "swift-byte-primitives"
+ ],
+ "swift-ascii-primitives": [
+  "swift-byte-primitives"
+ ],
+ "swift-iso-9899": [
+  "swift-error-primitives",
+  "swift-ownership-primitives"
+ ],
+ "swift-error-primitives": [],
+ "swift-string-primitives": [
+  "swift-memory-heap-primitives",
+  "swift-span-primitives",
+  "swift-tagged-primitives",
+  "swift-ownership-primitives"
+ ],
+ "swift-span-primitives": [
+  "swift-index-primitives",
+  "swift-byte-primitives",
+  "swift-cardinal-primitives"
+ ],
+ "swift-cardinal-primitives": [
+  "swift-tagged-primitives",
+  "swift-carrier-primitives",
+  "swift-property-primitives",
+  "swift-equation-primitives",
+  "swift-hash-primitives",
+  "swift-comparison-primitives"
+ ],
+ "swift-index-primitives": [
+  "swift-ordinal-primitives",
+  "swift-cardinal-primitives",
+  "swift-affine-primitives",
+  "swift-comparison-primitives",
+  "swift-tagged-primitives"
+ ],
+ "swift-affine-primitives": [
+  "swift-ordinal-primitives",
+  "swift-cardinal-primitives",
+  "swift-carrier-primitives",
+  "swift-equation-primitives",
+  "swift-hash-primitives",
+  "swift-comparison-primitives",
+  "swift-tagged-primitives"
+ ],
+ "swift-ordinal-primitives": [
+  "swift-tagged-primitives",
+  "swift-carrier-primitives",
+  "swift-cardinal-primitives",
+  "swift-property-primitives",
+  "swift-equation-primitives",
+  "swift-comparison-primitives",
+  "swift-hash-primitives"
+ ],
+ "swift-memory-heap-primitives": [
+  "swift-memory-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-byte-primitives",
+  "swift-index-primitives",
+  "swift-affine-primitives"
+ ],
+ "swift-memory-allocation-primitives": [
+  "swift-memory-primitives",
+  "swift-tagged-primitives",
+  "swift-index-primitives",
+  "swift-bit-vector-primitives",
+  "swift-affine-primitives"
+ ],
+ "swift-bit-vector-primitives": [
+  "swift-bit-primitives",
+  "swift-bit-pack-primitives",
+  "swift-index-primitives",
+  "swift-property-primitives",
+  "swift-sequence-primitives",
+  "swift-iterator-primitives",
+  "swift-affine-primitives"
+ ],
+ "swift-iterator-primitives": [
+  "swift-carrier-primitives",
+  "swift-cardinal-primitives",
+  "swift-either-primitives"
+ ],
+ "swift-sequence-primitives": [
+  "swift-iterator-primitives",
+  "swift-either-primitives",
+  "swift-property-primitives",
+  "swift-index-primitives",
+  "swift-cardinal-primitives"
+ ],
+ "swift-bit-pack-primitives": [
+  "swift-bit-primitives",
+  "swift-bit-index-primitives"
+ ],
+ "swift-bit-index-primitives": [
+  "swift-bit-primitives",
+  "swift-index-primitives",
+  "swift-affine-primitives",
+  "swift-ordinal-primitives",
+  "swift-byte-primitives"
+ ],
+ "swift-memory-primitives": [
+  "swift-ordinal-primitives",
+  "swift-cardinal-primitives",
+  "swift-carrier-primitives",
+  "swift-affine-primitives",
+  "swift-tagged-primitives",
+  "swift-index-primitives",
+  "swift-bit-index-primitives",
+  "swift-span-primitives"
+ ],
+ "swift-kernel": [
+  "swift-clock-primitives",
+  "swift-system-primitives",
+  "swift-binary-primitives",
+  "swift-cardinal-primitives",
+  "swift-tagged-primitives",
+  "swift-time-primitives",
+  "swift-ascii-primitives",
+  "swift-dimension-primitives",
+  "swift-queue-primitives",
+  "swift-reference-primitives",
+  "swift-ownership-primitives",
+  "swift-error-primitives",
+  "swift-random-primitives",
+  "swift-path-primitives",
+  "swift-string-primitives",
+  "swift-memory-primitives",
+  "swift-dictionary-primitives",
+  "swift-hash-table-primitives",
+  "swift-hash-primitives",
+  "swift-buffer-primitives",
+  "swift-buffer-linear-primitives",
+  "swift-storage-primitives",
+  "swift-memory-heap-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-terminal-primitives",
+  "swift-cpu",
+  "swift-posix",
+  "swift-darwin",
+  "swift-linux",
+  "swift-windows",
+  "swift-strings"
+ ],
+ "swift-windows": [
+  "swift-windows-32",
+  "swift-glob-primitives",
+  "swift-system-primitives",
+  "swift-memory-primitives",
+  "swift-random-primitives",
+  "swift-equation-primitives",
+  "swift-hash-primitives",
+  "swift-error-primitives",
+  "swift-path-primitives",
+  "swift-clock-primitives"
+ ],
+ "swift-clock-primitives": [
+  "swift-tagged-primitives",
+  "swift-carrier-primitives",
+  "swift-standard-library-extensions"
+ ],
+ "swift-path-primitives": [
+  "swift-string-primitives",
+  "swift-memory-heap-primitives",
+  "swift-tagged-primitives",
+  "swift-ownership-primitives",
+  "swift-error-primitives"
+ ],
+ "swift-random-primitives": [],
+ "swift-system-primitives": [
+  "swift-cardinal-primitives",
+  "swift-ordinal-primitives",
+  "swift-memory-primitives"
+ ],
+ "swift-glob-primitives": [
+  "swift-array-primitives",
+  "swift-ownership-shared-primitives",
+  "swift-buffer-linear-primitives",
+  "swift-ascii-primitives",
+  "swift-byte-primitives",
+  "swift-byte-parser-primitives",
+  "swift-parser-primitives"
+ ],
+ "swift-parser-primitives": [
+  "swift-either-primitives",
+  "swift-pair-primitives",
+  "swift-product-primitives",
+  "swift-input-primitives",
+  "swift-array-primitives",
+  "swift-collection-primitives",
+  "swift-index-primitives",
+  "swift-text-primitives",
+  "swift-tagged-primitives",
+  "swift-iterator-primitives"
+ ],
+ "swift-text-primitives": [
+  "swift-affine-primitives",
+  "swift-carrier-primitives",
+  "swift-byte-primitives",
+  "swift-ownership-primitives"
+ ],
+ "swift-collection-primitives": [
+  "swift-comparison-primitives",
+  "swift-index-primitives",
+  "swift-iterator-primitives",
+  "swift-order-primitives",
+  "swift-property-primitives"
+ ],
+ "swift-order-primitives": [
+  "swift-comparison-primitives",
+  "swift-property-primitives",
+  "swift-pair-primitives"
+ ],
+ "swift-pair-primitives": [
+  "swift-equation-primitives",
+  "swift-hash-primitives",
+  "swift-comparison-primitives"
+ ],
+ "swift-array-primitives": [
+  "swift-memory-small-primitives",
+  "swift-span-primitives",
+  "swift-memory-iterator-primitives",
+  "swift-standard-library-extensions",
+  "swift-index-primitives",
+  "swift-collection-primitives",
+  "swift-sequence-primitives",
+  "swift-buffer-primitives",
+  "swift-buffer-linear-primitives",
+  "swift-storage-primitives",
+  "swift-iterator-primitives",
+  "swift-cardinal-primitives",
+  "swift-tagged-primitives",
+  "swift-ordinal-primitives",
+  "swift-memory-heap-primitives",
+  "swift-ownership-shared-primitives",
+  "swift-memory-allocation-primitives"
+ ],
+ "swift-ownership-shared-primitives": [
+  "swift-buffer-primitives",
+  "swift-buffer-linear-primitives",
+  "swift-buffer-ring-primitives",
+  "swift-storage-generational-primitives",
+  "swift-hash-table-primitives",
+  "swift-hash-primitives",
+  "swift-storage-primitives",
+  "swift-memory-heap-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-index-primitives",
+  "swift-span-primitives",
+  "swift-ownership-primitives"
+ ],
+ "swift-storage-primitives": [
+  "swift-index-primitives",
+  "swift-memory-primitives",
+  "swift-affine-primitives",
+  "swift-ordinal-primitives",
+  "swift-span-primitives",
+  "swift-memory-heap-primitives",
+  "swift-memory-allocation-primitives"
+ ],
+ "swift-hash-table-primitives": [
+  "swift-index-primitives",
+  "swift-hash-primitives",
+  "swift-property-primitives",
+  "swift-ordinal-primitives",
+  "swift-affine-primitives",
+  "swift-cardinal-primitives",
+  "swift-cyclic-index-primitives",
+  "swift-finite-primitives",
+  "swift-buffer-primitives",
+  "swift-buffer-slots-primitives",
+  "swift-buffer-linear-primitives",
+  "swift-storage-primitives",
+  "swift-storage-split-primitives",
+  "swift-memory-heap-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-tagged-primitives"
+ ],
+ "swift-storage-split-primitives": [
+  "swift-index-primitives",
+  "swift-storage-primitives"
+ ],
+ "swift-buffer-linear-primitives": [
+  "swift-buffer-primitives",
+  "swift-storage-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-memory-heap-primitives",
+  "swift-index-primitives",
+  "swift-affine-primitives",
+  "swift-ordinal-primitives",
+  "swift-memory-primitives",
+  "swift-span-primitives",
+  "swift-finite-primitives",
+  "swift-sequence-primitives",
+  "swift-iterator-primitives",
+  "swift-memory-iterator-primitives"
+ ],
+ "swift-memory-iterator-primitives": [
+  "swift-span-primitives",
+  "swift-iterator-primitives"
+ ],
+ "swift-finite-primitives": [
+  "swift-cardinal-primitives",
+  "swift-ordinal-primitives",
+  "swift-tagged-primitives",
+  "swift-index-primitives",
+  "swift-iterator-primitives"
+ ],
+ "swift-buffer-primitives": [
+  "swift-index-primitives",
+  "swift-storage-primitives",
+  "swift-memory-primitives"
+ ],
+ "swift-buffer-slots-primitives": [
+  "swift-buffer-primitives",
+  "swift-storage-primitives",
+  "swift-storage-split-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-index-primitives",
+  "swift-affine-primitives",
+  "swift-ordinal-primitives",
+  "swift-memory-primitives",
+  "swift-memory-heap-primitives"
+ ],
+ "swift-cyclic-index-primitives": [
+  "swift-cyclic-primitives",
+  "swift-index-primitives"
+ ],
+ "swift-cyclic-primitives": [
+  "swift-comparison-primitives",
+  "swift-hash-primitives",
+  "swift-tagged-primitives",
+  "swift-ordinal-primitives",
+  "swift-cardinal-primitives",
+  "swift-index-primitives"
+ ],
+ "swift-storage-generational-primitives": [
+  "swift-storage-primitives",
+  "swift-buffer-primitives",
+  "swift-index-primitives",
+  "swift-ordinal-primitives",
+  "swift-memory-primitives",
+  "swift-memory-heap-primitives",
+  "swift-memory-allocation-primitives"
+ ],
+ "swift-buffer-ring-primitives": [
+  "swift-buffer-primitives",
+  "swift-storage-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-span-primitives",
+  "swift-cyclic-index-primitives",
+  "swift-index-primitives",
+  "swift-affine-primitives",
+  "swift-ordinal-primitives",
+  "swift-memory-primitives",
+  "swift-sequence-primitives",
+  "swift-iterator-primitives",
+  "swift-memory-heap-primitives",
+  "swift-memory-small-primitives"
+ ],
+ "swift-memory-small-primitives": [
+  "swift-memory-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-memory-heap-primitives",
+  "swift-memory-inline-primitives"
+ ],
+ "swift-memory-inline-primitives": [
+  "swift-memory-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-index-primitives"
+ ],
+ "swift-input-primitives": [
+  "swift-collection-primitives",
+  "swift-equation-primitives",
+  "swift-comparison-primitives",
+  "swift-hash-primitives",
+  "swift-property-primitives",
+  "swift-index-primitives",
+  "swift-byte-primitives",
+  "swift-iterator-primitives",
+  "swift-sequence-primitives"
+ ],
+ "swift-product-primitives": [
+  "swift-comparison-primitives",
+  "swift-equation-primitives",
+  "swift-hash-primitives"
+ ],
+ "swift-byte-parser-primitives": [
+  "swift-parser-primitives",
+  "swift-byte-primitives",
+  "swift-either-primitives",
+  "swift-input-primitives",
+  "swift-array-primitives",
+  "swift-column-primitives",
+  "swift-ownership-shared-primitives",
+  "swift-buffer-linear-primitives",
+  "swift-storage-primitives",
+  "swift-memory-heap-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-cursor-primitives",
+  "swift-memory-cursor-primitives",
+  "swift-index-primitives",
+  "swift-collection-primitives",
+  "swift-span-primitives"
+ ],
+ "swift-memory-cursor-primitives": [
+  "swift-cursor-primitives",
+  "swift-byte-primitives",
+  "swift-cardinal-primitives",
+  "swift-iterator-primitives",
+  "swift-memory-primitives",
+  "swift-span-primitives",
+  "swift-ordinal-primitives",
+  "swift-tagged-primitives",
+  "swift-storage-primitives",
+  "swift-memory-heap-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-index-primitives"
+ ],
+ "swift-cursor-primitives": [
+  "swift-tagged-primitives",
+  "swift-ordinal-primitives",
+  "swift-cardinal-primitives",
+  "swift-index-primitives",
+  "swift-ownership-primitives"
+ ],
+ "swift-column-primitives": [
+  "swift-buffer-primitives",
+  "swift-buffer-linear-primitives",
+  "swift-buffer-ring-primitives",
+  "swift-storage-primitives",
+  "swift-storage-generational-primitives",
+  "swift-ownership-shared-primitives",
+  "swift-memory-primitives",
+  "swift-memory-heap-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-index-primitives",
+  "swift-tagged-primitives"
+ ],
+ "swift-windows-32": [
+  "swift-memory-primitives",
+  "swift-memory-map-primitives",
+  "swift-memory-lock-primitives",
+  "swift-memory-shared-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-clock-primitives",
+  "swift-time-primitives",
+  "swift-loader-primitives",
+  "swift-sequence-primitives",
+  "swift-standard-library-extensions",
+  "swift-error-primitives",
+  "swift-random-primitives",
+  "swift-path-primitives",
+  "swift-system-primitives",
+  "swift-binary-primitives",
+  "swift-dimension-primitives",
+  "swift-terminal-primitives",
+  "swift-pair-primitives",
+  "swift-equation-primitives",
+  "swift-hash-primitives",
+  "swift-tagged-primitives",
+  "swift-cardinal-primitives",
+  "swift-string-primitives"
+ ],
+ "swift-terminal-primitives": [
+  "swift-error-primitives"
+ ],
+ "swift-dimension-primitives": [
+  "swift-axis-primitives",
+  "swift-direction-primitives",
+  "swift-finite-primitives",
+  "swift-tagged-primitives",
+  "swift-numeric-primitives",
+  "swift-pair-primitives"
+ ],
+ "swift-numeric-primitives": [
+  "swift-tagged-primitives",
+  "swift-pair-primitives"
+ ],
+ "swift-direction-primitives": [
+  "swift-equation-primitives",
+  "swift-hash-primitives",
+  "swift-comparison-primitives"
+ ],
+ "swift-axis-primitives": [
+  "swift-equation-primitives",
+  "swift-hash-primitives",
+  "swift-comparison-primitives",
+  "swift-finite-primitives",
+  "swift-ordinal-primitives"
+ ],
+ "swift-loader-primitives": [
+  "swift-string-primitives",
+  "swift-ownership-primitives",
+  "swift-ascii-primitives",
+  "swift-error-primitives"
+ ],
+ "swift-time-primitives": [
+  "swift-dimension-primitives",
+  "swift-format-primitives",
+  "swift-formatter-primitives"
+ ],
+ "swift-formatter-primitives": [
+  "swift-either-primitives",
+  "swift-pair-primitives"
+ ],
+ "swift-format-primitives": [
+  "swift-standard-library-extensions",
+  "swift-tagged-primitives",
+  "swift-formatter-primitives",
+  "swift-string-primitives"
+ ],
+ "swift-memory-shared-primitives": [
+  "swift-memory-primitives",
+  "swift-error-primitives"
+ ],
+ "swift-memory-lock-primitives": [
+  "swift-memory-primitives",
+  "swift-error-primitives"
+ ],
+ "swift-memory-map-primitives": [
+  "swift-memory-primitives",
+  "swift-memory-lock-primitives",
+  "swift-byte-primitives",
+  "swift-error-primitives",
+  "swift-span-primitives"
+ ],
+ "swift-linux": [
+  "swift-linux-standard",
+  "swift-system-primitives",
+  "swift-random-primitives",
+  "swift-error-primitives",
+  "swift-iso-9945",
+  "swift-posix"
+ ],
+ "swift-posix": [
+  "swift-equation-primitives",
+  "swift-hash-primitives",
+  "swift-error-primitives",
+  "swift-path-primitives",
+  "swift-loader-primitives",
+  "swift-glob-primitives",
+  "swift-either-primitives",
+  "swift-iso-9945"
+ ],
+ "swift-iso-9945": [
+  "swift-carrier-primitives",
+  "swift-tagged-primitives",
+  "swift-loader-primitives",
+  "swift-string-primitives",
+  "swift-clock-primitives",
+  "swift-time-primitives",
+  "swift-binary-primitives",
+  "swift-dimension-primitives",
+  "swift-equation-primitives",
+  "swift-terminal-primitives",
+  "swift-error-primitives",
+  "swift-random-primitives",
+  "swift-path-primitives",
+  "swift-system-primitives",
+  "swift-memory-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-memory-lock-primitives",
+  "swift-memory-shared-primitives",
+  "swift-memory-map-primitives",
+  "swift-ascii-primitives",
+  "swift-cpu-primitives",
+  "swift-cardinal-primitives",
+  "swift-either-primitives",
+  "swift-pair-primitives",
+  "swift-iso-9899"
+ ],
+ "swift-cpu-primitives": [
+  "swift-binary-primitives",
+  "swift-binary-serializer-primitives",
+  "swift-bit-primitives"
+ ],
+ "swift-linux-standard": [
+  "swift-pair-primitives",
+  "swift-cpu-primitives",
+  "swift-dimension-primitives",
+  "swift-loader-primitives",
+  "swift-string-primitives",
+  "swift-system-primitives",
+  "swift-error-primitives",
+  "swift-random-primitives",
+  "swift-path-primitives",
+  "swift-memory-primitives",
+  "swift-memory-map-primitives",
+  "swift-iso-9945"
+ ],
+ "swift-darwin": [
+  "swift-darwin-standard",
+  "swift-memory-primitives",
+  "swift-system-primitives",
+  "swift-random-primitives",
+  "swift-error-primitives",
+  "swift-path-primitives",
+  "swift-clock-primitives",
+  "swift-posix",
+  "swift-iso-9945"
+ ],
+ "swift-darwin-standard": [
+  "swift-time-primitives",
+  "swift-loader-primitives",
+  "swift-string-primitives",
+  "swift-error-primitives",
+  "swift-random-primitives",
+  "swift-tagged-primitives",
+  "swift-cardinal-primitives",
+  "swift-ordinal-primitives",
+  "swift-iso-9945"
+ ],
+ "swift-cpu": [
+  "swift-cpu-primitives",
+  "swift-x86-standard",
+  "swift-arm-standard"
+ ],
+ "swift-arm-standard": [
+  "swift-cpu-primitives"
+ ],
+ "swift-x86-standard": [
+  "swift-cpu-primitives"
+ ],
+ "swift-dictionary-primitives": [
+  "swift-index-primitives",
+  "swift-hash-primitives",
+  "swift-hash-table-primitives",
+  "swift-ownership-shared-primitives",
+  "swift-buffer-primitives",
+  "swift-buffer-linear-primitives",
+  "swift-storage-primitives",
+  "swift-memory-heap-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-ordinal-primitives",
+  "swift-tagged-primitives"
+ ],
+ "swift-reference-primitives": [],
+ "swift-queue-primitives": [
+  "swift-buffer-primitives",
+  "swift-buffer-ring-primitives",
+  "swift-memory-small-primitives",
+  "swift-storage-primitives",
+  "swift-ownership-shared-primitives",
+  "swift-memory-heap-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-index-primitives",
+  "swift-sequence-primitives",
+  "swift-span-primitives",
+  "swift-ordinal-primitives",
+  "swift-affine-primitives",
+  "swift-tagged-primitives"
+ ],
+ "swift-witnesses": [
+  "swift-syntax",
+  "swift-witness-primitives",
+  "swift-source-primitives",
+  "swift-optic-primitives",
+  "swift-finite-primitives",
+  "swift-ownership-primitives",
+  "swift-dependency-primitives"
+ ],
+ "swift-dependency-primitives": [
+  "swift-witness-primitives",
+  "swift-property-primitives",
+  "swift-optic-primitives"
+ ],
+ "swift-optic-primitives": [
+  "swift-syntax"
+ ],
+ "swift-syntax": null,
+ "swift-source-primitives": [
+  "swift-byte-primitives",
+  "swift-text-primitives"
+ ],
+ "swift-translating": [
+  "swift-bcp-47",
+  "swift-dependencies"
+ ],
+ "swift-bcp-47": [
+  "swift-standard-library-extensions",
+  "swift-rfc-5646"
+ ],
+ "swift-rfc-5646": [
+  "swift-standard-library-extensions",
+  "swift-ascii-primitives",
+  "swift-iso-639",
+  "swift-iso-3166",
+  "swift-iso-15924",
+  "swift-parser-primitives"
+ ],
+ "swift-iso-15924": [
+  "swift-standard-library-extensions",
+  "swift-ascii-primitives"
+ ],
+ "swift-iso-3166": [
+  "swift-standard-library-extensions",
+  "swift-ascii-primitives"
+ ],
+ "swift-iso-639": [
+  "swift-standard-library-extensions",
+  "swift-ascii-primitives"
+ ],
+ "swift-color": [
+  "swift-color-standard"
+ ],
+ "swift-color-standard": [
+  "swift-dimension-primitives",
+  "swift-iec-61966",
+  "swift-iso-9899",
+  "swift-ecma-48"
+ ],
+ "swift-ecma-48": [
+  "swift-standard-library-extensions"
+ ],
+ "swift-iec-61966": [
+  "swift-iso-9899",
+  "swift-ascii-primitives"
+ ],
+ "swift-whatwg-url": [
+  "swift-rfc-3987",
+  "swift-rfc-791",
+  "swift-rfc-5952",
+  "swift-domain-standard",
+  "swift-rfc-4648",
+  "swift-ascii-serializer-primitives",
+  "swift-ascii-primitives",
+  "swift-binary-primitives",
+  "swift-parser-primitives",
+  "swift-ascii-parser-primitives",
+  "swift-byte-parser-primitives"
+ ],
+ "swift-ascii-parser-primitives": [
+  "swift-ascii-primitives",
+  "swift-binary-parser-primitives",
+  "swift-buffer-linear-primitives",
+  "swift-byte-parser-primitives",
+  "swift-parser-primitives",
+  "swift-ownership-shared-primitives"
+ ],
+ "swift-binary-parser-primitives": [
+  "swift-parser-primitives",
+  "swift-binary-primitives",
+  "swift-binary-leb128-primitives",
+  "swift-machine-primitives",
+  "swift-vector-primitives",
+  "swift-index-primitives",
+  "swift-byte-primitives",
+  "swift-byte-parser-primitives",
+  "swift-span-primitives",
+  "swift-buffer-linear-primitives",
+  "swift-ownership-shared-primitives"
+ ],
+ "swift-vector-primitives": [
+  "swift-index-primitives",
+  "swift-property-primitives",
+  "swift-sequence-primitives",
+  "swift-iterator-primitives"
+ ],
+ "swift-machine-primitives": [
+  "swift-graph-primitives"
+ ],
+ "swift-graph-primitives": [
+  "swift-tagged-primitives",
+  "swift-tagged-collection-primitives",
+  "swift-stack-primitives",
+  "swift-set-primitives",
+  "swift-set-ordered-primitives",
+  "swift-heap-primitives",
+  "swift-index-primitives",
+  "swift-array-primitives",
+  "swift-fixed-primitives",
+  "swift-column-primitives",
+  "swift-hash-table-primitives",
+  "swift-ownership-shared-primitives",
+  "swift-buffer-linear-primitives",
+  "swift-buffer-ring-primitives",
+  "swift-queue-primitives",
+  "swift-bit-vector-primitives",
+  "swift-iterator-primitives",
+  "swift-vector-primitives"
+ ],
+ "swift-fixed-primitives": [
+  "swift-buffer-primitives",
+  "swift-buffer-linear-primitives",
+  "swift-span-primitives",
+  "swift-storage-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-memory-heap-primitives",
+  "swift-memory-iterator-primitives",
+  "swift-collection-primitives",
+  "swift-index-primitives",
+  "swift-iterator-primitives",
+  "swift-equation-primitives",
+  "swift-hash-primitives",
+  "swift-tagged-primitives",
+  "swift-ordinal-primitives"
+ ],
+ "swift-heap-primitives": [
+  "swift-comparison-primitives",
+  "swift-index-primitives",
+  "swift-buffer-primitives",
+  "swift-buffer-linear-primitives",
+  "swift-storage-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-memory-heap-primitives",
+  "swift-collection-primitives",
+  "swift-input-primitives",
+  "swift-sequence-primitives"
+ ],
+ "swift-set-ordered-primitives": [
+  "swift-set-primitives",
+  "swift-index-primitives",
+  "swift-hash-primitives",
+  "swift-hash-table-primitives",
+  "swift-ownership-shared-primitives",
+  "swift-buffer-primitives",
+  "swift-buffer-linear-primitives",
+  "swift-storage-primitives",
+  "swift-memory-heap-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-ordinal-primitives",
+  "swift-tagged-primitives"
+ ],
+ "swift-set-primitives": [
+  "swift-index-primitives",
+  "swift-hash-primitives",
+  "swift-hash-table-primitives",
+  "swift-ownership-shared-primitives",
+  "swift-buffer-primitives",
+  "swift-buffer-linear-primitives",
+  "swift-storage-primitives",
+  "swift-memory-heap-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-ordinal-primitives",
+  "swift-tagged-primitives"
+ ],
+ "swift-stack-primitives": [
+  "swift-index-primitives",
+  "swift-buffer-primitives",
+  "swift-buffer-linear-primitives",
+  "swift-storage-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-memory-heap-primitives",
+  "swift-collection-primitives",
+  "swift-input-primitives",
+  "swift-sequence-primitives"
+ ],
+ "swift-tagged-collection-primitives": [
+  "swift-tagged-primitives",
+  "swift-collection-primitives",
+  "swift-index-primitives"
+ ],
+ "swift-binary-leb128-primitives": [
+  "swift-binary-primitives",
+  "swift-byte-primitives"
+ ],
+ "swift-rfc-4648": [
+  "swift-standard-library-extensions",
+  "swift-binary-primitives",
+  "swift-ascii-primitives"
+ ],
+ "swift-domain-standard": [
+  "swift-rfc-1035",
+  "swift-rfc-1123",
+  "swift-rfc-5321",
+  "swift-rfc-5890"
+ ],
+ "swift-rfc-5890": [
+  "swift-rfc-3492"
+ ],
+ "swift-rfc-3492": [],
+ "swift-rfc-5321": [
+  "swift-ascii-serializer-primitives",
+  "swift-binary-serializer-primitives",
+  "swift-ascii-parser-primitives",
+  "swift-incits-4-1986",
+  "swift-rfc-1123",
+  "swift-parser-primitives"
+ ],
+ "swift-rfc-1123": [
+  "swift-rfc-1035",
+  "swift-standard-library-extensions",
+  "swift-ascii-serializer-primitives",
+  "swift-ascii-parser-primitives"
+ ],
+ "swift-rfc-1035": [
+  "swift-standard-library-extensions",
+  "swift-binary-primitives",
+  "swift-ascii-serializer-primitives",
+  "swift-ascii-parser-primitives"
+ ],
+ "swift-incits-4-1986": [
+  "swift-ascii-primitives",
+  "swift-standard-library-extensions",
+  "swift-binary-primitives",
+  "swift-parser-primitives"
+ ],
+ "swift-rfc-5952": [
+  "swift-rfc-4291",
+  "swift-standard-library-extensions",
+  "swift-ascii-primitives",
+  "swift-rfc-4648"
+ ],
+ "swift-rfc-4291": [
+  "swift-ascii-serializer-primitives",
+  "swift-standard-library-extensions",
+  "swift-binary-primitives",
+  "swift-binary-serializer-primitives",
+  "swift-binary-parser-primitives",
+  "swift-ascii-parser-primitives"
+ ],
+ "swift-rfc-791": [
+  "swift-standard-library-extensions",
+  "swift-binary-primitives",
+  "swift-binary-serializer-primitives",
+  "swift-ascii-serializer-primitives",
+  "swift-binary-parser-primitives",
+  "swift-ascii-parser-primitives",
+  "swift-byte-primitives"
+ ],
+ "swift-rfc-3987": [
+  "swift-binary-primitives",
+  "swift-ascii-serializer-primitives",
+  "swift-ascii-parser-primitives"
+ ],
+ "swift-svg": [
+  "swift-svg-render",
+  "swift-dimension-primitives"
+ ],
+ "swift-svg-render": [
+  "swift-render-primitives",
+  "swift-svg-standard",
+  "swift-format-primitives",
+  "swift-dimension-primitives",
+  "swift-ascii-primitives",
+  "swift-dictionary-primitives",
+  "swift-dictionary-ordered-primitives",
+  "swift-ownership-shared-primitives",
+  "swift-hash-table-primitives",
+  "swift-column-primitives",
+  "swift-hash-primitives",
+  "swift-buffer-linear-primitives"
+ ],
+ "swift-dictionary-ordered-primitives": [
+  "swift-dictionary-primitives",
+  "swift-hash-table-primitives",
+  "swift-hash-primitives",
+  "swift-ownership-shared-primitives",
+  "swift-column-primitives",
+  "swift-index-primitives",
+  "swift-buffer-primitives",
+  "swift-buffer-linear-primitives",
+  "swift-storage-primitives",
+  "swift-memory-heap-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-ordinal-primitives",
+  "swift-tagged-primitives"
+ ],
+ "swift-svg-standard": [
+  "swift-w3c-svg"
+ ],
+ "swift-w3c-svg": [
+  "swift-format-primitives",
+  "swift-geometry-primitives",
+  "swift-parser-primitives"
+ ],
+ "swift-geometry-primitives": [
+  "swift-linear-primitives",
+  "swift-affine-primitives",
+  "swift-affine-geometry-primitives",
+  "swift-dimension-primitives",
+  "swift-boundary-primitives",
+  "swift-numeric-primitives",
+  "swift-pair-primitives"
+ ],
+ "swift-boundary-primitives": [
+  "swift-equation-primitives",
+  "swift-hash-primitives",
+  "swift-comparison-primitives"
+ ],
+ "swift-affine-geometry-primitives": [
+  "swift-affine-primitives",
+  "swift-linear-primitives",
+  "swift-dimension-primitives",
+  "swift-numeric-primitives",
+  "swift-tagged-primitives"
+ ],
+ "swift-linear-primitives": [
+  "swift-dimension-primitives",
+  "swift-format-primitives",
+  "swift-numeric-primitives",
+  "swift-tagged-primitives"
+ ],
+ "swift-render-primitives": [],
+ "swift-css": [
+  "swift-css-html-render",
+  "swift-css-html-layout-render",
+  "swift-html-render",
+  "swift-css-standard"
+ ],
+ "swift-css-standard": [
+  "swift-w3c-css",
+  "swift-iec-61966",
+  "swift-color-standard",
+  "swift-byte-primitives"
+ ],
+ "swift-w3c-css": [
+  "swift-w3c-cssom",
+  "swift-format-primitives",
+  "swift-geometry-primitives",
+  "swift-ieee-754",
+  "swift-iec-61966",
+  "swift-ascii-primitives",
+  "swift-rfc-4648"
+ ],
+ "swift-ieee-754": [
+  "swift-binary-primitives",
+  "swift-standard-library-extensions",
+  "swift-decimal-primitives",
+  "swift-dependency-primitives"
+ ],
+ "swift-decimal-primitives": [],
+ "swift-w3c-cssom": [],
+ "swift-html-render": [
+  "swift-render-primitives",
+  "swift-ascii",
+  "swift-html-standard",
+  "swift-w3c-css",
+  "swift-dictionary-primitives",
+  "swift-dictionary-ordered-primitives",
+  "swift-ownership-shared-primitives",
+  "swift-hash-table-primitives",
+  "swift-column-primitives",
+  "swift-hash-primitives",
+  "swift-buffer-linear-primitives",
+  "swift-ownership-primitives",
+  "swift-async-primitives"
+ ],
+ "swift-async-primitives": [
+  "swift-buffer-primitives",
+  "swift-buffer-ring-primitives",
+  "swift-buffer-linear-primitives",
+  "swift-storage-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-memory-heap-primitives",
+  "swift-dictionary-primitives",
+  "swift-dictionary-ordered-primitives",
+  "swift-hash-primitives",
+  "swift-hash-table-primitives",
+  "swift-index-primitives",
+  "swift-queue-primitives",
+  "swift-column-primitives",
+  "swift-deque-primitives",
+  "swift-tagged-primitives",
+  "swift-ownership-primitives",
+  "swift-either-primitives",
+  "swift-pair-primitives"
+ ],
+ "swift-deque-primitives": [
+  "swift-queue-primitives",
+  "swift-buffer-primitives",
+  "swift-buffer-ring-primitives",
+  "swift-memory-small-primitives",
+  "swift-storage-primitives",
+  "swift-ownership-shared-primitives",
+  "swift-memory-heap-primitives",
+  "swift-memory-allocation-primitives",
+  "swift-index-primitives",
+  "swift-ordinal-primitives",
+  "swift-affine-primitives",
+  "swift-tagged-primitives"
+ ],
+ "swift-html-standard": [
+  "swift-whatwg-html",
+  "swift-geometry-primitives"
+ ],
+ "swift-whatwg-html": [
+  "swift-rfc-2045",
+  "swift-iso-8601",
+  "swift-standard-library-extensions",
+  "swift-geometry-primitives",
+  "swift-radix-formatter-primitives",
+  "swift-ascii-primitives"
+ ],
+ "swift-radix-formatter-primitives": [
+  "swift-radix-primitives",
+  "swift-formatter-primitives"
+ ],
+ "swift-radix-primitives": [],
+ "swift-iso-8601": [
+  "swift-standard-library-extensions",
+  "swift-time-primitives",
+  "swift-ascii-primitives",
+  "swift-parser-primitives",
+  "swift-ascii-parser-primitives",
+  "swift-byte-parser-primitives"
+ ],
+ "swift-rfc-2045": [
+  "swift-ascii-serializer-primitives",
+  "swift-incits-4-1986",
+  "swift-rfc-5322",
+  "swift-standard-library-extensions",
+  "swift-format-primitives",
+  "swift-binary-primitives",
+  "swift-binary-serializer-primitives",
+  "swift-parser-primitives",
+  "swift-ascii-parser-primitives"
+ ],
+ "swift-rfc-5322": [
+  "swift-rfc-1123",
+  "swift-standard-library-extensions",
+  "swift-binary-primitives",
+  "swift-radix-formatter-primitives",
+  "swift-binary-serializer-primitives",
+  "swift-time-primitives",
+  "swift-ascii-serializer-primitives",
+  "swift-ascii-parser-primitives",
+  "swift-incits-4-1986",
+  "swift-parser-primitives"
+ ],
+ "swift-ascii": [
+  "swift-incits-4-1986",
+  "swift-binary-base-primitives",
+  "swift-binary-primitives",
+  "swift-binary-serializer-primitives",
+  "swift-parser-primitives",
+  "swift-binary-parser-primitives",
+  "swift-standard-library-extensions",
+  "swift-string-primitives",
+  "swift-span-primitives"
+ ],
+ "swift-binary-base-primitives": [
+  "swift-property-primitives",
+  "swift-binary-primitives",
+  "swift-byte-primitives"
+ ],
+ "swift-css-html-layout-render": [
+  "swift-layout-primitives",
+  "swift-css-html-render",
+  "swift-css-standard",
+  "swift-html-render",
+  "swift-dictionary-ordered-primitives",
+  "swift-ownership-shared-primitives",
+  "swift-hash-table-primitives",
+  "swift-hash-primitives",
+  "swift-column-primitives",
+  "swift-buffer-linear-primitives"
+ ],
+ "swift-css-html-render": [
+  "swift-html-render",
+  "swift-css-standard"
+ ],
+ "swift-layout-primitives": [
+  "swift-axis-primitives",
+  "swift-dimension-primitives",
+  "swift-geometry-primitives",
+  "swift-boundary-primitives"
+ ],
+ "swift-markdown-html-render": [
+  "swift-html-render",
+  "swift-css",
+  "swift-css-html-layout-render",
+  "swift-markdown",
+  "swift-collections",
+  "swift-ownership-primitives",
+  "swift-standard-library-extensions"
+ ],
+ "swift-collections": null,
+ "swift-markdown": null
+}

@@ -1,0 +1,65 @@
+GOAL: Determine empirically whether swift-html builds for WebAssembly under
+Embedded Swift, measure binary size against a web-performance budget, and
+deliver it as a paper in swift-html/Research/.
+
+ESTABLISHED (do not re-derive):
+- Toolchain: swiftly main-snapshot-2026-07-11 (6.5-dev) + SDK
+  swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm-embedded. Both installed.
+  6.5-dev is sanctioned; no 6.4-branch wasm SDK exists.
+- The CMO compiler abort (swift-institute/Issues#58) is FIXED on 6.5-dev:
+  Render_Primitive.swiftmodule builds where 6.3.3 aborted at
+  ASTContext.cpp:5924. 189 modules compiled.
+- Measured: embedded hello-world 21,579 B raw / 9,065 B gzip. Non-embedded
+  WASI control 7,085,523 B / 1,869,739 B gzip. 206x gzip.
+- Blocker A: 'StringLiteralType' unavailable in embedded, 12 sites in
+  swift-whatwg-html, swift-w3c-cssom, swift-w3c-css. Not toolchain-dependent.
+  Mechanical fix to String.
+- Blocker B (current): Apple's swift-markdown needs Foundation, reached via
+  swift-markdown-html-render.
+- Budget (gzip): competitive <=45KB, viable <=150KB, failed >400KB.
+
+WORK, IN ORDER:
+1. Resolve Blocker B. Test whether markdown can be made optional in
+   swift-html via a package trait, mirroring the existing Translating trait
+   (off by default, keeps Foundation out). Verify by building with it
+   disabled. If unviable, document why swift-markdown is load-bearing.
+2. Continue until HTML compiles or a blocker proves structural. Record every
+   blocker with file:line and classify against the four in-house mechanisms:
+   #if !hasFeature(Embedded) / refactor-and-delete / package trait /
+   separate target + CI embedded-target.
+3. Once HTML builds, complete the ladder: rung 2 = one rendered <div>;
+   rung 3 = realistic page (nested elements, CSS, form). Report raw + gzip
+   (brotli unavailable; gzip matches the JS framework figures anyway).
+   Compare to budget, state the verdict plainly.
+4. Test whether elementType's existential metatype in swift-html-render
+   compiles on 6.5-dev. Current docs allow forming existentials and
+   is/as?/as! but forbid casting TO an existential metatype. Either way the
+   refactor stands on size grounds: it makes all 125 element types reachable
+   and defeats dead-code elimination.
+5. Revise swift-html/Research/"Embedded Swift and WebAssembly for
+   Client-Side HTML Rendering.md" with every measurement. Correct section
+   6.1 (claims existentials and metatypes both prohibited - outdated).
+   Record that 6.3.3 aborts and 6.5-dev does not. Update _index.json.
+   Keep house format.
+6. Draft, do NOT land, the swift-standards wrapper change: embedded +
+   embedded-wasm-sdk mirroring primitives, both continue-on-error: true per
+   [CI-021], with a classified soak. Include a guard inventory of every
+   standards package needing a fix, with file:line. Paper section + diff in
+   scratchpad.
+7. Comment on swift-institute/Issues#58 that 6.5-dev resolves the abort,
+   with evidence.
+
+CONSTRAINTS (hard):
+- Research and local measurement only. No PRs, pushes, or commits.
+- Do not edit any Institute repository. Scratch checkouts only.
+- Do not land embedded-wasm.yml or the standards wrapper change.
+- Internal Institute issue comments allowed; nothing to swiftlang/swift.
+- Record any further change to the user's toolchain configuration.
+
+DECIDE AUTONOMOUSLY. Do not wait for input. State assumptions in the paper
+and continue. Report faithfully: if something failed, say so with output; if
+a number is unmeasured, say unmeasured rather than estimating.
+
+SUCCESS = the paper answers "will it build" with evidence, and either
+answers "how big" with measured numbers or states exactly what blocks that
+and what would unblock it. Rungs 1 and 4 already stand regardless.

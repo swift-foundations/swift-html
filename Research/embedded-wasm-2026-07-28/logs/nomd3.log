@@ -1,0 +1,93 @@
+warning: 'html-nomd': found 1 file(s) which are unhandled; explicitly declare them as resources or exclude from the target
+    $SCRATCH/scratchpad/html-nomd/Sources/HTML/HTML.docc
+Building for debugging...
+[Computing dependencies]
+[Provisioning 1 / 680]
+[Using on-disk description]
+[24 / 3431] Standard Library Extensions
+[24 / 3431] Store Primitive
+[28 / 3431] Store Primitive
+[54 / 3433] Property Primitive
+[59 / 3435] _Shims
+[66 / 3437] Ownership Primitive
+[69 / 3442] Ownership Primitive
+[70 / 3442] Property Primitive
+[85 / 3444] Radix Primitive
+[96 / 3445] Serializer Witness Primitives
+[109 / 3447] Property Primitive
+[110 / 3447] Parser Primitive
+[127 / 3454] Serializer Fail Primitives
+[129 / 3456] Serializer Fail Primitives
+[130 / 3456] Serializer Witness Primitives
+[142 / 3456] Memory Primitive
+[146 / 3458] Iterator Primitive
+[159 / 3459] W3C CSSOM-product
+[185 / 3474] Hash Primitive
+[188 / 3476] Graph Primitive
+[196 / 3478] Formatter Primitive
+[196 / 3478] Input Namespace Primitives
+[217 / 3481] Error Primitives
+[218 / 3481] Hash Primitive
+[230 / 3483] Formatter Primitive
+[232 / 3483] Formatter Primitive
+[244 / 3485] Equation Primitive
+[259 / 3487] Collection Namespace Primitives
+[260 / 3487] Serializer Always Primitives
+[270 / 3487] Serializer Trace Primitives
+[272 / 3487] Serializer Optional Primitives
+[288 / 3487] Serializer Lazy Primitives
+[290 / 3487] Serializer Always Primitives
+[293 / 3491] Direction Primitive
+[295 / 3491] Direction Primitive
+[310 / 3494] Property Consume Primitives
+[326 / 3499] Parser Trace Primitives
+[326 / 3499] Property Typed Primitives
+[340 / 3499] Input Namespace Primitives
+[353 / 3506] Parser Lazy Primitives
+[354 / 3506] Parser Fail Primitives
+[357 / 3507] Standard Library Extensions
+[367 / 3508] Parser Parse Primitives
+[370 / 3509] Parser Witness Primitives
+[381 / 3509] Graph Primitive
+[388 / 3509] Property Consume Primitives
+[393 / 3515] Parser Trace Primitives
+[406 / 3517] Ownership Slot Primitives
+[407 / 3517] Error Primitives
+[419 / 3517] Parser Parse Primitives
+[424 / 3517] Parser Lazy Primitives
+[429 / 3524] Ownership Mutable Primitives
+[429 / 3524] Ownership Unique Primitives
+[443 / 3526] Ownership Inout Primitives
+[444 / 3526] Ownership Slot Primitives
+[466 / 3527] Ownership Mutable Primitives
+[476 / 3527] Witness Primitives
+[493 / 3528] Ownership Box Primitives
+[502 / 3534] Comparison Primitive
+[507 / 3535] Ordinal Error Primitives
+[519 / 3541] Cardinal Primitive
+[519 / 3541] Ownership Immutable Primitives
+[532 / 3543] Carrier Primitive
+[539 / 3543] Ordinal Error Primitives
+[550 / 3549] Machine Value Primitives
+[562 / 3552] Order Direction Primitives
+[567 / 3552] Byte Primitive
+[569 / 3553] Cardinal Primitive
+error: SwiftCompile normal wasm32 failed with a nonzero exit code. Command line:     cd $SCRATCH/scratchpad
+    
+[583 / 3555] Machine Capture Primitives
+$SCRATCH/scratchpad/wbnomd/checkouts/swift-machine-primitives/Sources/Machine Capture Primitives/Machine.Capture.Slot.swift:39:33: [1;31merror: [1;39m'init(reflecting:)' is unavailable: unavailable in embedded Swift[0;0m
+[0;36m37 |[0;0m             )
+[0;36m38 |[0;0m             #if DEBUG
+[0;36m39 |[0;0m                 self.typeName = [4;39mString[0;0m(reflecting: T.self)
+   [0;36m|[0;0m                                 `- [1;31merror: [1;39m'init(reflecting:)' is unavailable: unavailable in embedded Swift[0;0m
+[0;36m40 |[0;0m             #endif
+[0;36m41 |[0;0m         }
+
+Swift.String.init:2:8: [1;39mnote: [1;39m'init(reflecting:)' has been explicitly marked unavailable here[0;0m
+[0;36m1 |[0;0m struct String {
+[0;36m2 |[0;0m public init<Subject>(reflecting subject: Subject)}
+  [0;36m|[0;0m        `- [1;39mnote: [1;39m'init(reflecting:)' has been explicitly marked unavailable here[0;0m
+[0;36m3 |[0;0m 
+Failed frontend command:
+$TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/bin/swift-frontend -frontend -c $SCRATCH/scratchpad/wbnomd/checkouts/swift-machine-primitives/Sources/Machine\ Capture\ Primitives/Machine.Capture.Frozen+Reference.swift $SCRATCH/scratchpad/wbnomd/checkouts/swift-machine-primitives/Sources/Machine\ Capture\ Primitives/Machine.Capture.Frozen+Unchecked.swift $SCRATCH/scratchpad/wbnomd/checkouts/swift-machine-primitives/Sources/Machine\ Capture\ Primitives/Machine.Capture.Frozen.swift $SCRATCH/scratchpad/wbnomd/checkouts/swift-machine-primitives/Sources/Machine\ Capture\ Primitives/Machine.Capture.ID.swift $SCRATCH/scratchpad/wbnomd/checkouts/swift-machine-primitives/Sources/Machine\ Capture\ Primitives/Machine.Capture.RawID.swift $SCRATCH/scratchpad/wbnomd/checkouts/swift-machine-primitives/Sources/Machine\ Capture\ Primitives/Machine.Capture.Slot.swift $SCRATCH/scratchpad/wbnomd/checkouts/swift-machine-primitives/Sources/Machine\ Capture\ Primitives/Machine.Capture.Store+Reference.swift $SCRATCH/scratchpad/wbnomd/checkouts/swift-machine-primitives/Sources/Machine\ Capture\ Primitives/Machine.Capture.Store+Unchecked.swift $SCRATCH/scratchpad/wbnomd/checkouts/swift-machine-primitives/Sources/Machine\ Capture\ Primitives/Machine.Capture.Store.swift $SCRATCH/scratchpad/wbnomd/checkouts/swift-machine-primitives/Sources/Machine\ Capture\ Primitives/exports.swift -supplementary-output-file-map $SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/Objects-normal/wasm32/supplementaryOutputs-28 -target wasm32-unknown-wasip1 -disable-objc-interop -sdk $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/WASI.sdk -sysroot $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/WASI.sdk -I $SCRATCH/scratchpad/wbnomd/out/Products/Debug-webassembly-wasm32 -module-cache-path $SCRATCH/scratchpad/wbnomd/out/ModuleCache.noindex -validate-clang-modules-once -clang-build-session-file $SCRATCH/scratchpad/wbnomd/out/ModuleCache.noindex/Session.modulevalidation -color-diagnostics -Xcc -fcolor-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=4 -suppress-warnings -swift-version 6 -Onone -D SWIFT_PACKAGE -D DEBUG -D SWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE -D Xcode -serialize-debugging-options -enable-upcoming-feature ExistentialAny -enable-upcoming-feature InternalImportsByDefault -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature LifetimeDependence -enable-experimental-feature Lifetimes -enable-experimental-feature SuppressedAssociatedTypes -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature LifetimeDependence -enable-experimental-feature Embedded -enable-experimental-feature DebugDescriptionMacro -strict-memory-safety -empty-abi-descriptor -external-plugin-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/lib/swift/host/plugins/testing\#$TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/bin/swift-plugin-server -Xcc -working-directory -Xcc $SCRATCH/scratchpad -resource-dir $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/swift.xctoolchain/usr/lib/swift -use-static-resource-dir -enable-anonymous-context-mangled-names -file-compilation-dir $SCRATCH/scratchpad -Xcc -resource-dir -Xcc $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/swift.xctoolchain/usr/lib/swift/clang -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -Xcc -I$SCRATCH/scratchpad/wbnomd/out/Products/Debug-webassembly-wasm32/include -Xcc -I$SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/DerivedSources-normal/wasm32 -Xcc -I$SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/DerivedSources/wasm32 -Xcc -I$SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/DerivedSources -Xcc -DSWIFT_PACKAGE -Xcc -DDEBUG\=1 -no-auto-bridging-header-chaining -module-name Machine_Capture_Primitives -package-name swift_machine_primitives -const-gather-protocols-file $SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/Objects-normal/wasm32/Machine\ Capture\ Primitives_const_extract_protocols.json -in-process-plugin-server-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -plugin-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/lib/swift/host/plugins -plugin-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/local/lib/swift/host/plugins -parse-as-library -num-threads 8 -o $SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/Objects-normal/wasm32/Machine.Capture.Frozen+Reference.o -o $SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/Objects-normal/wasm32/Machine.Capture.Frozen+Unchecked.o -o $SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/Objects-normal/wasm32/Machine.Capture.Frozen.o -o $SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/Objects-normal/wasm32/Machine.Capture.ID.o -o $SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/Objects-normal/wasm32/Machine.Capture.RawID.o -o $SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/Objects-normal/wasm32/Machine.Capture.Slot.o -o $SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/Objects-normal/wasm32/Machine.Capture.Store+Reference.o -o $SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/Objects-normal/wasm32/Machine.Capture.Store+Unchecked.o -o $SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/Objects-normal/wasm32/Machine.Capture.Store.o -o $SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/Objects-normal/wasm32/exports.o -index-unit-output-path /swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/Objects-normal/wasm32/Machine.Capture.Frozen+Reference.o -index-unit-output-path /swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/Objects-normal/wasm32/Machine.Capture.Frozen+Unchecked.o -index-unit-output-path /swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/Objects-normal/wasm32/Machine.Capture.Frozen.o -index-unit-output-path /swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/Objects-normal/wasm32/Machine.Capture.ID.o -index-unit-output-path /swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/Objects-normal/wasm32/Machine.Capture.RawID.o -index-unit-output-path /swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/Objects-normal/wasm32/Machine.Capture.Slot.o -index-unit-output-path /swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/Objects-normal/wasm32/Machine.Capture.Store+Reference.o -index-unit-output-path /swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/Objects-normal/wasm32/Machine.Capture.Store+Unchecked.o -index-unit-output-path /swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/Objects-normal/wasm32/Machine.Capture.Store.o -index-unit-output-path /swift-machine-primitives.build/Debug-webassembly-wasm32/Machine\ Capture\ Primitives-t.build/Objects-normal/wasm32/exports.o -index-store-path $SCRATCH/scratchpad/wbnomd/out -index-system-modules
+error: Build failed

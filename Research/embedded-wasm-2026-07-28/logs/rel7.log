@@ -1,0 +1,193 @@
+warning: 'html-nomd': found 1 file(s) which are unhandled; explicitly declare them as resources or exclude from the target
+    $SCRATCH/scratchpad/html-nomd/Sources/HTML/HTML.docc
+Building for production...
+[Computing dependencies]
+[Provisioning 3 / 680]
+[Using on-disk description]
+[1 / 1681] Serializer Always Primitives
+[10 / 1583] Affine Tagged Primitives
+[11 / 1584] Affine Tagged Primitives
+[19 / 1586] Affine Tagged Primitives
+[19 / 1586] Affine Primitives Standard Library Integration
+[27 / 1588] Affine Primitives
+[41 / 1594] Memory Address Primitives
+[41 / 1594] Index Primitives
+[51 / 1598] Vector Primitive
+[60 / 1603] Store Protocol Primitives
+[61 / 1603] Store Initialization Primitives
+[73 / 1604] Store Protocol Primitives-product
+[82 / 1608] Store Ledgered Primitives
+[83 / 1608] Sequence Protocol Primitives
+[94 / 1610] Store Split Primitives
+[99 / 1612] Text Primitives
+[122 / 1625] Graph Index Primitives
+[124 / 1627] Graph Index Primitives
+[135 / 1628] Finite Enumerable Primitives
+[135 / 1629] Sequence Iterator Primitives
+[148 / 1631] Collection Rotated Primitives
+[159 / 1632] Buffer Protocol Primitives
+[162 / 1633] IEC 61966 2-1
+[171 / 1634] Parser Spanned Primitives
+[192 / 1637] Sequence Satisfies Primitives
+[195 / 1639] Sequence Reduce Primitives
+[197 / 1640] Buffer Protocol Primitives
+[211 / 1645] Collection Rotated Primitives
+[212 / 1645] Bit Index Primitives
+[216 / 1646] Collection Rotated Primitives
+[230 / 1647]
+[231 / 1648] WHATWG Form URL Encoded-product
+[239 / 1652] Sequence Map Primitives
+[250 / 1652]
+[253 / 1656] Sequence Hint Primitives
+[267 / 1663] Sequence Drop Primitives
+[268 / 1664] Sequence Prefix Primitives
+[280 / 1666] Sequence Contains Primitives
+[280 / 1666] Memory Region Primitives
+[292 / 1668] Memory Cursor Primitives
+[293 / 1668] Sequence First Primitives
+[315 / 1672] Sequence Borrowing Primitives
+[315 / 1672] Sequence Filter Primitives
+[325 / 1679] Memory Shift Primitives
+[326 / 1679] Sequence Contains Primitives
+[336 / 1681] Sequence Drop Primitives
+[342 / 1681] Sequence Drop Primitives
+[360 / 1692] Graph Adjacency Primitives
+error: SwiftCompile normal wasm32 failed with a nonzero exit code. Command line:     cd $SCRATCH/scratchpad
+    
+$SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1123/Sources/RFC 1123/RFC_1123.Domain.Label.swift:116:35: [1;31merror: [1;39m'Decoder' is unavailable: unavailable in embedded Swift[0;0m
+[0;36m114 |[0;0m     /// Decoding goes through the validating parser, so a payload that is not a
+[0;36m115 |[0;0m     /// valid RFC 1123 label fails with `DecodingError.dataCorrupted`.
+[0;36m116 |[0;0m     public init(from decoder: any [4;39mDecoder[0;0m) throws {
+    [0;36m|[0;0m                                   `- [1;31merror: [1;39m'Decoder' is unavailable: unavailable in embedded Swift[0;0m
+[0;36m117 |[0;0m         let container = try decoder.singleValueContainer()
+[0;36m118 |[0;0m         let string = try container.decode(String.self)
+
+Swift.Decoder:2:17: [1;39mnote: [1;39m'Decoder' has been explicitly marked unavailable here[0;0m
+[0;36m1 |[0;0m @_unavailableInEmbedded
+[0;36m2 |[0;0m public protocol Decoder {
+  [0;36m|[0;0m                 `- [1;39mnote: [1;39m'Decoder' has been explicitly marked unavailable here[0;0m
+[0;36m3 |[0;0m     var codingPath: [any CodingKey] { get }
+[0;36m4 |[0;0m     func container<Key>(keyedBy type: Key.Type) throws -> KeyedDecodingContainer<Key> where Key : CodingKey
+
+$SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1123/Sources/RFC 1123/RFC_1123.Domain.Label.swift:132:40: [1;31merror: [1;39m'Encoder' is unavailable: unavailable in embedded Swift[0;0m
+[0;36m130 |[0;0m 
+[0;36m131 |[0;0m     /// Encodes the label as its canonical string form.
+[0;36m132 |[0;0m     public func encode(to encoder: any [4;39mEncoder[0;0m) throws {
+    [0;36m|[0;0m                                        `- [1;31merror: [1;39m'Encoder' is unavailable: unavailable in embedded Swift[0;0m
+[0;36m133 |[0;0m         var container = encoder.singleValueContainer()
+[0;36m134 |[0;0m         try container.encode(rawValue)
+
+Swift.Encoder:2:17: [1;39mnote: [1;39m'Encoder' has been explicitly marked unavailable here[0;0m
+[0;36m1 |[0;0m @_unavailableInEmbedded
+[0;36m2 |[0;0m public protocol Encoder {
+  [0;36m|[0;0m                 `- [1;39mnote: [1;39m'Encoder' has been explicitly marked unavailable here[0;0m
+[0;36m3 |[0;0m     var codingPath: [any CodingKey] { get }
+[0;36m4 |[0;0m     func container<Key>(keyedBy type: Key.Type) -> KeyedEncodingContainer<Key> where Key : CodingKey
+
+$SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1123/Sources/RFC 1123/RFC_1123.Domain.Label.swift:111:34: [1;31merror: [1;39m'Codable' is unavailable: unavailable in embedded Swift[0;0m
+[0;36m109 |[0;0m }
+[0;36m110 |[0;0m 
+[0;36m111 |[0;0m extension RFC_1123.Domain.Label: [4;39mCodable[0;0m {
+    [0;36m|[0;0m                                  `- [1;31merror: [1;39m'Codable' is unavailable: unavailable in embedded Swift[0;0m
+[0;36m112 |[0;0m     /// Decodes a label from its canonical string form, validating it.
+[0;36m113 |[0;0m     ///
+
+Swift.Codable:2:18: [1;39mnote: [1;39m'Codable' has been explicitly marked unavailable here[0;0m
+[0;36m1 |[0;0m @_unavailableInEmbedded
+[0;36m2 |[0;0m public typealias Codable = Decodable & Encodable
+  [0;36m|[0;0m                  `- [1;39mnote: [1;39m'Codable' has been explicitly marked unavailable here[0;0m
+
+$SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1123/Sources/RFC 1123/RFC_1123.Domain.Label.swift:118:36: [1;31merror: [1;39mvalue of type 'any SingleValueDecodingContainer' has no member 'decode'[0;0m
+[0;36m116 |[0;0m     public init(from decoder: any Decoder) throws {
+[0;36m117 |[0;0m         let container = try decoder.singleValueContainer()
+[0;36m118 |[0;0m         let string = try [4;39mcontainer[0;0m.[4;39mdecode[0;0m(String.self)
+    [0;36m|[0;0m                                    `- [1;31merror: [1;39mvalue of type 'any SingleValueDecodingContainer' has no member 'decode'[0;0m
+[0;36m119 |[0;0m         do {
+[0;36m120 |[0;0m             try self.init(string)
+
+$SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1123/Sources/RFC 1123/RFC_1123.Domain.Label.swift:125:72: [1;31merror: [1;39mvalue of type 'any Error' has no member 'description'[0;0m
+[0;36m123 |[0;0m                 DecodingError.Context(
+[0;36m124 |[0;0m                     codingPath: decoder.codingPath,
+[0;36m125 |[0;0m                     debugDescription: "Invalid RFC 1123 label: \([4;39merror[0;0m.[4;39mdescription[0;0m)"
+    [0;36m|[0;0m                                                                        `- [1;31merror: [1;39mvalue of type 'any Error' has no member 'description'[0;0m
+[0;36m126 |[0;0m                 )
+[0;36m127 |[0;0m             )
+
+$SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1123/Sources/RFC 1123/RFC_1123.Domain.Label.swift:134:23: [1;31merror: [1;39mvalue of type 'any SingleValueEncodingContainer' has no member 'encode'[0;0m
+[0;36m132 |[0;0m     public func encode(to encoder: any Encoder) throws {
+[0;36m133 |[0;0m         var container = encoder.singleValueContainer()
+[0;36m134 |[0;0m         try [4;39mcontainer[0;0m.[4;39mencode[0;0m(rawValue)
+    [0;36m|[0;0m                       `- [1;31merror: [1;39mvalue of type 'any SingleValueEncodingContainer' has no member 'encode'[0;0m
+[0;36m135 |[0;0m     }
+[0;36m136 |[0;0m }
+
+$SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1123/Sources/RFC 1123/RFC_1123.Domain.swift:133:35: [1;31merror: [1;39m'Decoder' is unavailable: unavailable in embedded Swift[0;0m
+[0;36m131 |[0;0m     /// Decoding goes through the validating parser, so a payload that is not a
+[0;36m132 |[0;0m     /// valid RFC 1123 domain fails with `DecodingError.dataCorrupted`.
+[0;36m133 |[0;0m     public init(from decoder: any [4;39mDecoder[0;0m) throws {
+    [0;36m|[0;0m                                   `- [1;31merror: [1;39m'Decoder' is unavailable: unavailable in embedded Swift[0;0m
+[0;36m134 |[0;0m         let container = try decoder.singleValueContainer()
+[0;36m135 |[0;0m         let string = try container.decode(String.self)
+
+Swift.Decoder:2:17: [1;39mnote: [1;39m'Decoder' has been explicitly marked unavailable here[0;0m
+[0;36m1 |[0;0m @_unavailableInEmbedded
+[0;36m2 |[0;0m public protocol Decoder {
+  [0;36m|[0;0m                 `- [1;39mnote: [1;39m'Decoder' has been explicitly marked unavailable here[0;0m
+[0;36m3 |[0;0m     var codingPath: [any CodingKey] { get }
+[0;36m4 |[0;0m     func container<Key>(keyedBy type: Key.Type) throws -> KeyedDecodingContainer<Key> where Key : CodingKey
+
+$SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1123/Sources/RFC 1123/RFC_1123.Domain.swift:149:40: [1;31merror: [1;39m'Encoder' is unavailable: unavailable in embedded Swift[0;0m
+[0;36m147 |[0;0m 
+[0;36m148 |[0;0m     /// Encodes the domain as its canonical string form.
+[0;36m149 |[0;0m     public func encode(to encoder: any [4;39mEncoder[0;0m) throws {
+    [0;36m|[0;0m                                        `- [1;31merror: [1;39m'Encoder' is unavailable: unavailable in embedded Swift[0;0m
+[0;36m150 |[0;0m         var container = encoder.singleValueContainer()
+[0;36m151 |[0;0m         try container.encode(rawValue)
+
+Swift.Encoder:2:17: [1;39mnote: [1;39m'Encoder' has been explicitly marked unavailable here[0;0m
+[0;36m1 |[0;0m @_unavailableInEmbedded
+[0;36m2 |[0;0m public protocol Encoder {
+  [0;36m|[0;0m                 `- [1;39mnote: [1;39m'Encoder' has been explicitly marked unavailable here[0;0m
+[0;36m3 |[0;0m     var codingPath: [any CodingKey] { get }
+[0;36m4 |[0;0m     func container<Key>(keyedBy type: Key.Type) -> KeyedEncodingContainer<Key> where Key : CodingKey
+
+$SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1123/Sources/RFC 1123/RFC_1123.Domain.swift:128:28: [1;31merror: [1;39m'Codable' is unavailable: unavailable in embedded Swift[0;0m
+[0;36m126 |[0;0m }
+[0;36m127 |[0;0m 
+[0;36m128 |[0;0m extension RFC_1123.Domain: [4;39mCodable[0;0m {
+    [0;36m|[0;0m                            `- [1;31merror: [1;39m'Codable' is unavailable: unavailable in embedded Swift[0;0m
+[0;36m129 |[0;0m     /// Decodes a domain from its canonical string form, validating it.
+[0;36m130 |[0;0m     ///
+
+Swift.Codable:2:18: [1;39mnote: [1;39m'Codable' has been explicitly marked unavailable here[0;0m
+[0;36m1 |[0;0m @_unavailableInEmbedded
+[0;36m2 |[0;0m public typealias Codable = Decodable & Encodable
+  [0;36m|[0;0m                  `- [1;39mnote: [1;39m'Codable' has been explicitly marked unavailable here[0;0m
+
+$SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1123/Sources/RFC 1123/RFC_1123.Domain.swift:135:36: [1;31merror: [1;39mvalue of type 'any SingleValueDecodingContainer' has no member 'decode'[0;0m
+[0;36m133 |[0;0m     public init(from decoder: any Decoder) throws {
+[0;36m134 |[0;0m         let container = try decoder.singleValueContainer()
+[0;36m135 |[0;0m         let string = try [4;39mcontainer[0;0m.[4;39mdecode[0;0m(String.self)
+    [0;36m|[0;0m                                    `- [1;31merror: [1;39mvalue of type 'any SingleValueDecodingContainer' has no member 'decode'[0;0m
+[0;36m136 |[0;0m         do {
+[0;36m137 |[0;0m             try self.init(string)
+
+$SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1123/Sources/RFC 1123/RFC_1123.Domain.swift:142:73: [1;31merror: [1;39mvalue of type 'any Error' has no member 'description'[0;0m
+[0;36m140 |[0;0m                 DecodingError.Context(
+[0;36m141 |[0;0m                     codingPath: decoder.codingPath,
+[0;36m142 |[0;0m                     debugDescription: "Invalid RFC 1123 domain: \([4;39merror[0;0m.[4;39mdescription[0;0m)"
+    [0;36m|[0;0m                                                                         `- [1;31merror: [1;39mvalue of type 'any Error' has no member 'description'[0;0m
+[0;36m143 |[0;0m                 )
+[0;36m144 |[0;0m             )
+
+$SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1123/Sources/RFC 1123/RFC_1123.Domain.swift:151:23: [1;31merror: [1;39mvalue of type 'any SingleValueEncodingContainer' has no member 'encode'[0;0m
+[0;36m149 |[0;0m     public func encode(to encoder: any Encoder) throws {
+[0;36m150 |[0;0m         var container = encoder.singleValueContainer()
+[0;36m151 |[0;0m         try [4;39mcontainer[0;0m.[4;39mencode[0;0m(rawValue)
+    [0;36m|[0;0m                       `- [1;31merror: [1;39mvalue of type 'any SingleValueEncodingContainer' has no member 'encode'[0;0m
+[0;36m152 |[0;0m     }
+[0;36m153 |[0;0m }
+Failed frontend command:
+$TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/bin/swift-frontend -frontend -c $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1123/Sources/RFC\ 1123/RFC_1123+RFC_1035.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1123/Sources/RFC\ 1123/RFC_1123.Domain.Error.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1123/Sources/RFC\ 1123/RFC_1123.Domain.Label.Error.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1123/Sources/RFC\ 1123/RFC_1123.Domain.Label.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1123/Sources/RFC\ 1123/RFC_1123.Domain.Limits.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1123/Sources/RFC\ 1123/RFC_1123.Domain.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1123/Sources/RFC\ 1123/RFC_1123.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1123/Sources/RFC\ 1123/exports.swift -supplementary-output-file-map $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1123.build/Release-webassembly-wasm32/RFC\ 1123-t.build/Objects-normal/wasm32/supplementaryOutputs-42 -target wasm32-unknown-wasip1 -disable-objc-interop -sdk $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/WASI.sdk -sysroot $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/WASI.sdk -I $SCRATCH/scratchpad/wbrel/out/Products/Release-webassembly-wasm32 -module-cache-path $SCRATCH/scratchpad/wbrel/out/ModuleCache.noindex -validate-clang-modules-once -clang-build-session-file $SCRATCH/scratchpad/wbrel/out/ModuleCache.noindex/Session.modulevalidation -color-diagnostics -Xcc -fcolor-diagnostics -g -debug-info-format\=dwarf -dwarf-version\=4 -suppress-warnings -swift-version 6 -O -D SWIFT_PACKAGE -D SWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE -D Xcode -serialize-debugging-options -enable-upcoming-feature ExistentialAny -enable-upcoming-feature InternalImportsByDefault -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature Lifetimes -enable-experimental-feature SuppressedAssociatedTypes -enable-experimental-feature Embedded -enable-experimental-feature DebugDescriptionMacro -strict-memory-safety -empty-abi-descriptor -external-plugin-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/lib/swift/host/plugins/testing\#$TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/bin/swift-plugin-server -Xcc -working-directory -Xcc $SCRATCH/scratchpad -resource-dir $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/swift.xctoolchain/usr/lib/swift -use-static-resource-dir -file-compilation-dir $SCRATCH/scratchpad -Xcc -resource-dir -Xcc $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/swift.xctoolchain/usr/lib/swift/clang -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -Xcc -I$SCRATCH/scratchpad/wbrel/out/Products/Release-webassembly-wasm32/include -Xcc -I$SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1123.build/Release-webassembly-wasm32/RFC\ 1123-t.build/DerivedSources-normal/wasm32 -Xcc -I$SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1123.build/Release-webassembly-wasm32/RFC\ 1123-t.build/DerivedSources/wasm32 -Xcc -I$SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1123.build/Release-webassembly-wasm32/RFC\ 1123-t.build/DerivedSources -Xcc -DSWIFT_PACKAGE -no-auto-bridging-header-chaining -module-name RFC_1123 -package-name swift_rfc_1123 -const-gather-protocols-file $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1123.build/Release-webassembly-wasm32/RFC\ 1123-t.build/Objects-normal/wasm32/RFC\ 1123_const_extract_protocols.json -in-process-plugin-server-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -plugin-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/lib/swift/host/plugins -plugin-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/local/lib/swift/host/plugins -enable-default-cmo -parse-as-library -num-threads 8 -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1123.build/Release-webassembly-wasm32/RFC\ 1123-t.build/Objects-normal/wasm32/RFC_1123+RFC_1035.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1123.build/Release-webassembly-wasm32/RFC\ 1123-t.build/Objects-normal/wasm32/RFC_1123.Domain.Error.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1123.build/Release-webassembly-wasm32/RFC\ 1123-t.build/Objects-normal/wasm32/RFC_1123.Domain.Label.Error.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1123.build/Release-webassembly-wasm32/RFC\ 1123-t.build/Objects-normal/wasm32/RFC_1123.Domain.Label.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1123.build/Release-webassembly-wasm32/RFC\ 1123-t.build/Objects-normal/wasm32/RFC_1123.Domain.Limits.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1123.build/Release-webassembly-wasm32/RFC\ 1123-t.build/Objects-normal/wasm32/RFC_1123.Domain.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1123.build/Release-webassembly-wasm32/RFC\ 1123-t.build/Objects-normal/wasm32/RFC_1123.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1123.build/Release-webassembly-wasm32/RFC\ 1123-t.build/Objects-normal/wasm32/exports.o -index-unit-output-path /swift-rfc-1123.build/Release-webassembly-wasm32/RFC\ 1123-t.build/Objects-normal/wasm32/RFC_1123+RFC_1035.o -index-unit-output-path /swift-rfc-1123.build/Release-webassembly-wasm32/RFC\ 1123-t.build/Objects-normal/wasm32/RFC_1123.Domain.Error.o -index-unit-output-path /swift-rfc-1123.build/Release-webassembly-wasm32/RFC\ 1123-t.build/Objects-normal/wasm32/RFC_1123.Domain.Label.Error.o -index-unit-output-path /swift-rfc-1123.build/Release-webassembly-wasm32/RFC\ 1123-t.build/Objects-normal/wasm32/RFC_1123.Domain.Label.o -index-unit-output-path /swift-rfc-1123.build/Release-webassembly-wasm32/RFC\ 1123-t.build/Objects-normal/wasm32/RFC_1123.Domain.Limits.o -index-unit-output-path /swift-rfc-1123.build/Release-webassembly-wasm32/RFC\ 1123-t.build/Objects-normal/wasm32/RFC_1123.Domain.o -index-unit-output-path /swift-rfc-1123.build/Release-webassembly-wasm32/RFC\ 1123-t.build/Objects-normal/wasm32/RFC_1123.o -index-unit-output-path /swift-rfc-1123.build/Release-webassembly-wasm32/RFC\ 1123-t.build/Objects-normal/wasm32/exports.o
+[361 / 1692] Input Restore Primitives
+error: Build failed

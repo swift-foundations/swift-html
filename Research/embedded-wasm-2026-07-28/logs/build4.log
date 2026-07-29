@@ -1,0 +1,666 @@
+Fetching https://github.com/swift-primitives/swift-render-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-ascii-serializer-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-boundary-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-queue-primitives.git from cache
+Fetching https://github.com/swift-foundations/swift-markdown-html-render.git from cache
+Fetching https://github.com/swift-ietf/swift-rfc-5321.git from cache
+Fetched https://github.com/swift-primitives/swift-queue-primitives.git from cache (0.05s)
+Fetched https://github.com/swift-foundations/swift-markdown-html-render.git from cache (0.05s)
+Fetched https://github.com/swift-primitives/swift-boundary-primitives.git from cache (0.05s)
+Fetched https://github.com/swift-primitives/swift-render-primitives.git from cache (0.06s)
+Fetched https://github.com/swift-primitives/swift-ascii-serializer-primitives.git from cache (0.06s)
+Fetched https://github.com/swift-ietf/swift-rfc-5321.git from cache (0.05s)
+Fetching https://github.com/swift-primitives/swift-cursor-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-heap-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-cursor-primitives.git from cache (0.04s)
+Fetching https://github.com/swift-primitives/swift-storage-split-primitives.git from cache
+Fetching https://github.com/swift-standards/swift-domain-standard.git from cache
+Fetching https://github.com/swift-ietf/swift-rfc-3987.git from cache
+Fetching https://github.com/swift-primitives/swift-deque-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-heap-primitives.git from cache (0.05s)
+Fetching https://github.com/swift-primitives/swift-witness-primitives.git from cache
+Fetched https://github.com/swift-standards/swift-domain-standard.git from cache (0.05s)
+Fetched https://github.com/swift-ietf/swift-rfc-3987.git from cache (0.05s)
+Fetched https://github.com/swift-primitives/swift-witness-primitives.git from cache (0.04s)
+Fetched https://github.com/swift-primitives/swift-storage-split-primitives.git from cache (0.07s)
+Fetched https://github.com/swift-primitives/swift-deque-primitives.git from cache (0.07s)
+Fetching https://github.com/swift-iso/swift-iso-9899.git from cache
+Fetching https://github.com/swift-primitives/swift-error-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-set-primitives.git from cache
+Fetching https://github.com/swift-ietf/swift-rfc-791.git from cache
+Fetching https://github.com/swift-primitives/swift-memory-allocation-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-machine-primitives.git from cache
+Fetched https://github.com/swift-iso/swift-iso-9899.git from cache (0.07s)
+Fetched https://github.com/swift-primitives/swift-error-primitives.git from cache (0.06s)
+Fetching https://github.com/swift-primitives/swift-byte-primitives.git from cache
+Fetched https://github.com/swift-ietf/swift-rfc-791.git from cache (0.08s)
+Fetched https://github.com/swift-primitives/swift-memory-allocation-primitives.git from cache (0.09s)
+Fetched https://github.com/swift-primitives/swift-set-primitives.git from cache (0.12s)
+Fetched https://github.com/swift-primitives/swift-machine-primitives.git from cache (0.10s)
+Fetching https://github.com/swift-primitives/swift-ascii-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-collection-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-byte-primitives.git from cache (0.07s)
+Fetching https://github.com/swift-primitives/swift-memory-heap-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-collection-primitives.git from cache (0.06s)
+Fetched https://github.com/swift-primitives/swift-memory-heap-primitives.git from cache (0.05s)
+Fetching https://github.com/swift-primitives/swift-parser-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-graph-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-ascii-primitives.git from cache (0.13s)
+Fetching https://github.com/swift-primitives/swift-carrier-primitives.git from cache
+Fetching https://github.com/swift-ietf/swift-rfc-1123.git from cache
+Fetched https://github.com/swift-primitives/swift-parser-primitives.git from cache (0.04s)
+Fetching https://github.com/swift-whatwg/swift-whatwg-html.git from cache
+Fetched https://github.com/swift-primitives/swift-carrier-primitives.git from cache (0.05s)
+Fetched https://github.com/swift-ietf/swift-rfc-1123.git from cache (0.05s)
+Fetched https://github.com/swift-primitives/swift-graph-primitives.git from cache (0.06s)
+Fetched https://github.com/swift-whatwg/swift-whatwg-html.git from cache (0.10s)
+Fetching https://github.com/swift-primitives/swift-equation-primitives.git from cache
+Fetching https://github.com/swift-iec/swift-iec-61966.git from cache
+Fetching https://github.com/swift-primitives/swift-set-ordered-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-product-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-buffer-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-equation-primitives.git from cache (0.04s)
+Fetched https://github.com/swift-iec/swift-iec-61966.git from cache (0.05s)
+Fetching https://github.com/swift-primitives/swift-stack-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-buffer-primitives.git from cache (0.06s)
+Fetched https://github.com/swift-primitives/swift-set-ordered-primitives.git from cache (0.07s)
+Fetched https://github.com/swift-primitives/swift-product-primitives.git from cache (0.08s)
+Fetched https://github.com/swift-primitives/swift-stack-primitives.git from cache (0.15s)
+Fetching https://github.com/swift-primitives/swift-byte-parser-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-span-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-either-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-vector-primitives.git from cache
+Fetching https://github.com/swift-standards/swift-color-standard.git from cache
+Fetched https://github.com/swift-primitives/swift-span-primitives.git from cache (0.04s)
+Fetched https://github.com/swift-primitives/swift-byte-parser-primitives.git from cache (0.04s)
+Fetched https://github.com/swift-primitives/swift-either-primitives.git from cache (0.04s)
+Fetched https://github.com/swift-standards/swift-color-standard.git from cache (0.04s)
+Fetching https://github.com/swift-ietf/swift-rfc-3492.git from cache
+Fetched https://github.com/swift-primitives/swift-vector-primitives.git from cache (0.05s)
+Fetching https://github.com/swift-primitives/swift-ownership-shared-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-input-primitives.git from cache
+Fetched https://github.com/swift-ietf/swift-rfc-3492.git from cache (0.08s)
+Fetching https://github.com/swift-ietf/swift-rfc-5322.git from cache
+Fetching https://github.com/swift-primitives/swift-binary-base-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-input-primitives.git from cache (0.04s)
+Fetched https://github.com/swift-primitives/swift-ownership-shared-primitives.git from cache (0.05s)
+Fetching https://github.com/swift-foundations/swift-css.git from cache
+Fetching https://github.com/swift-primitives/swift-buffer-ring-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-bit-index-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-buffer-ring-primitives.git from cache (0.04s)
+Fetching https://github.com/swift-primitives/swift-buffer-slots-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-binary-base-primitives.git from cache (0.09s)
+Fetched https://github.com/swift-foundations/swift-css.git from cache (0.10s)
+Fetched https://github.com/swift-ietf/swift-rfc-5322.git from cache (0.12s)
+Fetched https://github.com/swift-primitives/swift-bit-index-primitives.git from cache (0.09s)
+Fetching https://github.com/swift-primitives/swift-memory-inline-primitives.git from cache
+Fetching https://github.com/swift-foundations/swift-color.git from cache
+Fetched https://github.com/swift-primitives/swift-buffer-slots-primitives.git from cache (0.06s)
+Fetching https://github.com/swift-primitives/swift-affine-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-affine-primitives.git from cache (0.05s)
+Fetching https://github.com/swift-ietf/swift-rfc-5890.git from cache
+Fetching https://github.com/swift-primitives/swift-axis-primitives.git from cache
+Fetching https://github.com/swift-foundations/swift-svg.git from cache
+Fetching https://github.com/swift-primitives/swift-memory-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-memory-inline-primitives.git from cache (0.13s)
+Fetched https://github.com/swift-foundations/swift-color.git from cache (0.13s)
+Fetching https://github.com/swift-primitives/swift-format-primitives.git from cache
+Fetched https://github.com/swift-ietf/swift-rfc-5890.git from cache (0.05s)
+Fetched https://github.com/swift-primitives/swift-axis-primitives.git from cache (0.06s)
+Fetched https://github.com/swift-foundations/swift-svg.git from cache (0.06s)
+Fetched https://github.com/swift-primitives/swift-format-primitives.git from cache (0.04s)
+Fetching https://github.com/apple/swift-collections.git from cache
+Fetching https://github.com/swift-primitives/swift-async-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-memory-primitives.git from cache (0.14s)
+Fetched https://github.com/apple/swift-collections.git from cache (0.05s)
+Fetching https://github.com/swift-primitives/swift-array-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-serializer-primitives.git from cache
+Fetching https://github.com/swift-foundations/swift-css-html-render.git from cache
+Fetching https://github.com/swift-primitives/swift-bit-pack-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-async-primitives.git from cache (0.19s)
+Fetching https://github.com/swift-standards/swift-css-standard.git from cache
+Fetched https://github.com/swift-primitives/swift-array-primitives.git from cache (0.16s)
+Fetched https://github.com/swift-primitives/swift-serializer-primitives.git from cache (0.17s)
+Fetched https://github.com/swift-foundations/swift-css-html-render.git from cache (0.13s)
+Fetched https://github.com/swift-standards/swift-css-standard.git from cache (0.12s)
+Fetched https://github.com/swift-primitives/swift-bit-pack-primitives.git from cache (0.14s)
+Fetching https://github.com/swift-primitives/swift-fixed-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-pair-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-ownership-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-storage-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-pair-primitives.git from cache (0.04s)
+Fetched https://github.com/swift-primitives/swift-ownership-primitives.git from cache (0.05s)
+Fetching https://github.com/swift-primitives/swift-geometry-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-fixed-primitives.git from cache (0.08s)
+Fetching https://github.com/swift-foundations/swift-ascii.git from cache
+Fetched https://github.com/swift-foundations/swift-ascii.git from cache (0.03s)
+Fetching https://github.com/swift-primitives/swift-index-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-storage-primitives.git from cache (0.13s)
+Fetched https://github.com/swift-primitives/swift-geometry-primitives.git from cache (0.09s)
+Fetching https://github.com/swift-primitives/swift-dictionary-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-decimal-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-affine-geometry-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-index-primitives.git from cache (0.07s)
+Fetched https://github.com/swift-primitives/swift-dictionary-primitives.git from cache (0.05s)
+Fetching https://github.com/swift-primitives/swift-cyclic-primitives.git from cache
+Fetching https://github.com/swiftlang/swift-cmark.git from cache
+Fetched https://github.com/swift-primitives/swift-affine-geometry-primitives.git from cache (0.06s)
+Fetched https://github.com/swift-primitives/swift-decimal-primitives.git from cache (0.06s)
+Fetched https://github.com/swift-primitives/swift-cyclic-primitives.git from cache (0.07s)
+Fetching https://github.com/swift-primitives/swift-standard-library-extensions.git from cache
+Fetching https://github.com/swift-primitives/swift-bit-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-dependency-primitives.git from cache
+Fetched https://github.com/swiftlang/swift-cmark.git from cache (0.22s)
+Fetching https://github.com/swift-ietf/swift-rfc-2045.git from cache
+Fetching https://github.com/swift-foundations/swift-svg-render.git from cache
+Fetched https://github.com/swift-primitives/swift-bit-primitives.git from cache (0.11s)
+Fetched https://github.com/swift-primitives/swift-standard-library-extensions.git from cache (0.21s)
+Fetching https://github.com/swift-primitives/swift-memory-small-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-dependency-primitives.git from cache (0.10s)
+Fetched https://github.com/swift-ietf/swift-rfc-2045.git from cache (0.08s)
+Fetching https://github.com/swift-w3c/swift-w3c-cssom.git from cache
+Fetching https://github.com/swift-ecma/swift-ecma-48.git from cache
+Fetched https://github.com/swift-primitives/swift-memory-small-primitives.git from cache (0.08s)
+Fetched https://github.com/swift-foundations/swift-svg-render.git from cache (0.12s)
+Fetching https://github.com/swift-primitives/swift-radix-formatter-primitives.git from cache
+Fetched https://github.com/swift-ecma/swift-ecma-48.git from cache (0.08s)
+Fetching https://github.com/swift-whatwg/swift-whatwg-url.git from cache
+Fetching https://github.com/swift-primitives/swift-memory-iterator-primitives.git from cache
+Fetching https://github.com/swift-ietf/swift-rfc-4648.git from cache
+Fetched https://github.com/swift-primitives/swift-radix-formatter-primitives.git from cache (0.11s)
+Fetched https://github.com/swift-w3c/swift-w3c-cssom.git from cache (0.18s)
+Fetching https://github.com/swift-primitives/swift-radix-primitives.git from cache
+Fetched https://github.com/swift-whatwg/swift-whatwg-url.git from cache (0.10s)
+Fetched https://github.com/swift-ietf/swift-rfc-4648.git from cache (0.11s)
+Fetched https://github.com/swift-primitives/swift-memory-iterator-primitives.git from cache (0.12s)
+Fetching https://github.com/swift-primitives/swift-numeric-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-order-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-comparison-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-order-primitives.git from cache (0.04s)
+Fetching https://github.com/swift-primitives/swift-text-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-radix-primitives.git from cache (0.14s)
+Fetched https://github.com/swift-primitives/swift-numeric-primitives.git from cache (0.06s)
+Fetching https://github.com/swift-ieee/swift-ieee-754.git from cache
+Fetching https://github.com/swift-primitives/swift-ascii-parser-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-binary-leb128-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-comparison-primitives.git from cache (0.11s)
+Fetched https://github.com/swift-ieee/swift-ieee-754.git from cache (0.07s)
+Fetching https://github.com/swift-primitives/swift-tagged-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-text-primitives.git from cache (0.12s)
+Fetching https://github.com/swift-primitives/swift-binary-serializer-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-binary-leb128-primitives.git from cache (0.09s)
+Fetched https://github.com/swift-primitives/swift-tagged-primitives.git from cache (0.09s)
+Fetched https://github.com/swift-primitives/swift-ascii-parser-primitives.git from cache (0.12s)
+Fetching https://github.com/swift-w3c/swift-w3c-css.git from cache
+Fetching https://github.com/swift-primitives/swift-linear-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-buffer-linear-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-column-primitives.git from cache
+Fetching https://github.com/swift-foundations/swift-html-render.git from cache
+Fetched https://github.com/swift-primitives/swift-binary-serializer-primitives.git from cache (0.11s)
+Fetched https://github.com/swift-w3c/swift-w3c-css.git from cache (0.06s)
+Fetched https://github.com/swift-primitives/swift-linear-primitives.git from cache (0.06s)
+Fetched https://github.com/swift-primitives/swift-column-primitives.git from cache (0.04s)
+Fetching https://github.com/swift-foundations/swift-css-html-layout-render.git from cache
+Fetching https://github.com/swift-primitives/swift-hash-table-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-layout-primitives.git from cache
+Fetching https://github.com/swift-w3c/swift-w3c-svg.git from cache
+Fetched https://github.com/swift-foundations/swift-html-render.git from cache (0.12s)
+Fetched https://github.com/swift-primitives/swift-buffer-linear-primitives.git from cache (0.13s)
+Fetched https://github.com/swift-foundations/swift-css-html-layout-render.git from cache (0.05s)
+Fetching https://github.com/swift-primitives/swift-finite-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-cyclic-index-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-finite-primitives.git from cache (0.04s)
+Fetched https://github.com/swift-primitives/swift-hash-table-primitives.git from cache (0.11s)
+Fetched https://github.com/swift-w3c/swift-w3c-svg.git from cache (0.10s)
+Fetching https://github.com/swift-primitives/swift-cardinal-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-layout-primitives.git from cache (0.12s)
+Fetching https://github.com/swift-standards/swift-svg-standard.git from cache
+Fetching https://github.com/swift-primitives/swift-string-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-cyclic-index-primitives.git from cache (0.10s)
+Fetching https://github.com/swift-ietf/swift-rfc-1035.git from cache
+Fetched https://github.com/swift-primitives/swift-cardinal-primitives.git from cache (0.11s)
+Fetched https://github.com/swift-primitives/swift-string-primitives.git from cache (0.04s)
+Fetched https://github.com/swift-standards/swift-svg-standard.git from cache (0.05s)
+Fetched https://github.com/swift-ietf/swift-rfc-1035.git from cache (0.03s)
+Fetching https://github.com/swift-primitives/swift-dimension-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-property-primitives.git from cache
+Fetching https://github.com/swift-iso/swift-iso-8601.git from cache
+Fetched https://github.com/swift-primitives/swift-property-primitives.git from cache (0.05s)
+Fetched https://github.com/swift-primitives/swift-dimension-primitives.git from cache (0.06s)
+Fetched https://github.com/swift-iso/swift-iso-8601.git from cache (0.05s)
+Fetching https://github.com/swift-primitives/swift-bit-vector-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-sequence-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-storage-generational-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-binary-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-hash-primitives.git from cache
+Fetching https://github.com/swiftlang/swift-markdown.git from cache
+Fetched https://github.com/swift-primitives/swift-bit-vector-primitives.git from cache (0.07s)
+Fetched https://github.com/swift-primitives/swift-storage-generational-primitives.git from cache (0.08s)
+Fetched https://github.com/swiftlang/swift-markdown.git from cache (0.08s)
+Fetched https://github.com/swift-primitives/swift-binary-primitives.git from cache (0.11s)
+Fetched https://github.com/swift-primitives/swift-hash-primitives.git from cache (0.09s)
+Fetched https://github.com/swift-primitives/swift-sequence-primitives.git from cache (0.12s)
+Fetching https://github.com/swift-primitives/swift-ordinal-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-time-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-ordinal-primitives.git from cache (0.05s)
+Fetching https://github.com/swift-incits/swift-incits-4-1986.git from cache
+Fetching https://github.com/swift-ietf/swift-rfc-5952.git from cache
+Fetching https://github.com/swift-standards/swift-html-standard.git from cache
+Fetching https://github.com/swift-ietf/swift-rfc-4291.git from cache
+Fetched https://github.com/swift-primitives/swift-time-primitives.git from cache (0.10s)
+Fetched https://github.com/swift-ietf/swift-rfc-4291.git from cache (0.06s)
+Fetched https://github.com/swift-incits/swift-incits-4-1986.git from cache (0.07s)
+Fetched https://github.com/swift-standards/swift-html-standard.git from cache (0.06s)
+Fetching https://github.com/swift-primitives/swift-memory-cursor-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-memory-cursor-primitives.git from cache (0.06s)
+Fetching https://github.com/swift-primitives/swift-tagged-collection-primitives.git from cache
+Fetched https://github.com/swift-ietf/swift-rfc-5952.git from cache (0.14s)
+Fetching https://github.com/swift-primitives/swift-dictionary-ordered-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-iterator-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-formatter-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-binary-parser-primitives.git from cache
+Fetching https://github.com/swift-primitives/swift-direction-primitives.git from cache
+Fetched https://github.com/swift-primitives/swift-tagged-collection-primitives.git from cache (0.08s)
+Fetched https://github.com/swift-primitives/swift-dictionary-ordered-primitives.git from cache (0.07s)
+Fetched https://github.com/swift-primitives/swift-iterator-primitives.git from cache (0.06s)
+Fetched https://github.com/swift-primitives/swift-binary-parser-primitives.git from cache (0.05s)
+Fetched https://github.com/swift-primitives/swift-formatter-primitives.git from cache (0.08s)
+Fetched https://github.com/swift-primitives/swift-direction-primitives.git from cache (0.10s)
+Creating working copy for https://github.com/swift-primitives/swift-boundary-primitives.git
+Creating working copy for https://github.com/swift-primitives/swift-ascii-serializer-primitives.git
+Creating working copy for https://github.com/swift-primitives/swift-render-primitives.git
+Creating working copy for https://github.com/swift-ietf/swift-rfc-5321.git
+Creating working copy for https://github.com/swift-foundations/swift-markdown-html-render.git
+Creating working copy for https://github.com/swift-primitives/swift-queue-primitives.git
+Creating working copy for https://github.com/swift-ietf/swift-rfc-3987.git
+Working copy of https://github.com/swift-primitives/swift-boundary-primitives.git resolved at main (507bc5d)
+Working copy of https://github.com/swift-primitives/swift-ascii-serializer-primitives.git resolved at main (409ccda)
+Creating working copy for https://github.com/swift-primitives/swift-cursor-primitives.git
+Working copy of https://github.com/swift-ietf/swift-rfc-5321.git resolved at main (c9d6327)
+Working copy of https://github.com/swift-primitives/swift-render-primitives.git resolved at main (53d571e)
+Creating working copy for https://github.com/swift-standards/swift-domain-standard.git
+Working copy of https://github.com/swift-primitives/swift-queue-primitives.git resolved at main (59e64eb)
+Working copy of https://github.com/swift-primitives/swift-cursor-primitives.git resolved at main (f0eadef)
+Creating working copy for https://github.com/swift-primitives/swift-deque-primitives.git
+Working copy of https://github.com/swift-ietf/swift-rfc-3987.git resolved at main (6c528af)
+Working copy of https://github.com/swift-foundations/swift-markdown-html-render.git resolved at main (ef258ad)
+Creating working copy for https://github.com/swift-primitives/swift-witness-primitives.git
+Creating working copy for https://github.com/swift-primitives/swift-error-primitives.git
+Creating working copy for https://github.com/swift-primitives/swift-memory-allocation-primitives.git
+Creating working copy for https://github.com/swift-primitives/swift-machine-primitives.git
+Working copy of https://github.com/swift-standards/swift-domain-standard.git resolved at main (baddcd5)
+Working copy of https://github.com/swift-primitives/swift-error-primitives.git resolved at main (a6e5602)
+Creating working copy for https://github.com/swift-primitives/swift-set-primitives.git
+Working copy of https://github.com/swift-primitives/swift-deque-primitives.git resolved at main (70c9a11)
+Working copy of https://github.com/swift-primitives/swift-witness-primitives.git resolved at main (3c88018)
+Creating working copy for https://github.com/swift-ietf/swift-rfc-791.git
+Working copy of https://github.com/swift-primitives/swift-memory-allocation-primitives.git resolved at main (2020ed2)
+Creating working copy for https://github.com/swift-iso/swift-iso-9899.git
+Creating working copy for https://github.com/swift-primitives/swift-byte-primitives.git
+Working copy of https://github.com/swift-primitives/swift-machine-primitives.git resolved at main (1e85ad7)
+Creating working copy for https://github.com/swift-primitives/swift-graph-primitives.git
+Creating working copy for https://github.com/swift-primitives/swift-collection-primitives.git
+Working copy of https://github.com/swift-primitives/swift-set-primitives.git resolved at main (85c4c1d)
+Creating working copy for https://github.com/swift-primitives/swift-memory-heap-primitives.git
+Working copy of https://github.com/swift-primitives/swift-byte-primitives.git resolved at main (7cf4972)
+Creating working copy for https://github.com/swift-primitives/swift-ascii-primitives.git
+Working copy of https://github.com/swift-ietf/swift-rfc-791.git resolved at main (ab3decf)
+Working copy of https://github.com/swift-iso/swift-iso-9899.git resolved at main (4c3288d)
+Creating working copy for https://github.com/swift-whatwg/swift-whatwg-html.git
+Working copy of https://github.com/swift-primitives/swift-graph-primitives.git resolved at main (fdb5661)
+Working copy of https://github.com/swift-primitives/swift-collection-primitives.git resolved at main (48209a3)
+Creating working copy for https://github.com/swift-ietf/swift-rfc-1123.git
+Creating working copy for https://github.com/swift-primitives/swift-product-primitives.git
+Working copy of https://github.com/swift-primitives/swift-memory-heap-primitives.git resolved at main (cc615c9)
+Creating working copy for https://github.com/swift-primitives/swift-carrier-primitives.git
+Creating working copy for https://github.com/swift-primitives/swift-parser-primitives.git
+Creating working copy for https://github.com/swift-iec/swift-iec-61966.git
+Working copy of https://github.com/swift-primitives/swift-ascii-primitives.git resolved at main (f3cfdc0)
+Creating working copy for https://github.com/swift-primitives/swift-buffer-primitives.git
+Working copy of https://github.com/swift-ietf/swift-rfc-1123.git resolved at main (42b955b)
+Working copy of https://github.com/swift-primitives/swift-product-primitives.git resolved at main (1b7227d)
+Creating working copy for https://github.com/swift-primitives/swift-set-ordered-primitives.git
+Working copy of https://github.com/swift-primitives/swift-carrier-primitives.git resolved at main (a81a6de)
+Working copy of https://github.com/swift-iec/swift-iec-61966.git resolved at main (b6b3915)
+Working copy of https://github.com/swift-whatwg/swift-whatwg-html.git resolved at main (2f3bd0b)
+Creating working copy for https://github.com/swift-primitives/swift-equation-primitives.git
+Working copy of https://github.com/swift-primitives/swift-parser-primitives.git resolved at main (caa0255)
+Creating working copy for https://github.com/swift-primitives/swift-stack-primitives.git
+Working copy of https://github.com/swift-primitives/swift-buffer-primitives.git resolved at main (bb82d50)
+Creating working copy for https://github.com/swift-primitives/swift-either-primitives.git
+Working copy of https://github.com/swift-primitives/swift-set-ordered-primitives.git resolved at main (0dd1a56)
+Creating working copy for https://github.com/swift-primitives/swift-vector-primitives.git
+Creating working copy for https://github.com/swift-standards/swift-color-standard.git
+Creating working copy for https://github.com/swift-primitives/swift-byte-parser-primitives.git
+Working copy of https://github.com/swift-primitives/swift-either-primitives.git resolved at main (2b8bb2f)
+Creating working copy for https://github.com/swift-ietf/swift-rfc-5322.git
+Creating working copy for https://github.com/swift-ietf/swift-rfc-3492.git
+Working copy of https://github.com/swift-primitives/swift-vector-primitives.git resolved at main (d7a35ce)
+Working copy of https://github.com/swift-primitives/swift-equation-primitives.git resolved at main (3d91350)
+Creating working copy for https://github.com/swift-primitives/swift-binary-base-primitives.git
+Working copy of https://github.com/swift-primitives/swift-stack-primitives.git resolved at main (16d63f2)
+Working copy of https://github.com/swift-primitives/swift-byte-parser-primitives.git resolved at main (eede90b)
+Creating working copy for https://github.com/swift-primitives/swift-storage-split-primitives.git
+Working copy of https://github.com/swift-standards/swift-color-standard.git resolved at main (c917b58)
+Working copy of https://github.com/swift-ietf/swift-rfc-3492.git resolved at main (0682027)
+Working copy of https://github.com/swift-ietf/swift-rfc-5322.git resolved at main (f5ba3f9)
+Creating working copy for https://github.com/swift-primitives/swift-buffer-slots-primitives.git
+Creating working copy for https://github.com/swift-primitives/swift-input-primitives.git
+Creating working copy for https://github.com/swift-foundations/swift-css.git
+Working copy of https://github.com/swift-primitives/swift-storage-split-primitives.git resolved at main (1831a39)
+Working copy of https://github.com/swift-primitives/swift-binary-base-primitives.git resolved at main (18bb422)
+Creating working copy for https://github.com/swift-primitives/swift-span-primitives.git
+Creating working copy for https://github.com/swift-primitives/swift-ownership-shared-primitives.git
+Creating working copy for https://github.com/swift-primitives/swift-buffer-ring-primitives.git
+Working copy of https://github.com/swift-primitives/swift-buffer-slots-primitives.git resolved at main (8c3764a)
+Working copy of https://github.com/swift-primitives/swift-input-primitives.git resolved at main (f4eb78e)
+Creating working copy for https://github.com/swift-primitives/swift-storage-primitives.git
+Working copy of https://github.com/swift-foundations/swift-css.git resolved at main (52cc572)
+Creating working copy for https://github.com/swift-primitives/swift-bit-index-primitives.git
+Creating working copy for https://github.com/swift-primitives/swift-memory-inline-primitives.git
+Working copy of https://github.com/swift-primitives/swift-ownership-shared-primitives.git resolved at main (bf4c572)
+Creating working copy for https://github.com/swift-foundations/swift-svg.git
+Working copy of https://github.com/swift-primitives/swift-buffer-ring-primitives.git resolved at main (b383489)
+Creating working copy for https://github.com/swift-ietf/swift-rfc-5890.git
+Working copy of https://github.com/swift-primitives/swift-span-primitives.git resolved at main (93488bb)
+Working copy of https://github.com/swift-primitives/swift-bit-index-primitives.git resolved at main (5c9b747)
+Creating working copy for https://github.com/swift-primitives/swift-memory-primitives.git
+Working copy of https://github.com/swift-primitives/swift-storage-primitives.git resolved at main (7f714d9)
+Creating working copy for https://github.com/swift-primitives/swift-affine-primitives.git
+Working copy of https://github.com/swift-primitives/swift-memory-inline-primitives.git resolved at main (ffdb7c4)
+Creating working copy for https://github.com/swift-primitives/swift-serializer-primitives.git
+Working copy of https://github.com/swift-foundations/swift-svg.git resolved at main (f37ce07)
+Creating working copy for https://github.com/swift-primitives/swift-array-primitives.git
+Working copy of https://github.com/swift-ietf/swift-rfc-5890.git resolved at main (21cdd0b)
+Creating working copy for https://github.com/swift-primitives/swift-async-primitives.git
+Working copy of https://github.com/swift-primitives/swift-memory-primitives.git resolved at main (d351dc9)
+Creating working copy for https://github.com/swift-primitives/swift-format-primitives.git
+Working copy of https://github.com/swift-primitives/swift-affine-primitives.git resolved at main (141a2d8)
+Creating working copy for https://github.com/swift-foundations/swift-css-html-render.git
+Working copy of https://github.com/swift-primitives/swift-serializer-primitives.git resolved at main (21b0031)
+Creating working copy for https://github.com/swift-foundations/swift-color.git
+Creating working copy for https://github.com/apple/swift-collections.git
+Working copy of https://github.com/swift-primitives/swift-array-primitives.git resolved at main (1ffe7a6)
+Creating working copy for https://github.com/swift-primitives/swift-string-primitives.git
+Creating working copy for https://github.com/swift-standards/swift-css-standard.git
+Working copy of https://github.com/swift-foundations/swift-color.git resolved at main (46b667c)
+Working copy of https://github.com/swift-primitives/swift-async-primitives.git resolved at main (406eacc)
+Creating working copy for https://github.com/swift-primitives/swift-bit-pack-primitives.git
+Working copy of https://github.com/swift-primitives/swift-format-primitives.git resolved at main (d56a94f)
+Creating working copy for https://github.com/swift-primitives/swift-pair-primitives.git
+Working copy of https://github.com/swift-standards/swift-css-standard.git resolved at main (fce7073)
+Creating working copy for https://github.com/swift-primitives/swift-fixed-primitives.git
+Working copy of https://github.com/swift-foundations/swift-css-html-render.git resolved at main (9af4bd8)
+Creating working copy for https://github.com/swift-primitives/swift-buffer-linear-primitives.git
+Working copy of https://github.com/swift-primitives/swift-bit-pack-primitives.git resolved at main (19058ec)
+Creating working copy for https://github.com/swift-primitives/swift-heap-primitives.git
+Working copy of https://github.com/swift-primitives/swift-pair-primitives.git resolved at main (785d785)
+Working copy of https://github.com/swift-primitives/swift-string-primitives.git resolved at main (ad843f4)
+Creating working copy for https://github.com/swift-primitives/swift-ownership-primitives.git
+Working copy of https://github.com/swift-primitives/swift-fixed-primitives.git resolved at main (6d1960d)
+Creating working copy for https://github.com/swift-primitives/swift-ascii-parser-primitives.git
+Working copy of https://github.com/swift-primitives/swift-buffer-linear-primitives.git resolved at main (6cbdd87)
+Creating working copy for https://github.com/swift-primitives/swift-index-primitives.git
+Working copy of https://github.com/swift-primitives/swift-heap-primitives.git resolved at main (08d9d8b)
+Creating working copy for https://github.com/swift-primitives/swift-geometry-primitives.git
+Creating working copy for https://github.com/swift-primitives/swift-decimal-primitives.git
+Creating working copy for https://github.com/swift-foundations/swift-ascii.git
+Creating working copy for https://github.com/swift-primitives/swift-affine-geometry-primitives.git
+Working copy of https://github.com/swift-primitives/swift-ascii-parser-primitives.git resolved at main (ec20830)
+Working copy of https://github.com/apple/swift-collections.git resolved at 1.6.0
+Creating working copy for https://github.com/swiftlang/swift-cmark.git
+Working copy of https://github.com/swift-primitives/swift-ownership-primitives.git resolved at main (094bcf4)
+Creating working copy for https://github.com/swift-primitives/swift-dictionary-primitives.git
+Working copy of https://github.com/swift-primitives/swift-index-primitives.git resolved at main (6421f5e)
+Working copy of https://github.com/swift-primitives/swift-geometry-primitives.git resolved at main (6b8e04d)
+Working copy of https://github.com/swift-foundations/swift-ascii.git resolved at main (ecf563e)
+Creating working copy for https://github.com/swift-primitives/swift-bit-primitives.git
+Working copy of https://github.com/swift-primitives/swift-decimal-primitives.git resolved at main (0213146)
+Creating working copy for https://github.com/swift-primitives/swift-dependency-primitives.git
+Working copy of https://github.com/swift-primitives/swift-affine-geometry-primitives.git resolved at main (746d8ba)
+Creating working copy for https://github.com/swift-primitives/swift-cyclic-primitives.git
+Creating working copy for https://github.com/swift-primitives/swift-standard-library-extensions.git
+Creating working copy for https://github.com/swift-foundations/swift-svg-render.git
+Working copy of https://github.com/swift-primitives/swift-dictionary-primitives.git resolved at main (75b3496)
+Creating working copy for https://github.com/swift-ietf/swift-rfc-2045.git
+Working copy of https://github.com/swift-primitives/swift-dependency-primitives.git resolved at main (fbbd8a6)
+Working copy of https://github.com/swiftlang/swift-cmark.git resolved at 0.8.0
+Creating working copy for https://github.com/swift-primitives/swift-text-primitives.git
+Working copy of https://github.com/swift-primitives/swift-bit-primitives.git resolved at main (68d7f95)
+Working copy of https://github.com/swift-primitives/swift-cyclic-primitives.git resolved at main (9d7a245)
+Creating working copy for https://github.com/swift-w3c/swift-w3c-cssom.git
+Working copy of https://github.com/swift-foundations/swift-svg-render.git resolved at main (36e09e3)
+Working copy of https://github.com/swift-primitives/swift-standard-library-extensions.git resolved at main (545001b)
+Creating working copy for https://github.com/swift-ecma/swift-ecma-48.git
+Creating working copy for https://github.com/swift-whatwg/swift-whatwg-url.git
+Creating working copy for https://github.com/swift-primitives/swift-radix-formatter-primitives.git
+Working copy of https://github.com/swift-ietf/swift-rfc-2045.git resolved at main (e9a04b8)
+Creating working copy for https://github.com/swift-ietf/swift-rfc-4648.git
+Creating working copy for https://github.com/swift-primitives/swift-radix-primitives.git
+Working copy of https://github.com/swift-w3c/swift-w3c-cssom.git resolved at main (7933f85)
+Working copy of https://github.com/swift-primitives/swift-text-primitives.git resolved at main (5393f67)
+Creating working copy for https://github.com/swift-primitives/swift-memory-iterator-primitives.git
+Working copy of https://github.com/swift-primitives/swift-radix-formatter-primitives.git resolved at main (f03eb6d)
+Working copy of https://github.com/swift-whatwg/swift-whatwg-url.git resolved at main (9951157)
+Creating working copy for https://github.com/swift-primitives/swift-comparison-primitives.git
+Working copy of https://github.com/swift-ecma/swift-ecma-48.git resolved at main (d12ca2d)
+Working copy of https://github.com/swift-ietf/swift-rfc-4648.git resolved at main (90aca2b)
+Creating working copy for https://github.com/swift-primitives/swift-order-primitives.git
+Creating working copy for https://github.com/swift-primitives/swift-numeric-primitives.git
+Working copy of https://github.com/swift-primitives/swift-radix-primitives.git resolved at main (1944157)
+Creating working copy for https://github.com/swift-primitives/swift-binary-leb128-primitives.git
+Creating working copy for https://github.com/swift-ieee/swift-ieee-754.git
+Creating working copy for https://github.com/swift-primitives/swift-binary-serializer-primitives.git
+Working copy of https://github.com/swift-primitives/swift-memory-iterator-primitives.git resolved at main (037be77)
+Working copy of https://github.com/swift-primitives/swift-comparison-primitives.git resolved at main (68a62da)
+Creating working copy for https://github.com/swift-w3c/swift-w3c-css.git
+Creating working copy for https://github.com/swift-primitives/swift-tagged-primitives.git
+Working copy of https://github.com/swift-primitives/swift-binary-leb128-primitives.git resolved at main (1b6109c)
+Working copy of https://github.com/swift-primitives/swift-order-primitives.git resolved at main (79f7865)
+Creating working copy for https://github.com/swift-foundations/swift-css-html-layout-render.git
+Working copy of https://github.com/swift-primitives/swift-numeric-primitives.git resolved at main (4df8cd2)
+Working copy of https://github.com/swift-ieee/swift-ieee-754.git resolved at main (04f1036)
+Working copy of https://github.com/swift-primitives/swift-tagged-primitives.git resolved at main (63f1e8d)
+Creating working copy for https://github.com/swift-primitives/swift-linear-primitives.git
+Creating working copy for https://github.com/swift-primitives/swift-column-primitives.git
+Creating working copy for https://github.com/swift-primitives/swift-layout-primitives.git
+Working copy of https://github.com/swift-primitives/swift-binary-serializer-primitives.git resolved at main (fecbc12)
+Working copy of https://github.com/swift-foundations/swift-css-html-layout-render.git resolved at main (bee33d0)
+Creating working copy for https://github.com/swift-primitives/swift-formatter-primitives.git
+Working copy of https://github.com/swift-primitives/swift-column-primitives.git resolved at main (e10c301)
+Creating working copy for https://github.com/swift-foundations/swift-html-render.git
+Creating working copy for https://github.com/swift-w3c/swift-w3c-svg.git
+Working copy of https://github.com/swift-primitives/swift-formatter-primitives.git resolved at main (34699de)
+Creating working copy for https://github.com/swift-primitives/swift-hash-table-primitives.git
+Working copy of https://github.com/swift-primitives/swift-layout-primitives.git resolved at main (ecf730f)
+Creating working copy for https://github.com/swift-primitives/swift-cardinal-primitives.git
+Working copy of https://github.com/swift-primitives/swift-linear-primitives.git resolved at main (88617ab)
+Working copy of https://github.com/swift-w3c/swift-w3c-css.git resolved at main (55afba5)
+Creating working copy for https://github.com/swift-primitives/swift-cyclic-index-primitives.git
+Working copy of https://github.com/swift-w3c/swift-w3c-svg.git resolved at main (76c718a)
+Creating working copy for https://github.com/swift-primitives/swift-direction-primitives.git
+Creating working copy for https://github.com/swift-primitives/swift-finite-primitives.git
+Working copy of https://github.com/swift-primitives/swift-cardinal-primitives.git resolved at main (22eafc4)
+Creating working copy for https://github.com/swift-primitives/swift-property-primitives.git
+Working copy of https://github.com/swift-primitives/swift-hash-table-primitives.git resolved at main (9d4439d)
+Creating working copy for https://github.com/swift-primitives/swift-dictionary-ordered-primitives.git
+Working copy of https://github.com/swift-primitives/swift-direction-primitives.git resolved at main (78be4e0)
+Working copy of https://github.com/swift-foundations/swift-html-render.git resolved at main (845bab6)
+Creating working copy for https://github.com/swift-primitives/swift-dimension-primitives.git
+Working copy of https://github.com/swift-primitives/swift-cyclic-index-primitives.git resolved at main (3965a1c)
+Creating working copy for https://github.com/swift-standards/swift-svg-standard.git
+Working copy of https://github.com/swift-primitives/swift-finite-primitives.git resolved at main (8de3622)
+Creating working copy for https://github.com/swift-ietf/swift-rfc-1035.git
+Working copy of https://github.com/swift-primitives/swift-dictionary-ordered-primitives.git resolved at main (a2f3d75)
+Creating working copy for https://github.com/swift-primitives/swift-storage-generational-primitives.git
+Creating working copy for https://github.com/swift-primitives/swift-binary-primitives.git
+Working copy of https://github.com/swift-standards/swift-svg-standard.git resolved at main (8863d3b)
+Creating working copy for https://github.com/swift-primitives/swift-sequence-primitives.git
+Creating working copy for https://github.com/swift-primitives/swift-hash-primitives.git
+Working copy of https://github.com/swift-primitives/swift-property-primitives.git resolved at main (8866a07)
+Working copy of https://github.com/swift-ietf/swift-rfc-1035.git resolved at main (404467e)
+Creating working copy for https://github.com/swift-iso/swift-iso-8601.git
+Working copy of https://github.com/swift-primitives/swift-dimension-primitives.git resolved at main (a55535f)
+Working copy of https://github.com/swift-primitives/swift-storage-generational-primitives.git resolved at main (b889abe)
+Creating working copy for https://github.com/swiftlang/swift-markdown.git
+Working copy of https://github.com/swift-primitives/swift-binary-primitives.git resolved at main (123609f)
+Working copy of https://github.com/swift-primitives/swift-hash-primitives.git resolved at main (919b920)
+Creating working copy for https://github.com/swift-primitives/swift-time-primitives.git
+Creating working copy for https://github.com/swift-incits/swift-incits-4-1986.git
+Creating working copy for https://github.com/swift-primitives/swift-bit-vector-primitives.git
+Working copy of https://github.com/swift-iso/swift-iso-8601.git resolved at main (1f80c9d)
+Working copy of https://github.com/swift-primitives/swift-sequence-primitives.git resolved at main (50634c1)
+Creating working copy for https://github.com/swift-standards/swift-html-standard.git
+Creating working copy for https://github.com/swift-ietf/swift-rfc-5952.git
+Working copy of https://github.com/swift-incits/swift-incits-4-1986.git resolved at main (ea931be)
+Creating working copy for https://github.com/swift-ietf/swift-rfc-4291.git
+Creating working copy for https://github.com/swift-primitives/swift-tagged-collection-primitives.git
+Working copy of https://github.com/swiftlang/swift-markdown.git resolved at 0.8.0
+Working copy of https://github.com/swift-standards/swift-html-standard.git resolved at main (ea11e29)
+Creating working copy for https://github.com/swift-primitives/swift-memory-cursor-primitives.git
+Working copy of https://github.com/swift-primitives/swift-time-primitives.git resolved at main (133bcf4)
+Creating working copy for https://github.com/swift-primitives/swift-ordinal-primitives.git
+Working copy of https://github.com/swift-primitives/swift-tagged-collection-primitives.git resolved at main (88da11c)
+Working copy of https://github.com/swift-ietf/swift-rfc-5952.git resolved at main (c52a4fa)
+Creating working copy for https://github.com/swift-primitives/swift-iterator-primitives.git
+Creating working copy for https://github.com/swift-primitives/swift-binary-parser-primitives.git
+Working copy of https://github.com/swift-ietf/swift-rfc-4291.git resolved at main (724cc04)
+Working copy of https://github.com/swift-primitives/swift-bit-vector-primitives.git resolved at main (870c6f6)
+Working copy of https://github.com/swift-primitives/swift-ordinal-primitives.git resolved at main (0256353)
+Creating working copy for https://github.com/swift-primitives/swift-axis-primitives.git
+Working copy of https://github.com/swift-primitives/swift-memory-cursor-primitives.git resolved at main (7b150b7)
+Creating working copy for https://github.com/swift-primitives/swift-memory-small-primitives.git
+Working copy of https://github.com/swift-primitives/swift-iterator-primitives.git resolved at main (aa874a3)
+Working copy of https://github.com/swift-primitives/swift-binary-parser-primitives.git resolved at main (11e7369)
+Working copy of https://github.com/swift-primitives/swift-axis-primitives.git resolved at main (cfba68d)
+Working copy of https://github.com/swift-primitives/swift-memory-small-primitives.git resolved at main (f9797a0)
+Building for debugging...
+[0/533] Compiling cmark-gfm-extensions tasklist.c
+[0/533] Compiling cmark-gfm-extensions tagfilter.c
+[2/533] Compiling cmark-gfm-extensions ext_scanners.c
+[3/533] Compiling cmark-gfm-extensions strikethrough.c
+[4/533] Compiling cmark-gfm-extensions core-extensions.c
+[5/533] Compiling cmark-gfm xml.c
+[6/533] Compiling cmark-gfm syntax_extension.c
+[7/533] Compiling cmark-gfm registry.c
+[8/533] Compiling cmark-gfm-extensions autolink.c
+[9/533] Compiling cmark-gfm references.c
+[10/533] Compiling cmark-gfm-extensions table.c
+[11/533] Compiling cmark-gfm plugin.c
+[12/533] Compiling cmark-gfm render.c
+[13/533] Compiling cmark-gfm map.c
+[14/533] Compiling cmark-gfm plaintext.c
+[15/533] Compiling cmark-gfm linked_list.c
+[16/533] Compiling cmark-gfm man.c
+[17/533] Compiling cmark-gfm iterator.c
+[18/533] Compiling cmark-gfm latex.c
+[19/533] Compiling cmark-gfm html.c
+[20/533] Compiling cmark-gfm houdini_html_e.c
+[21/533] Compiling cmark-gfm node.c
+[22/533] Compiling cmark-gfm houdini_href_e.c
+[23/533] Compiling cmark-gfm cmark_ctype.c
+[24/533] Compiling cmark-gfm footnotes.c
+[25/533] Write swift-version--6F4D891D0C4E394F.txt
+[26/533] Compiling cmark-gfm cmark.c
+[27/533] Compiling cmark-gfm commonmark.c
+[28/533] Compiling cmark-gfm buffer.c
+[29/533] Write sources
+[83/533] Compiling _Shims shims.c
+[83/533] Write sources
+[88/533] Compiling cmark-gfm arena.c
+[88/533] Write sources
+[122/533] Compiling cmark-gfm inlines.c
+[123/533] Write sources
+[127/535] Compiling cmark-gfm houdini_html_u.c
+[128/536] Write sources
+[132/539] Compiling cmark-gfm blocks.c
+[134/545] Emitting module Store_Primitive
+[136/546] Emitting module Span_Primitive
+[138/547] Compiling Store_Primitive Store.swift
+[138/547] Write sources
+[147/547] Emitting module Storage_Primitive
+[148/547] Compiling Storage_Primitive Storage.swift
+[149/550] Write sources
+error: emit-module command failed with exit code 1 (use -v to see invocation)
+[167/550] Emitting module W3C_CSSOM
+$SCRATCH/scratchpad/wasmbuild3/checkouts/swift-w3c-cssom/Sources/W3C CSSOM/Identifiers/Ident.swift:39:38: error: 'StringLiteralType' is unavailable: unavailable in embedded Swift
+37 | 
+38 | extension Ident: ExpressibleByStringLiteral {
+39 |     public init(stringLiteral value: StringLiteralType) {
+   |                                      `- error: 'StringLiteralType' is unavailable: unavailable in embedded Swift
+40 |         self.value = value
+41 |     }
+
+Swift.StringLiteralType:2:18: note: 'StringLiteralType' has been explicitly marked unavailable here
+1 | @_unavailableInEmbedded
+2 | public typealias StringLiteralType = String
+  |                  `- note: 'StringLiteralType' has been explicitly marked unavailable here
+
+$SCRATCH/scratchpad/wasmbuild3/checkouts/swift-w3c-cssom/Sources/W3C CSSOM/Serialization/String.swift:81:38: error: 'StringLiteralType' is unavailable: unavailable in embedded Swift
+79 | extension CSSString: ExpressibleByStringLiteral {
+80 |     /// Creates a CSS string from a string literal
+81 |     public init(stringLiteral value: StringLiteralType) {
+   |                                      `- error: 'StringLiteralType' is unavailable: unavailable in embedded Swift
+82 |         self.init(value)
+83 |     }
+
+Swift.StringLiteralType:2:18: note: 'StringLiteralType' has been explicitly marked unavailable here
+1 | @_unavailableInEmbedded
+2 | public typealias StringLiteralType = String
+  |                  `- note: 'StringLiteralType' has been explicitly marked unavailable here
+
+$SCRATCH/scratchpad/wasmbuild3/checkouts/swift-w3c-cssom/Sources/W3C CSSOM/Serialization/Url.swift:71:38: error: 'StringLiteralType' is unavailable: unavailable in embedded Swift
+69 | extension Url: ExpressibleByStringLiteral {
+70 |     /// Creates a URL from a string literal
+71 |     public init(stringLiteral value: StringLiteralType) {
+   |                                      `- error: 'StringLiteralType' is unavailable: unavailable in embedded Swift
+72 |         self.init(value)
+73 |     }
+
+Swift.StringLiteralType:2:18: note: 'StringLiteralType' has been explicitly marked unavailable here
+1 | @_unavailableInEmbedded
+2 | public typealias StringLiteralType = String
+  |                  `- note: 'StringLiteralType' has been explicitly marked unavailable here
+[168/550] Compiling W3C_CSSOM CustomIdent.swift
+$SCRATCH/scratchpad/wasmbuild3/checkouts/swift-w3c-cssom/Sources/W3C CSSOM/Identifiers/Ident.swift:39:38: error: 'StringLiteralType' is unavailable: unavailable in embedded Swift
+37 | 
+38 | extension Ident: ExpressibleByStringLiteral {
+39 |     public init(stringLiteral value: StringLiteralType) {
+   |                                      `- error: 'StringLiteralType' is unavailable: unavailable in embedded Swift
+40 |         self.value = value
+41 |     }
+
+Swift.StringLiteralType:2:18: note: 'StringLiteralType' has been explicitly marked unavailable here
+1 | @_unavailableInEmbedded
+2 | public typealias StringLiteralType = String
+  |                  `- note: 'StringLiteralType' has been explicitly marked unavailable here
+
+$SCRATCH/scratchpad/wasmbuild3/checkouts/swift-w3c-cssom/Sources/W3C CSSOM/Serialization/String.swift:81:38: error: 'StringLiteralType' is unavailable: unavailable in embedded Swift
+79 | extension CSSString: ExpressibleByStringLiteral {
+80 |     /// Creates a CSS string from a string literal
+81 |     public init(stringLiteral value: StringLiteralType) {
+   |                                      `- error: 'StringLiteralType' is unavailable: unavailable in embedded Swift
+82 |         self.init(value)
+83 |     }
+
+Swift.StringLiteralType:2:18: note: 'StringLiteralType' has been explicitly marked unavailable here
+1 | @_unavailableInEmbedded
+2 | public typealias StringLiteralType = String
+  |                  `- note: 'StringLiteralType' has been explicitly marked unavailable here
+
+$SCRATCH/scratchpad/wasmbuild3/checkouts/swift-w3c-cssom/Sources/W3C CSSOM/Serialization/Url.swift:71:38: error: 'StringLiteralType' is unavailable: unavailable in embedded Swift
+69 | extension Url: ExpressibleByStringLiteral {
+70 |     /// Creates a URL from a string literal
+71 |     public init(stringLiteral value: StringLiteralType) {
+   |                                      `- error: 'StringLiteralType' is unavailable: unavailable in embedded Swift
+72 |         self.init(value)
+73 |     }
+
+Swift.StringLiteralType:2:18: note: 'StringLiteralType' has been explicitly marked unavailable here
+1 | @_unavailableInEmbedded
+2 | public typealias StringLiteralType = String
+  |                  `- note: 'StringLiteralType' has been explicitly marked unavailable here
+[168/550] Compiling cmark-gfm utf8.c
+[168/550] Compiling cmark-gfm scanners.c
+error: cancelled
+error: cancelled

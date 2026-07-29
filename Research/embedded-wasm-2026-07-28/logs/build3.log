@@ -1,0 +1,89 @@
+[0/1] Planning build
+Building for debugging...
+[0/374] Write sources
+[69/376] Compiling CISO9899Errno shim.c
+[69/376] Write sources
+[69/376] Compiling CISO9899Stdlib shim.c
+[69/376] Write sources
+[69/376] Compiling CISO9899Math iso9899_math.c
+[69/376] Write sources
+[69/376] Compiling CISO9899String shim.c
+[69/376] Write sources
+[69/377] Compiling CISO9899Ctype shim.c
+[69/377] Compiling CAtomic CAtomic.c
+[69/381] Write sources
+[378/381] Write swift-version--6F4D891D0C4E394F.txt
+[380/393] Emitting module Store_Primitive
+[381/393] Compiling Store_Primitive Store.swift
+[382/394] Emitting module Span_Primitive
+[385/395] Compiling Span_Primitive Span.Mutable.swift
+[386/397] Emitting module Serializer_Primitive
+[388/400] Emitting module Sequence_Primitive
+[389/401] Compiling Sequence_Primitive Sequence.swift
+[390/401] Compiling Serializer_Primitive Serializable.swift
+[392/405] Emitting module Serializer_Witness_Primitives
+[393/405] Emitting module W3C_CSSOM
+[396/407] Compiling Serializer_Witness_Primitives Serializer.Witness+Protocol.swift
+[397/407] Compiling Radix_Primitive Radix+Initialization.swift
+[398/407] Emitting module Radix_Primitive
+error: emit-module command failed due to signal 6 (use -v to see invocation)
+error: compile command failed due to signal 6 (use -v to see invocation)
+Abort: function forAbstract at ASTContext.cpp:5924
+Abstract conformance with bad subject type:
+(element_type level=1
+  (pack=pack_archetype_type address=0x79d454de18 conforms_to="Swift.(file).Copyable" conforms_to="Render_Primitive.(file).Render extension.View@$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.View.swift:7:21" name="each Content"
+    (interface_type=generic_type_param_type depth=0 index=0 name="Content" param_kind=pack)))
+
+Please submit a bug report (https://swift.org/contributing/#reporting-bugs) and include the crash backtrace.
+Stack dump:
+0.	Program arguments: $TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend -frontend -c "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Array+Render.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Optional+Render.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Action.Break.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Action.Pop.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Action.Push.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Action.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Break.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Builder.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Conditional.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Context.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Empty.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Group.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Indirect.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Machine.Frame.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Machine.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Pair.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Pop.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Push.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Semantic.Block.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Semantic.Inline.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Semantic.List.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Semantic.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Speculative.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Style.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Thunk.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.View.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.Work.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render._Tuple.swift" "$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.swift" -supplementary-output-file-map $TMPDIR/supplementaryOutputs-1 -target wasm32-unknown-wasip1 -disable-objc-interop -sdk $SWIFT_SDKS/swift-6.3.3-RELEASE_wasm.artifactbundle/swift-6.3.3-RELEASE_wasm/wasm32-unknown-wasip1/WASI.sdk -I $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Modules -no-color-diagnostics -Xcc -fno-color-diagnostics -enable-testing -g -debug-info-format=dwarf -dwarf-version=4 -module-cache-path $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/ModuleCache -suppress-warnings -swift-version 6 -Onone -D SWIFT_PACKAGE -D DEBUG -D SWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE -enable-upcoming-feature ExistentialAny -enable-upcoming-feature InternalImportsByDefault -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature LifetimeDependence -enable-experimental-feature Lifetimes -enable-experimental-feature SuppressedAssociatedTypes -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature LifetimeDependence -enable-experimental-feature Embedded -strict-memory-safety -empty-abi-descriptor -plugin-path $TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/lib/swift/host/plugins/testing -resource-dir $SWIFT_SDKS/swift-6.3.3-RELEASE_wasm.artifactbundle/swift-6.3.3-RELEASE_wasm/wasm32-unknown-wasip1/swift.xctoolchain/usr/lib/swift -use-static-resource-dir -enable-anonymous-context-mangled-names -file-compilation-dir $INSTITUTE/swift-foundations/swift-html -Xcc --sysroot -Xcc $SWIFT_SDKS/swift-6.3.3-RELEASE_wasm.artifactbundle/swift-6.3.3-RELEASE_wasm/wasm32-unknown-wasip1/WASI.sdk -Xcc -D__EMBEDDED_SWIFT__ -Xcc -g -no-auto-bridging-header-chaining -module-name Render_Primitive -package-name swift_render_primitives -in-process-plugin-server-path $TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -plugin-path $TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/lib/swift/host/plugins -plugin-path $TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/local/lib/swift/host/plugins -parse-as-library -num-threads 8 -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Array+Render.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Optional+Render.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Action.Break.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Action.Pop.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Action.Push.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Action.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Break.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Builder.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Conditional.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Context.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Empty.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Group.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Indirect.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Machine.Frame.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Machine.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Pair.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Pop.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Push.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Semantic.Block.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Semantic.Inline.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Semantic.List.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Semantic.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Speculative.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Style.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Thunk.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.View.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.Work.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render._Tuple.swift.o -o $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/Render_Primitive.build/Render.swift.o -index-store-path $SCRATCH/scratchpad/wasmbuild2/wasm32-unknown-wasip1/debug/index/store -index-system-modules
+1.	Apple Swift version 6.3.3 (swift-6.3.3-RELEASE)
+2.	Compiling with the current language version
+3.	While evaluating request ExecuteSILPipelineRequest(Run pipelines { Non-Diagnostic Mandatory Optimizations, Serialization, Rest of Onone } on SIL for Render_Primitive)
+4.	While running pass #2592 SILModuleTransform "CrossModuleOptimization".
+5.	Abort: function forAbstract at ASTContext.cpp:5924
+| 	Abstract conformance with bad subject type:
+| 	(element_type level=1
+| 	  (pack=pack_archetype_type address=0x79d454de18 conforms_to="Swift.(file).Copyable" conforms_to="Render_Primitive.(file).Render extension.View@$SCRATCH/scratchpad/wasmbuild2/checkouts/swift-render-primitives/Sources/Render Primitive/Render.View.swift:7:21" name="each Content"
+| 	    (interface_type=generic_type_param_type depth=0 index=0 name="Content" param_kind=pack)))
+ #0 0x0000000105fb1d58 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x105305d58)
+ #1 0x0000000105fb0080 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x105304080)
+ #2 0x0000000105fb2794 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x105306794)
+ #3 0x00000001931dc144 (/usr/lib/system/libsystem_platform.dylib+0x180898144)
+ #4 0x00000001931d1980 (/usr/lib/system/libsystem_pthread.dylib+0x18088d980)
+ #5 0x00000001930d4398 (/usr/lib/system/libsystem_c.dylib+0x180790398)
+ #6 0x0000000102632ee4 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x101986ee4)
+ #7 0x0000000102632f98 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x101986f98)
+ #8 0x00000001021eaaa8 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x10153eaa8)
+ #9 0x0000000101438a28 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x10078ca28)
+#10 0x0000000102578714 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x1018cc714)
+#11 0x00000001024d6104 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x10182a104)
+#12 0x00000001024b9f28 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x10180df28)
+#13 0x00000001024b9ec4 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x10180dec4)
+#14 0x0000000102577eec ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x1018cbeec)
+#15 0x00000001024b9bd4 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x10180dbd4)
+#16 0x00000001025473b4 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x10189b3b4)
+#17 0x0000000102546f30 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x10189af30)
+#18 0x00000001019bbce4 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x100d0fce4)
+#19 0x00000001019b1598 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x100d05598)
+#20 0x00000001019ab37c ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x100cff37c)
+#21 0x00000001019aa1e0 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x100cfe1e0)
+#22 0x0000000101ade7e8 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x100e327e8)
+#23 0x0000000101adf960 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x100e33960)
+#24 0x0000000101adb65c ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x100e2f65c)
+#25 0x0000000101adb5dc ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x100e2f5dc)
+#26 0x0000000101afe124 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x100e52124)
+#27 0x0000000101ae141c ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x100e3541c)
+#28 0x0000000101adb818 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x100e2f818)
+#29 0x0000000101ae2854 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x100e36854)
+#30 0x0000000101147994 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x10049b994)
+#31 0x0000000100f3b57c ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x10028f57c)
+#32 0x0000000100f3b104 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x10028f104)
+#33 0x0000000100f3ee0c ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x100292e0c)
+#34 0x0000000100f3c310 ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x100290310)
+#35 0x0000000100cdf96c ($TOOLCHAINS/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swift-frontend+0x10003396c)
+#36 0x0000000192dfbbec
+[398/408] Compiling cmark-gfm utf8.c
+[398/408] Compiling cmark-gfm scanners.c
+error: cancelled
+error: cancelled

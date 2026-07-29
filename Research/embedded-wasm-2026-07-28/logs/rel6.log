@@ -1,0 +1,176 @@
+warning: 'html-nomd': found 1 file(s) which are unhandled; explicitly declare them as resources or exclude from the target
+    $SCRATCH/scratchpad/html-nomd/Sources/HTML/HTML.docc
+Building for production...
+[Computing dependencies]
+[Provisioning 2 / 680]
+[Using on-disk description]
+[7 / 1790] Order Primitives
+[18 / 1759] ASCII Octal Serializer Primitives
+[20 / 1760] ASCII Primitives Standard Library Integration
+[30 / 1761] ASCII Decimal Serializer Primitives
+[33 / 1762] ASCII Octal Serializer Primitives
+[41 / 1763] Parseable ASCII Primitives-product
+[50 / 1763] Binary Serializable Primitives
+[56 / 1763] Binary Serializable Primitives
+[61 / 1765] ASCII Hexadecimal Serializer Primitives
+[64 / 1763] Binary Serializable Primitives
+[69 / 1763] Ordinal Hash Primitives
+[73 / 1758] IEEE 754
+[80 / 1759] Format Primitives
+[84 / 1760] Format Primitives
+[101 / 1742]
+[110 / 1748] Affine Quotient Primitives
+[122 / 1750] Time Format Primitives
+[126 / 1750]
+[129 / 1752] Serializable Integer Primitives
+[139 / 1752] Affine Comparison Primitives
+[148 / 1752] Format Primitives-product
+[157 / 1754]
+[157 / 1754] RFC 4648
+[167 / 1754] Serializable Integer Primitives
+[170 / 1756] Affine Arithmetic Primitives
+[178 / 1758] ASCII Serializer Primitives
+error: SwiftCompile normal wasm32 failed with a nonzero exit code. Command line:     cd $SCRATCH/scratchpad
+    
+$SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC 1035/RFC_1035.Domain.Label.swift:40:19: [1;31merror: [1;39mtype 'RFC_1035.Domain.Label' does not conform to protocol 'Decodable'[0;0m
+ [0;36m38 |[0;0m     /// > start with a letter, end with a letter or digit, and have as interior
+ [0;36m39 |[0;0m     /// > characters only letters, digits, and hyphen.
+ [0;36m40 |[0;0m     public struct Label: Sendable, Codable {
+    [0;36m|[0;0m                   `- [1;31merror: [1;39mtype 'RFC_1035.Domain.Label' does not conform to protocol 'Decodable'[0;0m
+ [0;36m41 |[0;0m         /// The label value
+ [0;36m42 |[0;0m         public let rawValue: String
+    [0;36m|[0;0m                    `- [1;39mnote: [1;39mcannot automatically synthesize 'Decodable' because 'String' does not conform to 'Decodable'[0;0m
+ [0;36m43 |[0;0m 
+ [0;36m44 |[0;0m         /// Creates a label WITHOUT validation
+
+Swift.Decodable.init:2:1: [1;39mnote: [1;39mprotocol requires initializer 'init(from:)' with type 'Decodable'[0;0m
+[0;36m1 |[0;0m protocol Decodable {
+[0;36m2 |[0;0m init(from decoder: any Decoder) throws}
+  [0;36m|[0;0m `- [1;39mnote: [1;39mprotocol requires initializer 'init(from:)' with type 'Decodable'[0;0m
+[0;36m3 |[0;0m 
+
+$SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC 1035/RFC_1035.Domain.Label.swift:40:19: [1;31merror: [1;39mtype 'RFC_1035.Domain.Label' does not conform to protocol 'Decodable'[0;0m
+ [0;36m38 |[0;0m     /// > start with a letter, end with a letter or digit, and have as interior
+ [0;36m39 |[0;0m     /// > characters only letters, digits, and hyphen.
+ [0;36m40 |[0;0m     public struct Label: Sendable, Codable {
+    [0;36m|[0;0m                   `- [1;31merror: [1;39mtype 'RFC_1035.Domain.Label' does not conform to protocol 'Decodable'[0;0m
+ [0;36m41 |[0;0m         /// The label value
+ [0;36m42 |[0;0m         public let rawValue: String
+    [0;36m|[0;0m                    `- [1;39mnote: [1;39mcannot automatically synthesize 'Decodable' because 'String' does not conform to 'Decodable'[0;0m
+ [0;36m43 |[0;0m 
+ [0;36m44 |[0;0m         /// Creates a label WITHOUT validation
+
+Swift.Decodable.init:2:1: [1;39mnote: [1;39mprotocol requires initializer 'init(from:)' with type 'Decodable'[0;0m
+[0;36m1 |[0;0m protocol Decodable {
+[0;36m2 |[0;0m init(from decoder: any Decoder) throws}
+  [0;36m|[0;0m `- [1;39mnote: [1;39mprotocol requires initializer 'init(from:)' with type 'Decodable'[0;0m
+[0;36m3 |[0;0m 
+
+$SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC 1035/RFC_1035.Domain.Label.swift:40:36: [1;31merror: [1;39m'Codable' is unavailable: unavailable in embedded Swift[0;0m
+ [0;36m38 |[0;0m     /// > start with a letter, end with a letter or digit, and have as interior
+ [0;36m39 |[0;0m     /// > characters only letters, digits, and hyphen.
+ [0;36m40 |[0;0m     public struct Label: Sendable, [4;39mCodable[0;0m {
+    [0;36m|[0;0m                                    `- [1;31merror: [1;39m'Codable' is unavailable: unavailable in embedded Swift[0;0m
+ [0;36m41 |[0;0m         /// The label value
+ [0;36m42 |[0;0m         public let rawValue: String
+
+Swift.Codable:2:18: [1;39mnote: [1;39m'Codable' has been explicitly marked unavailable here[0;0m
+[0;36m1 |[0;0m @_unavailableInEmbedded
+[0;36m2 |[0;0m public typealias Codable = Decodable & Encodable
+  [0;36m|[0;0m                  `- [1;39mnote: [1;39m'Codable' has been explicitly marked unavailable here[0;0m
+
+$SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC 1035/RFC_1035.Domain.Label.swift:40:19: [1;31merror: [1;39mtype 'RFC_1035.Domain.Label' does not conform to protocol 'Encodable'[0;0m
+ [0;36m38 |[0;0m     /// > start with a letter, end with a letter or digit, and have as interior
+ [0;36m39 |[0;0m     /// > characters only letters, digits, and hyphen.
+ [0;36m40 |[0;0m     public struct Label: Sendable, Codable {
+    [0;36m|[0;0m                   `- [1;31merror: [1;39mtype 'RFC_1035.Domain.Label' does not conform to protocol 'Encodable'[0;0m
+ [0;36m41 |[0;0m         /// The label value
+ [0;36m42 |[0;0m         public let rawValue: String
+    [0;36m|[0;0m                    `- [1;39mnote: [1;39mcannot automatically synthesize 'Encodable' because 'String' does not conform to 'Encodable'[0;0m
+ [0;36m43 |[0;0m 
+ [0;36m44 |[0;0m         /// Creates a label WITHOUT validation
+
+Swift.Encodable.encode:2:6: [1;39mnote: [1;39mprotocol requires function 'encode(to:)' with type 'Encodable'[0;0m
+[0;36m1 |[0;0m protocol Encodable {
+[0;36m2 |[0;0m func encode(to encoder: any Encoder) throws}
+  [0;36m|[0;0m      `- [1;39mnote: [1;39mprotocol requires function 'encode(to:)' with type 'Encodable'[0;0m
+[0;36m3 |[0;0m 
+
+$SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC 1035/RFC_1035.Domain.swift:39:19: [1;31merror: [1;39mtype 'RFC_1035.Domain' does not conform to protocol 'Decodable'[0;0m
+ [0;36m37 |[0;0m     /// > The total number of octets that represent a domain name (i.e.,
+ [0;36m38 |[0;0m     /// > the sum of all label octets and label lengths) is limited to 255.
+ [0;36m39 |[0;0m     public struct Domain: Sendable, Codable {
+    [0;36m|[0;0m                   `- [1;31merror: [1;39mtype 'RFC_1035.Domain' does not conform to protocol 'Decodable'[0;0m
+ [0;36m40 |[0;0m         /// The domain name as a string
+ [0;36m41 |[0;0m         public let rawValue: String
+    [0;36m|[0;0m                    `- [1;39mnote: [1;39mcannot automatically synthesize 'Decodable' because 'String' does not conform to 'Decodable'[0;0m
+ [0;36m42 |[0;0m 
+ [0;36m43 |[0;0m         /// The labels that make up the domain name, from least significant to most significant
+ [0;36m44 |[0;0m         package let labels: [RFC_1035.Domain.Label]
+    [0;36m|[0;0m                     `- [1;39mnote: [1;39mcannot automatically synthesize 'Decodable' because '[RFC_1035.Domain.Label]' does not conform to 'Decodable'[0;0m
+ [0;36m45 |[0;0m 
+ [0;36m46 |[0;0m         /// Creates a domain WITHOUT validation
+
+Swift.Decodable.init:2:1: [1;39mnote: [1;39mprotocol requires initializer 'init(from:)' with type 'Decodable'[0;0m
+[0;36m1 |[0;0m protocol Decodable {
+[0;36m2 |[0;0m init(from decoder: any Decoder) throws}
+  [0;36m|[0;0m `- [1;39mnote: [1;39mprotocol requires initializer 'init(from:)' with type 'Decodable'[0;0m
+[0;36m3 |[0;0m 
+
+$SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC 1035/RFC_1035.Domain.swift:39:37: [1;31merror: [1;39m'Codable' is unavailable: unavailable in embedded Swift[0;0m
+ [0;36m37 |[0;0m     /// > The total number of octets that represent a domain name (i.e.,
+ [0;36m38 |[0;0m     /// > the sum of all label octets and label lengths) is limited to 255.
+ [0;36m39 |[0;0m     public struct Domain: Sendable, [4;39mCodable[0;0m {
+    [0;36m|[0;0m                                     `- [1;31merror: [1;39m'Codable' is unavailable: unavailable in embedded Swift[0;0m
+ [0;36m40 |[0;0m         /// The domain name as a string
+ [0;36m41 |[0;0m         public let rawValue: String
+
+Swift.Codable:2:18: [1;39mnote: [1;39m'Codable' has been explicitly marked unavailable here[0;0m
+[0;36m1 |[0;0m @_unavailableInEmbedded
+[0;36m2 |[0;0m public typealias Codable = Decodable & Encodable
+  [0;36m|[0;0m                  `- [1;39mnote: [1;39m'Codable' has been explicitly marked unavailable here[0;0m
+
+$SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC 1035/RFC_1035.Domain.swift:39:19: [1;31merror: [1;39mtype 'RFC_1035.Domain' does not conform to protocol 'Encodable'[0;0m
+ [0;36m37 |[0;0m     /// > The total number of octets that represent a domain name (i.e.,
+ [0;36m38 |[0;0m     /// > the sum of all label octets and label lengths) is limited to 255.
+ [0;36m39 |[0;0m     public struct Domain: Sendable, Codable {
+    [0;36m|[0;0m                   `- [1;31merror: [1;39mtype 'RFC_1035.Domain' does not conform to protocol 'Encodable'[0;0m
+ [0;36m40 |[0;0m         /// The domain name as a string
+ [0;36m41 |[0;0m         public let rawValue: String
+    [0;36m|[0;0m                    `- [1;39mnote: [1;39mcannot automatically synthesize 'Encodable' because 'String' does not conform to 'Encodable'[0;0m
+ [0;36m42 |[0;0m 
+ [0;36m43 |[0;0m         /// The labels that make up the domain name, from least significant to most significant
+ [0;36m44 |[0;0m         package let labels: [RFC_1035.Domain.Label]
+    [0;36m|[0;0m                     `- [1;39mnote: [1;39mcannot automatically synthesize 'Encodable' because '[RFC_1035.Domain.Label]' does not conform to 'Encodable'[0;0m
+ [0;36m45 |[0;0m 
+ [0;36m46 |[0;0m         /// Creates a domain WITHOUT validation
+
+Swift.Encodable.encode:2:6: [1;39mnote: [1;39mprotocol requires function 'encode(to:)' with type 'Encodable'[0;0m
+[0;36m1 |[0;0m protocol Encodable {
+[0;36m2 |[0;0m func encode(to encoder: any Encoder) throws}
+  [0;36m|[0;0m      `- [1;39mnote: [1;39mprotocol requires function 'encode(to:)' with type 'Encodable'[0;0m
+[0;36m3 |[0;0m 
+
+$SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC 1035/RFC_1035.Domain.swift:39:19: [1;31merror: [1;39mtype 'RFC_1035.Domain' does not conform to protocol 'Decodable'[0;0m
+ [0;36m37 |[0;0m     /// > The total number of octets that represent a domain name (i.e.,
+ [0;36m38 |[0;0m     /// > the sum of all label octets and label lengths) is limited to 255.
+ [0;36m39 |[0;0m     public struct Domain: Sendable, Codable {
+    [0;36m|[0;0m                   `- [1;31merror: [1;39mtype 'RFC_1035.Domain' does not conform to protocol 'Decodable'[0;0m
+ [0;36m40 |[0;0m         /// The domain name as a string
+ [0;36m41 |[0;0m         public let rawValue: String
+    [0;36m|[0;0m                    `- [1;39mnote: [1;39mcannot automatically synthesize 'Decodable' because 'String' does not conform to 'Decodable'[0;0m
+ [0;36m42 |[0;0m 
+ [0;36m43 |[0;0m         /// The labels that make up the domain name, from least significant to most significant
+ [0;36m44 |[0;0m         package let labels: [RFC_1035.Domain.Label]
+    [0;36m|[0;0m                     `- [1;39mnote: [1;39mcannot automatically synthesize 'Decodable' because '[RFC_1035.Domain.Label]' does not conform to 'Decodable'[0;0m
+ [0;36m45 |[0;0m 
+ [0;36m46 |[0;0m         /// Creates a domain WITHOUT validation
+
+Swift.Decodable.init:2:1: [1;39mnote: [1;39mprotocol requires initializer 'init(from:)' with type 'Decodable'[0;0m
+[0;36m1 |[0;0m protocol Decodable {
+[0;36m2 |[0;0m init(from decoder: any Decoder) throws}
+  [0;36m|[0;0m `- [1;39mnote: [1;39mprotocol requires initializer 'init(from:)' with type 'Decodable'[0;0m
+[0;36m3 |[0;0m 
+Failed frontend command:
+$TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/bin/swift-frontend -frontend -c $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.CharacterString.Error.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.CharacterString.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.Domain.Error.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.Domain.Label.Error.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.Domain.Label.Wire.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.Domain.Label.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.Domain.Limits.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.Domain.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.Message.Error.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.Message.Header.Kind.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.Message.Header.Opcode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.Message.Header.Options.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.Message.Header.Rcode.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.Message.Header.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.Message.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.Question.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.RecordClass.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.RecordType.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.ResourceRecord.A.Error.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.ResourceRecord.A.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.ResourceRecord.Data.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.ResourceRecord.SOA.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.ResourceRecord.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.Wire.Error.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.Wire.Reader.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.Wire.Writer.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.Wire.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/RFC_1035.swift $SCRATCH/scratchpad/wbrel/checkouts/swift-rfc-1035/Sources/RFC\ 1035/exports.swift -supplementary-output-file-map $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/supplementaryOutputs-14 -target wasm32-unknown-wasip1 -disable-objc-interop -sdk $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/WASI.sdk -sysroot $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/WASI.sdk -I $SCRATCH/scratchpad/wbrel/out/Products/Release-webassembly-wasm32 -module-cache-path $SCRATCH/scratchpad/wbrel/out/ModuleCache.noindex -validate-clang-modules-once -clang-build-session-file $SCRATCH/scratchpad/wbrel/out/ModuleCache.noindex/Session.modulevalidation -color-diagnostics -Xcc -fcolor-diagnostics -g -debug-info-format\=dwarf -dwarf-version\=4 -suppress-warnings -swift-version 6 -O -D SWIFT_PACKAGE -D SWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE -D Xcode -serialize-debugging-options -enable-upcoming-feature ExistentialAny -enable-upcoming-feature InternalImportsByDefault -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature Lifetimes -enable-experimental-feature SuppressedAssociatedTypes -enable-experimental-feature Embedded -enable-experimental-feature DebugDescriptionMacro -strict-memory-safety -empty-abi-descriptor -external-plugin-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/lib/swift/host/plugins/testing\#$TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/bin/swift-plugin-server -Xcc -working-directory -Xcc $SCRATCH/scratchpad -resource-dir $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/swift.xctoolchain/usr/lib/swift -use-static-resource-dir -file-compilation-dir $SCRATCH/scratchpad -Xcc -resource-dir -Xcc $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/swift.xctoolchain/usr/lib/swift/clang -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -Xcc -I$SCRATCH/scratchpad/wbrel/out/Products/Release-webassembly-wasm32/include -Xcc -I$SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/DerivedSources-normal/wasm32 -Xcc -I$SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/DerivedSources/wasm32 -Xcc -I$SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/DerivedSources -Xcc -DSWIFT_PACKAGE -no-auto-bridging-header-chaining -module-name RFC_1035 -package-name swift_rfc_1035 -const-gather-protocols-file $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC\ 1035_const_extract_protocols.json -in-process-plugin-server-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -plugin-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/lib/swift/host/plugins -plugin-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/local/lib/swift/host/plugins -enable-default-cmo -parse-as-library -num-threads 8 -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.CharacterString.Error.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.CharacterString.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Domain.Error.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Domain.Label.Error.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Domain.Label.Wire.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Domain.Label.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Domain.Limits.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Domain.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Message.Error.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Message.Header.Kind.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Message.Header.Opcode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Message.Header.Options.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Message.Header.Rcode.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Message.Header.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Message.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Question.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.RecordClass.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.RecordType.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.ResourceRecord.A.Error.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.ResourceRecord.A.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.ResourceRecord.Data.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.ResourceRecord.SOA.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.ResourceRecord.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Wire.Error.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Wire.Reader.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Wire.Writer.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Wire.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.o -o $SCRATCH/scratchpad/wbrel/out/Intermediates.noindex/swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/exports.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.CharacterString.Error.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.CharacterString.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Domain.Error.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Domain.Label.Error.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Domain.Label.Wire.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Domain.Label.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Domain.Limits.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Domain.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Message.Error.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Message.Header.Kind.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Message.Header.Opcode.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Message.Header.Options.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Message.Header.Rcode.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Message.Header.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Message.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Question.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.RecordClass.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.RecordType.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.ResourceRecord.A.Error.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.ResourceRecord.A.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.ResourceRecord.Data.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.ResourceRecord.SOA.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.ResourceRecord.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Wire.Error.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Wire.Reader.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Wire.Writer.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.Wire.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/RFC_1035.o -index-unit-output-path /swift-rfc-1035.build/Release-webassembly-wasm32/RFC\ 1035-t.build/Objects-normal/wasm32/exports.o
+error: Build failed

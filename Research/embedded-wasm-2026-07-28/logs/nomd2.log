@@ -1,0 +1,231 @@
+warning: 'html-nomd': found 1 file(s) which are unhandled; explicitly declare them as resources or exclude from the target
+    $SCRATCH/scratchpad/html-nomd/Sources/HTML/HTML.docc
+Building for debugging...
+[Computing dependencies]
+[Provisioning 2 / 680]
+[Constructing description]
+[Pre-planning 1 / 14470]
+[Planning 1 / 14470]
+[Planning 728 / 14470]
+[Planning 1725 / 14470]
+[Planning 2587 / 14470]
+[Planning 2902 / 14470]
+[Planning 2920 / 14470]
+[Planning 2932 / 14470]
+[Planning 3086 / 14470]
+[Planning 3369 / 14470]
+[Planning 3536 / 14470]
+[Planning 3857 / 14470]
+[Planning 4238 / 14470]
+[Planning 4467 / 14470]
+[Planning 4645 / 14470]
+[Planning 4818 / 14470]
+[Planning 5052 / 14470]
+[Planning 5275 / 14470]
+[Planning 5655 / 14470]
+[Planning 5803 / 14470]
+[Planning 5923 / 14470]
+[Planning 6044 / 14470]
+[Planning 6096 / 14470]
+[Planning 6212 / 14470]
+[Planning 6357 / 14470]
+[Planning 6508 / 14470]
+[Planning 6613 / 14470]
+[Planning 6836 / 14470]
+[Planning 6970 / 14470]
+[Planning 7218 / 14470]
+[Planning 7392 / 14470]
+[Planning 7540 / 14470]
+[Planning 7661 / 14470]
+[Planning 7849 / 14470]
+[Planning 8014 / 14470]
+[Planning 8171 / 14470]
+[Planning 8425 / 14470]
+[Planning 8554 / 14470]
+[Planning 8720 / 14470]
+[Planning 8906 / 14470]
+[Planning 9102 / 14470]
+[Planning 9353 / 14470]
+[Planning 9553 / 14470]
+[Planning 9630 / 14470]
+[Planning 9912 / 14470]
+[Planning 10145 / 14470]
+[Planning 10328 / 14470]
+[Planning 10672 / 14470]
+[Planning 10789 / 14470]
+[Planning 10932 / 14470]
+[Planning 11044 / 14470]
+[Planning 11191 / 14470]
+[Planning 11283 / 14470]
+[Planning 11424 / 14470]
+[Planning 11547 / 14470]
+[Planning 11640 / 14470]
+[Planning 11845 / 14470]
+[Planning 11972 / 14470]
+[Planning 12111 / 14470]
+[Planning 12216 / 14470]
+[Planning 12479 / 14470]
+[Planning 12806 / 14470]
+[Planning 12841 / 14470]
+[Planning 12916 / 14470]
+[Planning 13110 / 14470]
+[Planning 13343 / 14470]
+[Planning 13554 / 14470]
+[Planning 13738 / 14470]
+[Planning 13837 / 14470]
+[Planning 13985 / 14470]
+[Planning 14159 / 14470]
+[Planning 14292 / 14470]
+[Planning 14390 / 14470]
+[Planning deferred tasks]
+[Creating build graph]
+[Describing: 15387 / 32360]
+[Constructing 1 / 32360]
+[Constructing 569 / 32360]
+[Constructing 1999 / 32360]
+[Constructing 3224 / 32360]
+[Constructing 4348 / 32360]
+[Constructing 5775 / 32360]
+[Constructing 8629 / 32360]
+[Constructing 12285 / 32360]
+[Constructing 16566 / 32360]
+[Constructing 18153 / 32360]
+[Constructing 19839 / 32360]
+[Constructing 22379 / 32360]
+[Constructing 24206 / 32360]
+[Constructing 24501 / 32360]
+[Constructing 26754 / 32360]
+[Constructing 28865 / 32360]
+[Constructing 30168 / 32360]
+[Constructing 31617 / 32360]
+[Writing build description]
+[Starting]
+[1 / 6365]
+[6 / 6365]
+[6 / 6365] ASCII-product
+[11 / 6365]
+[60 / 6365] WHATWG HTML Sections
+[111 / 6365] WHATWG HTML GlobalAttributes
+[148 / 6365] WHATWG HTML Embedded
+[165 / 6365] WHATWG HTML Attributes
+[214 / 6365] W3C CSS Values
+[267 / 6365] W3C CSS Selectors
+[324 / 6365] W3C CSS Masking
+[381 / 6365] W3C CSS CounterStyles
+[416 / 6365] W3C CSS BoxModel
+[453 / 6365] Vector Primitives Standard Library Integration
+[519 / 6365] String Primitives
+[542 / 6365] Store Primitive
+[580 / 6365] Storage Generational Primitives
+[614 / 6365] Serializer Tagged Primitives
+[665 / 6365] Serializer Many Primitives
+[704 / 6365] Serializable Integer Primitives
+[763 / 6365] Sequence Map Primitives
+[806 / 6365] Sequence Contains Primitives
+[849 / 6365] Real Primitives
+[891 / 6365] RFC 1035
+[939 / 6365] Property Inout Primitives
+[988 / 6365] Parser Take Primitives
+[1035 / 6365] Parser Primitive
+[1083 / 6365] Parser Match Primitives
+[1127 / 6365] Parser First Primitives
+[1167 / 6365] Parser Consume Primitives
+[1221 / 6365] Ownership Transfer Erased Primitives
+[1272 / 6365] Ownership Latch Primitives
+[1299 / 6365] Ordinal Successor Primitives
+[1341 / 6365] Ordinal Hash Primitives
+[1391 / 6365] Order Projection Primitives
+[1454 / 6365] Memory Primitives
+[1508 / 6365] Memory Allocator Arena Primitives
+[1538 / 6365] Machine Transform Primitives
+[1550 / 6365] Machine Primitives
+[1562 / 6365] Machine Node Primitives
+[1575 / 6365] Machine Frame Primitives
+[1583 / 6365] Machine Finalize Primitives
+[1592 / 6365] Machine Combine Primitives
+[1613 / 6365] Layout Primitives
+[1659 / 6365] Input Slice Primitives
+[1698 / 6365] Input Access Primitives
+[1750 / 6365] IEC 61966
+[1827 / 6365] HTML Standard Elements
+[1885 / 6365] Graph Adjacency Primitives
+[1922 / 6365] Format Primitives
+[1964 / 6365] Finite Primitive
+[2012 / 6365] Equation Primitives Standard Library Integration
+[2060 / 6365] Dictionary Ordered Primitives
+[2114 / 6365] Cyclic Primitives Standard Library Integration
+[2174 / 6365] Comparison Primitives Standard Library Integration
+[2227 / 6365] Collection Protocol Primitives
+[2276 / 6365] Carrier Primitives
+[2318 / 6365] Cardinal Primitives Standard Library Integration
+[2342 / 6365] Cardinal Comparison Primitives
+[2366 / 6365] CSS Theming
+[2375 / 6365] Cardinal Add Primitives
+[2399 / 6365] CISO9899Math
+[2434 / 6365] Byte Primitive
+[2454 / 6365] Byte Parser Primitives
+[2495 / 6365] Buffer Protocol Primitives
+[2528 / 6365] Boundary Primitives
+[2562 / 6365] Boundary Comparison Primitives
+[2576 / 6365] Bit Vector Static Primitives
+[2596 / 6365] Bit Primitives Standard Library Integration
+[2620 / 6365] Bit Index Primitives
+[2656 / 6365] Binary Parseable Primitives
+[2692 / 6365] Binary LEB128 Decode Primitives
+[2710 / 6365] Binary Endianness Primitives
+[2758 / 6365] Axis Comparison Primitives
+[2800 / 6365] Array Primitives
+[2836 / 6365] Affine Primitive
+[2866 / 6365] Affine Discrete Primitives
+[2878 / 6365] Affine Comparison Primitives
+[2902 / 6365] ASCII Serializer Primitives
+[2914 / 6365] ASCII Primitives Standard Library Integration
+[2938 / 6365] ASCII Decimal Parser Primitives
+[2952 / 6366]
+[2966 / 6378] Render Primitive
+[2971 / 6383] Standard Library Extensions
+[2972 / 6384] Sequence Primitive
+error: SwiftCompile normal wasm32 failed with a nonzero exit code. Command line:     cd $SCRATCH/scratchpad
+    
+$SCRATCH/scratchpad/wbnomd/checkouts/swift-w3c-cssom/Sources/W3C CSSOM/Identifiers/Ident.swift:39:38: [1;31merror: [1;39m'StringLiteralType' is unavailable: unavailable in embedded Swift[0;0m
+[0;36m37 |[0;0m 
+[0;36m38 |[0;0m extension Ident: ExpressibleByStringLiteral {
+[0;36m39 |[0;0m     public init(stringLiteral value: [4;39mStringLiteralType[0;0m) {
+   [0;36m|[0;0m                                      `- [1;31merror: [1;39m'StringLiteralType' is unavailable: unavailable in embedded Swift[0;0m
+[0;36m40 |[0;0m         self.value = value
+[0;36m41 |[0;0m     }
+
+Swift.StringLiteralType:2:18: [1;39mnote: [1;39m'StringLiteralType' has been explicitly marked unavailable here[0;0m
+[0;36m1 |[0;0m @_unavailableInEmbedded
+[0;36m2 |[0;0m public typealias StringLiteralType = String
+  [0;36m|[0;0m                  `- [1;39mnote: [1;39m'StringLiteralType' has been explicitly marked unavailable here[0;0m
+
+$SCRATCH/scratchpad/wbnomd/checkouts/swift-w3c-cssom/Sources/W3C CSSOM/Serialization/String.swift:81:38: [1;31merror: [1;39m'StringLiteralType' is unavailable: unavailable in embedded Swift[0;0m
+[0;36m79 |[0;0m extension CSSString: ExpressibleByStringLiteral {
+[0;36m80 |[0;0m     /// Creates a CSS string from a string literal
+[0;36m81 |[0;0m     public init(stringLiteral value: [4;39mStringLiteralType[0;0m) {
+   [0;36m|[0;0m                                      `- [1;31merror: [1;39m'StringLiteralType' is unavailable: unavailable in embedded Swift[0;0m
+[0;36m82 |[0;0m         self.init(value)
+[0;36m83 |[0;0m     }
+
+Swift.StringLiteralType:2:18: [1;39mnote: [1;39m'StringLiteralType' has been explicitly marked unavailable here[0;0m
+[0;36m1 |[0;0m @_unavailableInEmbedded
+[0;36m2 |[0;0m public typealias StringLiteralType = String
+  [0;36m|[0;0m                  `- [1;39mnote: [1;39m'StringLiteralType' has been explicitly marked unavailable here[0;0m
+
+$SCRATCH/scratchpad/wbnomd/checkouts/swift-w3c-cssom/Sources/W3C CSSOM/Serialization/Url.swift:71:38: [1;31merror: [1;39m'StringLiteralType' is unavailable: unavailable in embedded Swift[0;0m
+[0;36m69 |[0;0m extension Url: ExpressibleByStringLiteral {
+[0;36m70 |[0;0m     /// Creates a URL from a string literal
+[0;36m71 |[0;0m     public init(stringLiteral value: [4;39mStringLiteralType[0;0m) {
+   [0;36m|[0;0m                                      `- [1;31merror: [1;39m'StringLiteralType' is unavailable: unavailable in embedded Swift[0;0m
+[0;36m72 |[0;0m         self.init(value)
+[0;36m73 |[0;0m     }
+
+Swift.StringLiteralType:2:18: [1;39mnote: [1;39m'StringLiteralType' has been explicitly marked unavailable here[0;0m
+[0;36m1 |[0;0m @_unavailableInEmbedded
+[0;36m2 |[0;0m public typealias StringLiteralType = String
+  [0;36m|[0;0m                  `- [1;39mnote: [1;39m'StringLiteralType' has been explicitly marked unavailable here[0;0m
+Failed frontend command:
+$TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/bin/swift-frontend -frontend -c $SCRATCH/scratchpad/wbnomd/checkouts/swift-w3c-cssom/Sources/W3C\ CSSOM/Identifiers/CustomIdent.swift $SCRATCH/scratchpad/wbnomd/checkouts/swift-w3c-cssom/Sources/W3C\ CSSOM/Identifiers/DashedIdent.swift $SCRATCH/scratchpad/wbnomd/checkouts/swift-w3c-cssom/Sources/W3C\ CSSOM/Identifiers/Ident.swift $SCRATCH/scratchpad/wbnomd/checkouts/swift-w3c-cssom/Sources/W3C\ CSSOM/Serialization/IdentifierSerialization.swift $SCRATCH/scratchpad/wbnomd/checkouts/swift-w3c-cssom/Sources/W3C\ CSSOM/Serialization/String.swift $SCRATCH/scratchpad/wbnomd/checkouts/swift-w3c-cssom/Sources/W3C\ CSSOM/Serialization/StringSerialization.swift $SCRATCH/scratchpad/wbnomd/checkouts/swift-w3c-cssom/Sources/W3C\ CSSOM/Serialization/Url.swift -supplementary-output-file-map $SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-w3c-cssom.build/Debug-webassembly-wasm32/W3C\ CSSOM-t.build/Objects-normal/wasm32/supplementaryOutputs-1 -target wasm32-unknown-wasip1 -disable-objc-interop -sdk $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/WASI.sdk -sysroot $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/WASI.sdk -I $SCRATCH/scratchpad/wbnomd/out/Products/Debug-webassembly-wasm32 -module-cache-path $SCRATCH/scratchpad/wbnomd/out/ModuleCache.noindex -validate-clang-modules-once -clang-build-session-file $SCRATCH/scratchpad/wbnomd/out/ModuleCache.noindex/Session.modulevalidation -color-diagnostics -Xcc -fcolor-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=4 -suppress-warnings -swift-version 6 -Onone -D SWIFT_PACKAGE -D DEBUG -D SWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE -D Xcode -serialize-debugging-options -enable-upcoming-feature ExistentialAny -enable-upcoming-feature InternalImportsByDefault -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature Lifetimes -enable-experimental-feature SuppressedAssociatedTypes -enable-experimental-feature Embedded -enable-experimental-feature DebugDescriptionMacro -strict-memory-safety -empty-abi-descriptor -external-plugin-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/lib/swift/host/plugins/testing\#$TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/bin/swift-plugin-server -Xcc -working-directory -Xcc $SCRATCH/scratchpad -resource-dir $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/swift.xctoolchain/usr/lib/swift -use-static-resource-dir -enable-anonymous-context-mangled-names -file-compilation-dir $SCRATCH/scratchpad -Xcc -resource-dir -Xcc $SWIFT_SDKS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm.artifactbundle/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a_wasm/wasm32-unknown-wasip1/swift.xctoolchain/usr/lib/swift/clang -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -Xcc -I$SCRATCH/scratchpad/wbnomd/out/Products/Debug-webassembly-wasm32/include -Xcc -I$SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-w3c-cssom.build/Debug-webassembly-wasm32/W3C\ CSSOM-t.build/DerivedSources-normal/wasm32 -Xcc -I$SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-w3c-cssom.build/Debug-webassembly-wasm32/W3C\ CSSOM-t.build/DerivedSources/wasm32 -Xcc -I$SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-w3c-cssom.build/Debug-webassembly-wasm32/W3C\ CSSOM-t.build/DerivedSources -Xcc -DSWIFT_PACKAGE -Xcc -DDEBUG\=1 -no-auto-bridging-header-chaining -module-name W3C_CSSOM -package-name swift_w3c_cssom -const-gather-protocols-file $SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-w3c-cssom.build/Debug-webassembly-wasm32/W3C\ CSSOM-t.build/Objects-normal/wasm32/W3C\ CSSOM_const_extract_protocols.json -in-process-plugin-server-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -plugin-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/lib/swift/host/plugins -plugin-path $TOOLCHAINS/swift-DEVELOPMENT-SNAPSHOT-2026-07-11-a.xctoolchain/usr/local/lib/swift/host/plugins -parse-as-library -num-threads 8 -o $SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-w3c-cssom.build/Debug-webassembly-wasm32/W3C\ CSSOM-t.build/Objects-normal/wasm32/CustomIdent.o -o $SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-w3c-cssom.build/Debug-webassembly-wasm32/W3C\ CSSOM-t.build/Objects-normal/wasm32/DashedIdent.o -o $SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-w3c-cssom.build/Debug-webassembly-wasm32/W3C\ CSSOM-t.build/Objects-normal/wasm32/Ident.o -o $SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-w3c-cssom.build/Debug-webassembly-wasm32/W3C\ CSSOM-t.build/Objects-normal/wasm32/IdentifierSerialization.o -o $SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-w3c-cssom.build/Debug-webassembly-wasm32/W3C\ CSSOM-t.build/Objects-normal/wasm32/String.o -o $SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-w3c-cssom.build/Debug-webassembly-wasm32/W3C\ CSSOM-t.build/Objects-normal/wasm32/StringSerialization.o -o $SCRATCH/scratchpad/wbnomd/out/Intermediates.noindex/swift-w3c-cssom.build/Debug-webassembly-wasm32/W3C\ CSSOM-t.build/Objects-normal/wasm32/Url.o -index-unit-output-path /swift-w3c-cssom.build/Debug-webassembly-wasm32/W3C\ CSSOM-t.build/Objects-normal/wasm32/CustomIdent.o -index-unit-output-path /swift-w3c-cssom.build/Debug-webassembly-wasm32/W3C\ CSSOM-t.build/Objects-normal/wasm32/DashedIdent.o -index-unit-output-path /swift-w3c-cssom.build/Debug-webassembly-wasm32/W3C\ CSSOM-t.build/Objects-normal/wasm32/Ident.o -index-unit-output-path /swift-w3c-cssom.build/Debug-webassembly-wasm32/W3C\ CSSOM-t.build/Objects-normal/wasm32/IdentifierSerialization.o -index-unit-output-path /swift-w3c-cssom.build/Debug-webassembly-wasm32/W3C\ CSSOM-t.build/Objects-normal/wasm32/String.o -index-unit-output-path /swift-w3c-cssom.build/Debug-webassembly-wasm32/W3C\ CSSOM-t.build/Objects-normal/wasm32/StringSerialization.o -index-unit-output-path /swift-w3c-cssom.build/Debug-webassembly-wasm32/W3C\ CSSOM-t.build/Objects-normal/wasm32/Url.o -index-store-path $SCRATCH/scratchpad/wbnomd/out -index-system-modules
+[2973 / 6384] _Shims
+error: Build failed
