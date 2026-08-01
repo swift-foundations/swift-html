@@ -121,7 +121,7 @@ extension WHATWG_HTML_Elements.Image {
                 //                let encoded = WHATWG_Form_URL_Encoded.PercentEncoding.encode(String.init([UInt8](svg)), spaceAsPlus: false)
 
                 return
-                    "data:image/svg+xml;charset=utf-8,\(String(svg).formURL.encoded(spaceAsPlus: false))"
+                    "data:image/svg+xml;charset=utf-8,\(String(svg).formURL.encoded(space: .percentEscaped))"
             }
         }
 
