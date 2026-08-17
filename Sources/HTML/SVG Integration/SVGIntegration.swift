@@ -101,18 +101,18 @@ public func svg(_ svgString: String) -> some HTML.View {
 //        src = "data:image/svg+xml;charset=utf-8,\(encoded)"
 //    }
 //
-//    return HTML_Standard_Elements.Image(src: Src(src), alt: Alt(alt))
+//    return HTML.Image.Element(src: Src(src), alt: Alt(alt))
 // }
 //
 
-extension WHATWG_HTML_Elements.Image {
+extension HTML.Image.Element {
     public init<Content: SVG.View>(
         svg: Content,
-        alt: WHATWG_HTML_MediaAttributes.Alt?,
+        alt: HTML.Alt.Attribute?,
         base64: Bool = true,
-        loading: WHATWG_HTML_MediaAttributes.Loading? = .eager
+        loading: HTML.Loading.Attribute? = .eager
     ) {
-        var src: WHATWG_HTML_MediaAttributes.Src {
+        var src: HTML.Src.Attribute {
             if base64 {
                 return "data:image/svg+xml;base64,\([Byte]([UInt8](svg)).base64.encoded())"
             } else {

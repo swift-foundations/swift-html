@@ -90,7 +90,7 @@ struct HTMLDocumentSnapshotTests {
     @Test
     func `button submit example`() {
         snapshot(as: .html) {
-            HTML_Standard.Button.submit { "Submit Form" }
+            HTML.Button.Element.submit { "Submit Form" }
         } matches: {
             """
             <button type="submit">Submit Form</button>

@@ -348,7 +348,7 @@ struct CSSSnapshotTests {
                         .css.color(light: .named(.blue), dark: .named(.red))
                         .fontSize(.px(24))
 
-                    Paragraph { "With type-safe CSS!" }
+                    HTML.Paragraph.Element { "With type-safe CSS!" }
                         .css.marginTop(.px(10))
                 }
             }
