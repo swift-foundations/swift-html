@@ -20,7 +20,7 @@ import HTML_Standard
 ///     "Visit Example Website"
 /// }
 /// ```
-public typealias a = HTML_Standard.Anchor
+public typealias a = HTML.Anchor.Element
 
 /// Lowercase typealias for creating Abbreviation elements with a more HTML-like syntax.
 ///
@@ -33,7 +33,7 @@ public typealias a = HTML_Standard.Anchor
 ///     "HTML"
 /// }
 /// ```
-public typealias abbr = HTML_Standard.Abbreviation
+public typealias abbr = HTML.Abbreviation.Element
 
 /// Lowercase typealias for creating Address elements with a more HTML-like syntax.
 ///
@@ -46,7 +46,7 @@ public typealias abbr = HTML_Standard.Abbreviation
 ///   "Contact us: contact@example.com"
 /// }
 /// ```
-public typealias address = HTML_Standard.Address
+public typealias address = HTML.Address.Element
 
 /// Lowercase typealias for creating Area elements with a more HTML-like syntax.
 ///
@@ -61,7 +61,7 @@ public typealias address = HTML_Standard.Address
 ///   alt: "Go to section"
 /// )
 /// ```
-public typealias area = WHATWG_HTML_Embedded.Area
+public typealias area = HTML.Area.Element
 
 /// Lowercase typealias for creating Article elements with a more HTML-like syntax.
 ///
@@ -75,7 +75,7 @@ public typealias area = WHATWG_HTML_Embedded.Area
 ///   HTMLComponents.Paragraph { "Content goes here..." }
 /// }
 /// ```
-public typealias article = HTML_Standard.Article
+public typealias article = HTML.Article.Element
 
 /// Lowercase typealias for creating Aside elements with a more HTML-like syntax.
 ///
@@ -88,7 +88,7 @@ public typealias article = HTML_Standard.Article
 ///   HTMLComponents.Paragraph { "This is supplementary information that enhances the main content." }
 /// }
 /// ```
-public typealias aside = HTML_Standard.Aside
+public typealias aside = HTML.Aside.Element
 
 /// Lowercase typealias for creating Audio elements with a more HTML-like syntax.
 ///
@@ -102,7 +102,7 @@ public typealias aside = HTML_Standard.Aside
 ///     "Your browser does not support the audio element."
 /// }
 /// ```
-public typealias audio = HTML_Standard.Audio
+public typealias audio = HTML.Audio.Element
 
 /// Lowercase typealias for creating B elements with a more HTML-like syntax.
 ///
@@ -115,7 +115,7 @@ public typealias audio = HTML_Standard.Audio
 ///     "This text is bold but semantically neutral."
 /// }
 /// ```
-public typealias b = HTML_Standard.B
+public typealias b = HTML.B.Element
 
 /// Lowercase typealias for creating Base elements with a more HTML-like syntax.
 ///
@@ -126,7 +126,7 @@ public typealias b = HTML_Standard.B
 /// ```swift
 /// base(href: "https://example.com/")
 /// ```
-public typealias base = HTML_Standard.Base
+public typealias base = HTML.Base.Element
 
 /// Lowercase typealias for creating Body elements with a more HTML-like syntax.
 ///
@@ -140,7 +140,7 @@ public typealias base = HTML_Standard.Base
 ///   HTMLComponents.Paragraph { "This is the content of my webpage." }
 /// }
 /// ```
-public typealias body = HTML_Standard.Body
+public typealias body = HTML.Body.Element
 
 /// Lowercase typealias for creating BidirectionalIsolate elements with a more HTML-like syntax.
 ///
@@ -153,7 +153,7 @@ public typealias body = HTML_Standard.Body
 ///     "User-generated content with possibly different directionality"
 /// }
 /// ```
-public typealias bdi = HTML_Standard.BidirectionalIsolate
+public typealias bdi = HTML.BidirectionalIsolate.Element
 
 /// Lowercase typealias for creating BidirectionalTextOverride elements with a more HTML-like syntax.
 ///
@@ -166,10 +166,10 @@ public typealias bdi = HTML_Standard.BidirectionalIsolate
 ///     "This text will display right-to-left."
 /// }
 /// ```
-public typealias bdo = HTML_Standard.BidirectionalTextOverride
+public typealias bdo = HTML.BidirectionalTextOverride.Element
 
 /// Lowercase typealias for creating Big elements with a more HTML-like syntax.
-public typealias big = HTML_Standard.Big
+public typealias big = HTML.Big.Element
 
 /// Lowercase typealias for creating BlockQuote elements with a more HTML-like syntax.
 ///
@@ -184,7 +184,7 @@ public typealias big = HTML_Standard.Big
 ///     }
 /// }
 /// ```
-public typealias blockquote = HTML_Standard.BlockQuote
+public typealias blockquote = HTML.BlockQuote.Element
 
 /// Lowercase typealias for creating BR elements with a more HTML-like syntax.
 ///
@@ -199,7 +199,7 @@ public typealias blockquote = HTML_Standard.BlockQuote
 ///     "Second line"
 /// }
 /// ```
-public typealias br = HTML_Standard.BR
+public typealias br = HTML.BR.Element
 
 /// Lowercase typealias for creating Button elements with a more HTML-like syntax.
 ///
@@ -212,7 +212,7 @@ public typealias br = HTML_Standard.BR
 ///     "Click me"
 /// }
 /// ```
-public typealias button = HTML_Standard.Button
+public typealias button = HTML.Button.Element
 
 /// Lowercase typealias for creating Canvas elements with a more HTML-like syntax.
 ///
@@ -225,19 +225,19 @@ public typealias button = HTML_Standard.Button
 ///     "Your browser does not support the canvas element."
 /// }
 /// ```
-public typealias canvas = HTML_Standard.Canvas
+public typealias canvas = HTML.Canvas.Element
 
 /// Lowercase typealias for creating Caption elements with a more HTML-like syntax.
-public typealias caption = HTML_Standard.Caption
+public typealias caption = HTML.Caption.Element
 
 /// Lowercase typealias for creating Center elements with a more HTML-like syntax.
-public typealias center = HTML_Standard.Center
+public typealias center = HTML.Center.Element
 
 /// Lowercase typealias for creating Citation elements with a more HTML-like syntax.
-public typealias cite = HTML_Standard.Cite
+public typealias cite = HTML.Cite.Element
 
 /// Lowercase typealias for creating Code elements with a more HTML-like syntax.
-public typealias code = HTML_Standard.Code
+public typealias code = HTML.Code.Element
 
 /// Lowercase typealias for creating TableColumn elements with a more HTML-like syntax.
 ///
@@ -248,7 +248,7 @@ public typealias code = HTML_Standard.Code
 /// ```swift
 /// col(span: 2, width: "100px")
 /// ```
-public typealias col = HTML_Standard.TableColumn
+public typealias col = HTML.TableColumn.Element
 
 /// Lowercase typealias for creating TableColumnGroup elements with a more HTML-like syntax.
 ///
@@ -266,10 +266,10 @@ public typealias col = HTML_Standard.TableColumn
 ///   col(span: 2)
 /// }
 /// ```
-public typealias colgroup = HTML_Standard.TableColumnGroup
+public typealias colgroup = HTML.TableColumnGroup.Element
 
 /// Lowercase typealias for creating Data elements with a more HTML-like syntax.
-public typealias data = HTML_Standard.Data
+public typealias data = HTML.Data.Element
 
 /// Lowercase typealias for creating DataList elements with a more HTML-like syntax.
 ///
@@ -284,58 +284,58 @@ public typealias data = HTML_Standard.Data
 ///     option(value: "Safari")
 /// }
 /// ```
-public typealias datalist = HTML_Standard.DataList
+public typealias datalist = HTML.DataList.Element
 
 /// Lowercase typealias for creating DescriptionDetails elements with a more HTML-like syntax.
-public typealias dd = HTML_Standard.DescriptionDetails
+public typealias dd = HTML.DescriptionDetails.Element
 
 /// Lowercase typealias for creating Del elements with a more HTML-like syntax.
-public typealias del = HTML_Standard.Del
+public typealias del = HTML.Del.Element
 
 /// Lowercase typealias for creating Details elements with a more HTML-like syntax.
-public typealias details = HTML_Standard.Details
+public typealias details = HTML.Details.Element
 
 /// Lowercase typealias for creating Definition elements with a more HTML-like syntax.
-public typealias dfn = HTML_Standard.Definition
+public typealias dfn = HTML.Definition.Element
 
 /// Lowercase typealias for creating Dialog elements with a more HTML-like syntax.
-public typealias dialog = HTML_Standard.Dialog
+public typealias dialog = HTML.Dialog.Element
 
 /// Lowercase typealias for creating Directory elements with a more HTML-like syntax.
-public typealias dir = HTML_Standard.Directory
+public typealias dir = HTML.Directory.Element
 
 /// Lowercase typealias for creating ContentDivision elements with a more HTML-like syntax.
-public typealias div = ContentDivision
+public typealias div = HTML.ContentDivision.Element
 
 /// Lowercase typealias for creating Description List elements with a more HTML-like syntax.
-public typealias dl = HTML_Standard.DescriptionList
+public typealias dl = HTML.DescriptionList.Element
 
 /// Lowercase typealias for creating DescriptionTerm elements with a more HTML-like syntax.
-public typealias dt = HTML_Standard.DescriptionTerm
+public typealias dt = HTML.DescriptionTerm.Element
 
 /// Lowercase typealias for creating Emphasis elements with a more HTML-like syntax.
-public typealias em = HTML_Standard.Emphasis
+public typealias em = HTML.Emphasis.Element
 
 /// Lowercase typealias for creating Embed elements with a more HTML-like syntax.
-public typealias embed = HTML_Standard.Embed
+public typealias embed = HTML.Embed.Element
 
 /// Lowercase typealias for creating FencedFrame elements with a more HTML-like syntax.
-public typealias fencedframe = HTML_Standard.FencedFrame
+public typealias fencedframe = HTML.FencedFrame.Element
 
 /// Lowercase typealias for creating FieldSet elements with a more HTML-like syntax.
-public typealias fieldset = HTML_Standard.FieldSet
+public typealias fieldset = HTML.FieldSet.Element
 
 /// Lowercase typealias for creating FigureCaption elements with a more HTML-like syntax.
-public typealias figcaption = HTML_Standard.FigureCaption
+public typealias figcaption = HTML.FigureCaption.Element
 
 /// Lowercase typealias for creating Figure elements with a more HTML-like syntax.
-public typealias figure = HTML_Standard.Figure
+public typealias figure = HTML.Figure.Element
 
 /// Lowercase typealias for creating Font elements with a more HTML-like syntax.
-public typealias font = HTML_Standard.Font
+public typealias font = HTML.Font.Element
 
 /// Lowercase typealias for creating Footer elements with a more HTML-like syntax.
-public typealias footer = HTML_Standard.Footer
+public typealias footer = HTML.Footer.Element
 
 /// Lowercase typealias for creating Form elements with a more HTML-like syntax.
 ///
@@ -348,64 +348,64 @@ public typealias footer = HTML_Standard.Footer
 ///     // Form controls
 /// }
 /// ```
-public typealias form = HTML_Standard.Form
+public typealias form = HTML.Form.Element
 
 /// Lowercase typealias for creating Frame elements with a more HTML-like syntax.
-public typealias frame = HTML_Standard.Frame
+public typealias frame = HTML.Frame.Element
 
 /// Lowercase typealias for creating Frameset elements with a more HTML-like syntax.
-public typealias frameset = HTML_Standard.Frameset
+public typealias frameset = HTML.Frameset.Element
 
-public typealias h1 = HTML_Standard.H1
-public typealias h2 = HTML_Standard.H2
-public typealias h3 = HTML_Standard.H3
-public typealias h4 = HTML_Standard.H4
-public typealias h5 = HTML_Standard.H5
-public typealias h6 = HTML_Standard.H6
+public typealias h1 = HTML.H1.Element
+public typealias h2 = HTML.H2.Element
+public typealias h3 = HTML.H3.Element
+public typealias h4 = HTML.H4.Element
+public typealias h5 = HTML.H5.Element
+public typealias h6 = HTML.H6.Element
 
 /// Lowercase typealias for creating Head elements with a more HTML-like syntax.
-public typealias head = HTML_Standard.Head
+public typealias head = HTML.Head.Element
 
 /// Lowercase typealias for creating Header elements with a more HTML-like syntax.
-public typealias header = HTML_Standard.Header
+public typealias header = HTML.Header.Element
 
 /// Lowercase typealias for creating HeadingGroup elements with a more HTML-like syntax.
-public typealias hgroup = HTML_Standard.HeadingGroup
+public typealias hgroup = HTML.HeadingGroup.Element
 
 /// Lowercase typealias for creating ThematicBreak elements with a more HTML-like syntax.
-public typealias hr = HTML_Standard.ThematicBreak
+public typealias hr = HTML.ThematicBreak.Element
 
 /// Lowercase typealias for creating HtmlRoot elements with a more HTML-like syntax.
-public typealias html = HTML_Standard.HtmlRoot
+public typealias html = HTML.HtmlRoot.Element
 
 /// Lowercase typealias for creating IdiomaticText elements with a more HTML-like syntax.
-public typealias i = HTML_Standard.IdiomaticText
+public typealias i = HTML.IdiomaticText.Element
 
 /// Lowercase typealias for creating InlineFrame elements with a more HTML-like syntax.
-public typealias iframe = HTML_Standard.InlineFrame
+public typealias iframe = HTML.InlineFrame.Element
 
-public typealias img = HTML_Standard.Image
+public typealias img = HTML.Image.Element
 
 /// Lowercase typealias for creating Input elements with a more HTML-like syntax.
 /// Example: `input(name: "username", disabled: nil, type: .text(...))`
-public typealias input = HTML_Standard.Input
+public typealias input = HTML.Input.Element
 
 /// Lowercase typealias for creating InsertedText elements with a more HTML-like syntax.
-public typealias ins = HTML_Standard.InsertedText
+public typealias ins = HTML.InsertedText.Element
 
 /// Lowercase typealias for creating KeyboardInput elements with a more HTML-like syntax.
-public typealias kbd = HTML_Standard.KeyboardInput
+public typealias kbd = HTML.KeyboardInput.Element
 
 /// Lowercase typealias for creating Label elements with a more HTML-like syntax.
 ///
 /// Example: `label(for: "name") { "Your name:" }`
-public typealias label = HTML_Standard.Label
+public typealias label = HTML.Label.Element
 
 /// Lowercase typealias for creating Legend elements with a more HTML-like syntax.
-public typealias legend = HTML_Standard.Legend
+public typealias legend = HTML.Legend.Element
 
 /// Lowercase typealias for creating ListItem elements with a more HTML-like syntax.
-public typealias li = HTML_Standard.ListItem
+public typealias li = HTML.ListItem.Element
 
 /// Lowercase typealias for creating Link elements with a more HTML-like syntax.
 ///
@@ -416,22 +416,22 @@ public typealias li = HTML_Standard.ListItem
 /// ```swift
 /// link(href: "styles.css", rel: "stylesheet")
 /// ```
-public typealias link = HTML_Standard.Link
+public typealias link = HTML.Link.Element
 
 /// Lowercase typealias for creating Main elements with a more HTML-like syntax.
-public typealias main = HTML_Standard.Main
+public typealias main = HTML.Main.Element
 
 /// Lowercase typealias for creating Map elements with a more HTML-like syntax.
-public typealias map = HTML_Standard.Map
+public typealias map = HTML.Map.Element
 
 /// Lowercase typealias for creating Mark elements with a more HTML-like syntax.
-public typealias mark = HTML_Standard.Mark
+public typealias mark = HTML.Mark.Element
 
 /// Lowercase typealias for creating Marquee elements with a more HTML-like syntax.
-public typealias marquee = HTML_Standard.Marquee
+public typealias marquee = HTML.Marquee.Element
 
 /// Lowercase typealias for creating Menu elements with a more HTML-like syntax.
-public typealias menu = HTML_Standard.Menu
+public typealias menu = HTML.Menu.Element
 
 /// Lowercase typealias for creating Meta elements with a more HTML-like syntax.
 ///
@@ -442,19 +442,19 @@ public typealias menu = HTML_Standard.Menu
 /// ```swift
 /// meta(name: .description, content: "Page description")
 /// ```
-public typealias meta = HTML_Standard.Meta
+public typealias meta = HTML.Meta.Element
 
 /// Lowercase typealias for creating Meter elements with a more HTML-like syntax.
-public typealias meter = HTML_Standard.Meter
+public typealias meter = HTML.Meter.Element
 
 /// Lowercase typealias for creating NavigationSection elements with a more HTML-like syntax.
-public typealias nav = HTML_Standard.NavigationSection
+public typealias nav = HTML.NavigationSection.Element
 
 /// Lowercase typealias for creating NoBr elements with a more HTML-like syntax.
-public typealias nobr = HTML_Standard.NoBr
+public typealias nobr = HTML.NoBr.Element
 
 /// Lowercase typealias for creating EmbedFallback elements with a more HTML-like syntax.
-public typealias noembed = HTML_Standard.EmbedFallback
+public typealias noembed = HTML.EmbedFallback.Element
 
 /// Lowercase typealias for creating FrameFallback elements with a more HTML-like syntax.
 @available(
@@ -462,34 +462,34 @@ public typealias noembed = HTML_Standard.EmbedFallback
     deprecated,
     message: "The noframes element is obsolete and shouldn't be used in modern web development"
 )
-public typealias noframes = HTML_Standard.FrameFallback
+public typealias noframes = HTML.FrameFallback.Element
 
 /// Lowercase typealias for creating Noscript elements with a more HTML-like syntax.
-public typealias noscript = HTML_Standard.Noscript
+public typealias noscript = HTML.Noscript.Element
 
 /// Lowercase typealias for creating Object elements with a more HTML-like syntax.
-public typealias object = HTML_Standard.ExternalObject
+public typealias object = HTML.ExternalObject.Element
 
 /// Lowercase typealias for creating OrderedList elements with a more HTML-like syntax.
-public typealias ol = HTML_Standard.OrderedList
+public typealias ol = HTML.OrderedList.Element
 
 /// Lowercase typealias for creating OptionGroup elements with a more HTML-like syntax.
-public typealias optgroup = HTML_Standard.OptionGroup
+public typealias optgroup = HTML.OptionGroup.Element
 
 /// Lowercase typealias for creating Option elements with a more HTML-like syntax.
-public typealias option = HTML_Standard.Option
+public typealias option = HTML.Option.Element
 
 /// Lowercase typealias for creating Output elements with a more HTML-like syntax.
-public typealias output = HTML_Standard.Output
+public typealias output = HTML.Output.Element
 
 /// Lowercase typealias for creating Paragraph elements with a more HTML-like syntax.
-public typealias p = HTML_Standard.Paragraph
+public typealias p = HTML.Paragraph.Element
 
 /// Lowercase typealias for creating Param elements with a more HTML-like syntax.
-public typealias param = HTML_Standard.Param
+public typealias param = HTML.Param.Element
 
 /// Lowercase typealias for creating Picture elements with a more HTML-like syntax.
-public typealias picture = HTML_Standard.Picture
+public typealias picture = HTML.Picture.Element
 
 /// Lowercase typealias for creating PlainText elements with a more HTML-like syntax.
 @available(
@@ -497,134 +497,134 @@ public typealias picture = HTML_Standard.Picture
     deprecated,
     message: "The <plaintext> element is deprecated. Use <pre> or <code> instead."
 )
-public typealias plaintext = HTML_Standard.PlainText
+public typealias plaintext = HTML.PlainText.Element
 
 /// Lowercase typealias for creating PreformattedText elements with a more HTML-like syntax.
-public typealias pre = HTML_Standard.PreformattedText
+public typealias pre = HTML.PreformattedText.Element
 
 /// Lowercase typealias for creating ProgressIndicator elements with a more HTML-like syntax.
-public typealias progress = HTML_Standard.ProgressIndicator
+public typealias progress = HTML.ProgressIndicator.Element
 
 /// Lowercase typealias for creating InlineQuotation elements with a more HTML-like syntax.
-public typealias q = HTML_Standard.InlineQuotation
+public typealias q = HTML.InlineQuotation.Element
 
 /// Lowercase typealias for creating RubyBase elements with a more HTML-like syntax.
-public typealias rb = HTML_Standard.RubyBase
+public typealias rb = HTML.RubyBase.Element
 
 /// Lowercase typealias for creating RubyParenthesis elements with a more HTML-like syntax.
-public typealias rp = HTML_Standard.RubyParenthesis
+public typealias rp = HTML.RubyParenthesis.Element
 
 /// Lowercase typealias for creating RubyText elements with a more HTML-like syntax.
-public typealias rt = HTML_Standard.RubyText
+public typealias rt = HTML.RubyText.Element
 
 /// Lowercase typealias for creating RubyTextContainer elements with a more HTML-like syntax.
-public typealias rtc = HTML_Standard.RubyTextContainer
+public typealias rtc = HTML.RubyTextContainer.Element
 
 /// Lowercase typealias for creating Ruby elements with a more HTML-like syntax.
-public typealias ruby = HTML_Standard.Ruby
+public typealias ruby = HTML.Ruby.Element
 
 /// Lowercase typealias for creating Strikethrough elements with a more HTML-like syntax.
-public typealias s = HTML_Standard.Strikethrough
+public typealias s = HTML.Strikethrough.Element
 
 /// Lowercase typealias for creating Sample Output elements with a more HTML-like syntax.
-public typealias samp = HTML_Standard.Samp
+public typealias samp = HTML.Samp.Element
 
 /// Lowercase typealias for creating Script elements with a more HTML-like syntax.
-public typealias script = HTML_Standard.Script
+public typealias script = HTML.Script.Element
 
 /// Lowercase typealias for creating Search elements with a more HTML-like syntax.
-public typealias search = HTML_Standard.Search
+public typealias search = HTML.Search.Element
 
 /// Lowercase typealias for creating Section elements with a more HTML-like syntax.
-public typealias section = HTML_Standard.Section
+public typealias section = HTML.Section.Element
 
 /// Lowercase typealias for creating Select elements with a more HTML-like syntax.
-public typealias select = HTML_Standard.Select
+public typealias select = HTML.Select.Element
 
 /// Lowercase typealias for creating WebComponentSlot elements with a more HTML-like syntax.
-public typealias slot = HTML_Standard.WebComponentSlot
+public typealias slot = HTML.WebComponentSlot.Element
 
 /// Lowercase typealias for creating Small elements with a more HTML-like syntax.
-public typealias small = HTML_Standard.Small
+public typealias small = HTML.Small.Element
 
 /// Lowercase typealias for creating Source elements with a more HTML-like syntax.
-public typealias source = HTML_Standard.Source
+public typealias source = HTML.Source.Element
 
 /// Lowercase typealias for creating span elements with a more HTML-like syntax.
-public typealias span = HTML_Standard.ContentSpan
+public typealias span = HTML.ContentSpan.Element
 
 /// Lowercase typealias for creating Strike elements with a more HTML-like syntax.
-public typealias strike = HTML_Standard.Strike
+public typealias strike = HTML.Strike.Element
 
 /// Lowercase typealias for creating StrongImportance elements with a more HTML-like syntax.
-public typealias strong = HTML_Standard.StrongImportance
+public typealias strong = HTML.StrongImportance.Element
 
 /// Lowercase typealias for creating Style elements with a more HTML-like syntax.
-public typealias style = HTML_Standard.Style
+public typealias style = HTML.Style.Element
 
 /// Lowercase typealias for creating Subscript elements with a more HTML-like syntax.
-public typealias sub = HTML_Standard.Subscript
+public typealias sub = HTML.Subscript.Element
 
 /// Lowercase typealias for creating DisclosureSummary elements with a more HTML-like syntax.
-public typealias summary = HTML_Standard.DisclosureSummary
+public typealias summary = HTML.DisclosureSummary.Element
 
 /// Lowercase typealias for creating Superscript elements with a more HTML-like syntax.
-public typealias sup = HTML_Standard.Superscript
+public typealias sup = HTML.Superscript.Element
 
 /// Lowercase typealias for creating Table elements with a more HTML-like syntax.
-public typealias table = HTML_Standard.Table
+public typealias table = HTML.Table.Element
 
 /// Lowercase typealias for creating TableBody elements with a more HTML-like syntax.
-public typealias tbody = HTML_Standard.TableBody
+public typealias tbody = HTML.TableBody.Element
 
 /// Lowercase typealias for creating TableDataCell elements with a more HTML-like syntax.
-public typealias td = HTML_Standard.TableDataCell
+public typealias td = HTML.TableDataCell.Element
 
 /// Lowercase typealias for creating ContentTemplate elements with a more HTML-like syntax.
-public typealias template = HTML_Standard.ContentTemplate
+public typealias template = HTML.ContentTemplate.Element
 
 /// Lowercase typealias for creating Textarea elements with a more HTML-like syntax.
-public typealias textarea = HTML_Standard.Textarea
+public typealias textarea = HTML.Textarea.Element
 
 /// Lowercase typealias for creating TableFoot elements with a more HTML-like syntax.
-public typealias tfoot = HTML_Standard.TableFoot
+public typealias tfoot = HTML.TableFoot.Element
 
 /// Lowercase typealias for creating TableHeader elements with a more HTML-like syntax.
-public typealias th = HTML_Standard.TableHeader
+public typealias th = HTML.TableHeader.Element
 
 /// Lowercase typealias for creating TableHead elements with a more HTML-like syntax.
-public typealias thead = HTML_Standard.TableHead
+public typealias thead = HTML.TableHead.Element
 
 /// Lowercase typealias for creating Time elements with a more HTML-like syntax.
-public typealias time = HTML_Standard.Time
+public typealias time = HTML.Time.Element
 
 /// Lowercase typealias for creating Title elements with a more HTML-like syntax.
-public typealias title = HTML_Standard.Title
+public typealias title = HTML.Title.Element
 
 /// Lowercase typealias for creating TableRow elements with a more HTML-like syntax.
-public typealias tr = HTML_Standard.TableRow
+public typealias tr = HTML.TableRow.Element
 
 /// Lowercase typealias for creating Track elements with a more HTML-like syntax.
-public typealias track = HTML_Standard.Track
+public typealias track = HTML.Track.Element
 
 /// Lowercase typealias for creating TeletypeText elements with a more HTML-like syntax.
-public typealias tt = HTML_Standard.TeletypeText
+public typealias tt = HTML.TeletypeText.Element
 
 /// Lowercase typealias for creating UnarticulatedAnnotation elements with a more HTML-like syntax.
-public typealias u = HTML_Standard.UnarticulatedAnnotation
+public typealias u = HTML.UnarticulatedAnnotation.Element
 
 /// Alternative lowercase typealias for creating UnarticulatedAnnotation elements.
-public typealias underline = HTML_Standard.UnarticulatedAnnotation
+public typealias underline = HTML.UnarticulatedAnnotation.Element
 
 /// Lowercase typealias for creating UnorderedList elements with a more HTML-like syntax.
-public typealias ul = HTML_Standard.UnorderedList
+public typealias ul = HTML.UnorderedList.Element
 
 /// Lowercase typealias for creating Variable elements with a more HTML-like syntax.
 /// Note: Backticks are required since `var` is a reserved keyword in Swift.
-public typealias `var` = HTML_Standard.Variable
+public typealias `var` = HTML.Variable.Element
 
 /// Lowercase typealias for creating Video elements with a more HTML-like syntax.
-public typealias video = HTML_Standard.Video
+public typealias video = HTML.Video.Element
 
 /// Lowercase typealias for creating LineBreakOpportunity elements with a more HTML-like syntax.
-public typealias wbr = HTML_Standard.LineBreakOpportunity
+public typealias wbr = HTML.LineBreakOpportunity.Element
