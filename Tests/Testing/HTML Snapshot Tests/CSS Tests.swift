@@ -1,10 +1,3 @@
-//
-//  CSS Tests.swift
-//  swift-html
-//
-//  Snapshot tests for CSS fluent chaining pattern and CSS properties
-//
-
 import CSS
 import CSS_Standard
 import HTML

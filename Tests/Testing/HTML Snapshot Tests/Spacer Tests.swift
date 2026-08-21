@@ -1,10 +1,3 @@
-//
-//  Spacer Tests.swift
-//  swift-html
-//
-//  Snapshot tests for Spacer layout component
-//
-
 import HTML
 import HTML_Rendering_Core_Test_Support
 import Testing

@@ -1,10 +1,3 @@
-//
-//  HTML.Document Tests.swift
-//  swift-html
-//
-//  Snapshot tests for HTML.Document type
-//
-
 import CSS
 import CSS_Standard
 import HTML

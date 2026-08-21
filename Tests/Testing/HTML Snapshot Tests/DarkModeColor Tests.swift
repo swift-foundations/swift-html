@@ -1,10 +1,3 @@
-//
-//  DarkModeColor Tests.swift
-//  swift-html
-//
-//  Snapshot tests for DarkModeColor type
-//
-
 import CSS
 import HTML
 import HTML_Rendering_Core_Test_Support

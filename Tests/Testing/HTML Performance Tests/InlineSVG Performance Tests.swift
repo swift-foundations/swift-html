@@ -1,10 +1,3 @@
-//
-//  InlineSVG Performance Tests.swift
-//  swift-html
-//
-//  Performance tests for SVG integration with HTML.
-//
-
 import HTML
 import SVG
 import SVG_Standard

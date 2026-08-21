@@ -1,10 +1,3 @@
-//
-//  VStack Tests.swift
-//  swift-html
-//
-//  Snapshot tests for VStack layout component
-//
-
 import HTML
 import HTML_Rendering_Core_Test_Support
 import Testing

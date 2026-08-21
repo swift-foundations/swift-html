@@ -1,10 +1,3 @@
-//
-//  File.swift
-//  swift-html
-//
-//  Created by Coen ten Thije Boonkkamp on 29/07/2025.
-//
-
 import HTML_Standard
 import WHATWG_HTML_Elements
 

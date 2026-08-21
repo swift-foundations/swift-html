@@ -1,17 +1,9 @@
-//
-//  File.swift
-//  swift-html
-//
-//  Created by Coen ten Thije Boonkkamp on 09/10/2024.
-//
-
 import HTML_Rendering
 
 extension HTML.View {
     @discardableResult
     @HTML.Builder
-    // `<T: HTML.View>` is a conformance constraint; `Self` would demand identity, not conformance.
-    // swiftlint:disable:next prefer_self_in_static_references
+
     public func `if`<T: HTML.View>(
         _ condition: Bool,
         @HTML.Builder then modification: (Self) -> T

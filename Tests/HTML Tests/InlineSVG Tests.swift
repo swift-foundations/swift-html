@@ -1,10 +1,3 @@
-//
-//  InlineSVG Tests.swift
-//  swift-html
-//
-//  Tests for SVG integration with HTML
-//
-
 import Foundation
 import HTML
 import HTML_Rendering_Core_Test_Support
@@ -18,8 +11,6 @@ extension InlineSVG {
         @Suite struct EdgeCase {}
     }
 }
-
-// MARK: - Unit Tests
 
 extension InlineSVG.Test.Unit {
     @Test
@@ -209,8 +200,6 @@ extension InlineSVG.Test.Unit {
     }
 }
 
-// MARK: - Integration Tests
-
 extension InlineSVG.Test {
     @Suite struct Integration {}
 }
@@ -254,23 +243,19 @@ extension InlineSVG.Test.Integration {
 
         let rendered = try String(document)
 
-        // Verify document structure
         #expect(rendered.contains("<!doctype html>"))
         #expect(rendered.contains("<html>"))
         #expect(rendered.contains("<head>"))
         #expect(rendered.contains("<body>"))
 
-        // Verify CSS was collected into <style>
         #expect(rendered.contains("<style>"))
         #expect(rendered.contains("font-size"))
         #expect(rendered.contains("text-align"))
 
-        // Verify SVG content is embedded inline
         #expect(rendered.contains("<svg"))
         #expect(rendered.contains("<circle"))
         #expect(rendered.contains("</svg>"))
 
-        // Verify surrounding HTML elements
         #expect(rendered.contains("<h1"))
         #expect(rendered.contains("SVG Integration"))
         #expect(rendered.contains("Caption below SVG"))
@@ -307,11 +292,9 @@ extension InlineSVG.Test.Integration {
 
         let rendered = try String(document)
 
-        // Both inline SVGs should appear
         #expect(rendered.contains("fill=\"red\""))
         #expect(rendered.contains("fill=\"green\""))
 
-        // The img-based SVG should be base64-encoded, not inline
         #expect(rendered.contains("data:image/svg+xml;base64,"))
         #expect(rendered.contains("alt=\"Blue dot\""))
     }

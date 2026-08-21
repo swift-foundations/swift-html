@@ -1,41 +1,12 @@
-//
-//  File.swift
-//  coenttb-web
-//
-//  Created by Coen ten Thije Boonkkamp on 17/09/2024.
-//
-
 import CSS
 import CSS_Standard
 
-/// Backward-compatible typealias for DarkModeColor.
-/// HTMLColor was the previous name, now unified as DarkModeColor in CSS module.
 @available(*, deprecated, renamed: "DarkModeColor")
 public typealias HTMLColor = DarkModeColor
-
-// MARK: - Text Color Definitions
-
-// extension DarkModeColor {
-//    public static let buttonText: Self = .primary.reverse()
-//    public static let primary: Self = .black.withDarkColor(.white)
-//    public static let text: Self = primary
-//    public static let secondary: Self = .gray300.withDarkColor(.gray700)
-//    public static let tertiary: Self = .gray450.withDarkColor(.gray550)
-// }
-
-// MARK: - Background Color Definitions
-//
-// extension DarkModeColor {
-//    public static let offBackground: Self = .offWhite.withDarkColor(.offBlack)
-//    public static let background: Self = .white.withDarkColor(.black)
-// }
-
-// MARK: - DarkModeColor Extensions
 
 extension DarkModeColor {
     private typealias sRGB = IEC_61966.`2`.`1`.sRGB
 
-    /// Calculates the midpoint color between two colors for gradients
     public static func gradientMidpoint(
         from color1: DarkModeColor,
         to color2: DarkModeColor
@@ -64,7 +35,7 @@ extension DarkModeColor {
         guard let srgb = sRGB(backgroundColor.light) else {
             return .init(.hex("000000"))
         }
-        // Perceived brightness using ITU-R BT.601 coefficients
+
         let brightness =
             (Double(srgb.r255) * 299 + Double(srgb.g255) * 587 + Double(srgb.b255) * 114) / 255000
         let color: CSS_Standard.Color.Value = brightness > 0.5 ? .hex("000000") : .hex("FFFFFF")
@@ -72,10 +43,8 @@ extension DarkModeColor {
     }
 }
 
-// MARK: - HTML Extensions
-
 extension HTML.View {
-    /// Applies a gradient background to the HTML element
+
     public func gradient(
         bottom: DarkModeColor,
         top: DarkModeColor
