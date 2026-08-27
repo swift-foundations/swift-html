@@ -28,12 +28,12 @@ extension Target.Dependency {
         .product(name: "WHATWG Form URL Encoded", package: "swift-whatwg-url")
     }
     static var bytePrimitives: Self {
-        .product(name: "Byte Primitives", package: "swift-byte-primitives")
+        .product(name: "Byte", package: "swift-byte")
     }
     static var bytePrimitivesStandardLibraryIntegration: Self {
         .product(
-            name: "Byte Primitives Standard Library Integration",
-            package: "swift-byte-primitives"
+            name: "Byte Standard Library Integration",
+            package: "swift-byte"
         )
     }
     static var translating: Self {
@@ -71,23 +71,23 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/swift-foundations/swift-html-render.git", branch: "main"),
+        .package(url: "https://github.com/swift-compositions/swift-html-render.git", branch: "main"),
         .package(
-            url: "https://github.com/swift-foundations/swift-markdown-html-render.git",
+            url: "https://github.com/swift-compositions/swift-markdown-html-render.git",
             branch: "main"
         ),
-        .package(url: "https://github.com/swift-foundations/swift-css.git", branch: "main"),
-        .package(url: "https://github.com/swift-foundations/swift-svg.git", branch: "main"),
+        .package(url: "https://github.com/swift-compositions/swift-css.git", branch: "main"),
+        .package(url: "https://github.com/swift-compositions/swift-svg.git", branch: "main"),
         .package(url: "https://github.com/swift-ietf/swift-rfc-4648.git", branch: "main"),
         .package(url: "https://github.com/swift-whatwg/swift-whatwg-url.git", branch: "main"),
-        .package(url: "https://github.com/swift-foundations/swift-color.git", branch: "main"),
+        .package(url: "https://github.com/swift-compositions/swift-color.git", branch: "main"),
         .package(
-            url: "https://github.com/swift-primitives/swift-byte-primitives.git",
+            url: "https://github.com/swift-molecules/swift-byte.git",
             branch: "main"
         ),
-        .package(url: "https://github.com/swift-foundations/swift-translating.git", branch: "main"),
+        .package(url: "https://github.com/swift-compositions/swift-translating.git", branch: "main"),
         .package(
-            url: "https://github.com/swift-foundations/swift-translating-dependencies.git",
+            url: "https://github.com/swift-compositions/swift-translating-dependencies.git",
             branch: "main"
         ),
     ],

@@ -1,6 +1,6 @@
 import HTML
 import HTML_Rendering_Core_Test_Support
-import Layout_Primitives
+import Layout
 import Testing
 
 @Suite(.snapshots(record: .missing))

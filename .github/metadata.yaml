@@ -2,7 +2,7 @@
 # Triaged by AI-assisted bulk pass (2026-04-29).
 description: "Type-safe HTML generation grounded in WHATWG and W3C specifications for Swift."
 topics:
-  - foundations
+  - compositions
   - html
 homepage: "https://swift-institute.org"
 readme:

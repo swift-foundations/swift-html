@@ -1,6 +1,6 @@
 # swift-html
 
-![CI](https://github.com/swift-foundations/swift-html/actions/workflows/ci.yml/badge.svg) ![Development Status](https://img.shields.io/badge/status-active--development-blue.svg)
+![CI](https://github.com/swift-compositions/swift-html/actions/workflows/ci.yml/badge.svg) ![Development Status](https://img.shields.io/badge/status-active--development-blue.svg)
 
 The Swift HTML library built on [swift-standards](https://github.com/swift-standards).
 
@@ -17,7 +17,7 @@ The Swift HTML library built on [swift-standards](https://github.com/swift-stand
 
 ## Overview
 
-swift-html is a unified import for type-safe HTML generation. It re-exports [swift-html-render](https://github.com/swift-foundations/swift-html-render), [swift-css](https://github.com/swift-foundations/swift-css), [swift-svg](https://github.com/swift-foundations/swift-svg), and related packages—all grounded in [swift-standards](https://github.com/swift-standards) for domain-accurate representations of WHATWG and W3C specifications.
+swift-html is a unified import for type-safe HTML generation. It re-exports [swift-html-render](https://github.com/swift-compositions/swift-html-render), [swift-css](https://github.com/swift-compositions/swift-css), [swift-svg](https://github.com/swift-compositions/swift-svg), and related packages—all grounded in [swift-standards](https://github.com/swift-standards) for domain-accurate representations of WHATWG and W3C specifications.
 
 ## Installation
 
@@ -25,7 +25,7 @@ Add swift-html to your Package.swift:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/swift-foundations/swift-html", from: "0.17.2")
+    .package(url: "https://github.com/swift-compositions/swift-html", from: "0.17.2")
 ]
 ```
 
@@ -238,7 +238,7 @@ Enable internationalization support:
 ```swift
 // Package.swift
 dependencies: [
-    .package(url: "https://github.com/swift-foundations/swift-html", from: "0.17.2",
+    .package(url: "https://github.com/swift-compositions/swift-html", from: "0.17.2",
              traits: ["Translating"])
 ]
 ```

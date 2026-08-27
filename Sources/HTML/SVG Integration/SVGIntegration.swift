@@ -1,5 +1,5 @@
-import Byte_Primitives
-import Byte_Primitives_Standard_Library_Integration
+import Byte
+import Byte_Standard_Library_Integration
 import RFC_4648
 import SVG
 import SVG_Rendering
