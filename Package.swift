@@ -55,11 +55,11 @@ extension Target.Dependency {
 let package = Package(
     name: "swift-html",
     platforms: [
-        .iOS(.v27),
         .macOS(.v27),
+        .iOS(.v27),
         .tvOS(.v27),
         .watchOS(.v27),
-        .macCatalyst(.v27),
+        .visionOS(.v27),
     ],
     products: [
         .library(name: .html, targets: [.html])
