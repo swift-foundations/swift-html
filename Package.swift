@@ -32,7 +32,7 @@ extension Target.Dependency {
     }
     static var bytePrimitivesStandardLibraryIntegration: Self {
         .product(
-            name: "Byte Standard Library Integration",
+            name: "Byte",
             package: "swift-byte"
         )
     }
@@ -82,7 +82,7 @@ let package = Package(
         .package(url: "https://github.com/swift-whatwg/swift-whatwg-url.git", branch: "main"),
         .package(url: "https://github.com/swift-compositions/swift-color.git", branch: "main"),
         .package(
-            url: "https://github.com/swift-molecules/swift-byte.git",
+            url: "https://github.com/swift-atoms/swift-byte.git",
             branch: "main"
         ),
         .package(url: "https://github.com/swift-compositions/swift-translating.git", branch: "main"),

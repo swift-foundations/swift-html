@@ -4,7 +4,7 @@ import HTML_Rendering
     public import Translating
     import Translating_Dependencies
 
-    extension Translated: @retroactive Render.View, @retroactive HTML.View where A == String {
+    extension Translated: @retroactive Renderer.Document.View, @retroactive HTML.View where A == String {
         public var body: HTML.Text {
             HTML.Text("\(self)")
         }
