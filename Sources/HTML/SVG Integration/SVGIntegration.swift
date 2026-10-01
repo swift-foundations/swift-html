@@ -1,5 +1,4 @@
 import Byte
-import Byte
 import RFC_4648
 import SVG
 import SVG_Rendering
@@ -41,11 +40,11 @@ extension HTML.Image.Element {
     ) {
         var src: HTML.Src.Attribute {
             if base64 {
-                return "data:image/svg+xml;base64,\([Byte]([UInt8](svg)).base64.encoded())"
+                return "data:image/svg+xml;base64,\([UInt8](svg).map(Byte.init(bitPattern:)).base64.encoded())"
             } else {
 
                 return
-                    "data:image/svg+xml;charset=utf-8,\(String(svg).formURL.encoded(space: .percentEscaped))"
+                    "data:image/svg+xml;charset=utf-8,\(WHATWG_Form_URL_Encoded.PercentEncoding.encode(String(svg), space: .percentEscaped))"
             }
         }
 
